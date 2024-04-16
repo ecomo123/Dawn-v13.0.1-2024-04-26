@@ -1,0 +1,454 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "judge_me_reviews_preview_badge_VUgTEf": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        },
+        "caption": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text_style": "body"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "custom_liquid_KYQDqj": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<ul style=\"justify-content: flex-start;\" class=\"list list-payment\" role=\"list\">\n              {%- for type in shop.enabled_payment_types -%}\n                <li class=\"list-payment__item\">\n                  {{ type | payment_type_svg_tag: class: 'icon icon--full-color' }}\n                <\/li>\n              {%- endfor -%}\n            <\/ul>"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "icon_with_text_neCdPe": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "horizontal",
+            "icon_1": "none",
+            "image_1": "shopify:\/\/shop_images\/Shipium.png",
+            "heading_1": "Free Shipping",
+            "icon_2": "none",
+            "image_2": "shopify:\/\/shop_images\/security.png",
+            "heading_2": "Secure Payment",
+            "icon_3": "none",
+            "image_3": "shopify:\/\/shop_images\/client.png",
+            "heading_3": "Premium Service"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "judge_me_reviews_preview_badge_VUgTEf",
+        "caption",
+        "price",
+        "buy_buttons",
+        "custom_liquid_KYQDqj",
+        "quantity_selector",
+        "variant_picker",
+        "description",
+        "icon_with_text_neCdPe"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "",
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "thumbnail_slider",
+        "media_position": "left",
+        "image_zoom": "hover",
+        "mobile_thumbnails": "show",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "image_with_text_QHpB3p": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_m43J3M": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Unleash Rapid Charging with  45W Adapter<\/strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_7jjRxD": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Powered by Super Fast Charging 2.0, it delivers unrivaled speed, ensuring you're never slowed down by a low battery again.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_m43J3M",
+        "text_7jjRxD"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/15.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "scheme-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_VypmiE": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_q6ErJh": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_12.png",
+            "title": "Fast Charging",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_c8wU9Y": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Protection_V.png",
+            "title": "Overcharge Protection",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_tFxrRg": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/vehicle.png",
+            "title": "Multi-vehicle Compatibility",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_RxYwXd": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Over-Temp.png",
+            "title": "Over-temp Protection",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_q6ErJh",
+        "column_c8wU9Y",
+        "column_tFxrRg",
+        "column_RxYwXd"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".multicolumn-list {text-align: center !important; white-space: nowrap;}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multirow_RkUGtH": {
+      "type": "multirow",
+      "blocks": {
+        "row_H7QpCp": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/21.png",
+            "caption": "",
+            "heading": "<strong>High-Quality Flex-Cable<\/strong>",
+            "text": "<p>Experience flexible, reliable charging with our premium-grade cable. Designed for durability and safety, it's the perfect companion for your charging needs.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_MaxhLV": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Add_a_little_bit_of_body_text.png",
+            "caption": "",
+            "heading": "<strong>Energizing Connections, Everywhere<\/strong>",
+            "text": "<p>Journey with confidence using our Charger. Crafted for convenience and trustworthiness, it ensures seamless connectivity for you and your devices while on the go. Enjoy rapid, simultaneous charging for all passengers, guaranteeing no interruptions to your journey. Wherever you roam, stay powered with us<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_Hd8Nkm": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/19.png",
+            "caption": "",
+            "heading": "<strong>Swift, Battery-Friendly Charging<\/strong>",
+            "text": "<p>Experience fast, safe charging with our smart-compatible cable.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_H7QpCp",
+        "row_MaxhLV",
+        "row_Hd8Nkm"
+      ],
+      "settings": {
+        "image_height": "adapt",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "scheme-2",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "center",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_YkCEkF": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_thWq7x": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/security.png",
+            "title": "SECURE PAYMENT",
+            "text": "<p>Reliable Transactions<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_eX7jCU": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Shipium.png",
+            "title": "FREE SHIPPING",
+            "text": "<p>For All Orders<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_VXgKxd": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/guaranted.png",
+            "title": "30 DAYS MONEY BACK",
+            "text": "<p>Free Returns<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_RPhEYJ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/client.png",
+            "title": "PREMIUM SERVICE",
+            "text": "<p>Lifetime Customer Support<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_thWq7x",
+        "column_eX7jCU",
+        "column_VXgKxd",
+        "column_RPhEYJ"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collapsible_content_J79dWV": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_cUjy4h": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What power output does the Super Fast charger provide?",
+            "icon": "none",
+            "row_content": "<p>The Super Fast charger delivers up to 3 Amps of power, significantly faster than standard chargers which typically provide 1A or 700mA.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_7PwzDX": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Does the 45W Travel Adapter come with a USB-C cable?",
+            "icon": "none",
+            "row_content": "<p>Yes, a detachable USB-C to USB-C cable is included in the box. This allows you to charge your phone from any USB-C power source and enables fast syncing and file transfers with compatible devices.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_zeNx6A": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can the 45W Travel Adapter be used with any standard wall outlet?",
+            "icon": "none",
+            "row_content": "<p>Yes, it can be plugged into any standard wall outlet using the included AC adapter, providing convenience for charging at home or while traveling.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_77XyUG": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How does the 45W Travel Adapter benefit other Galaxy devices?",
+            "icon": "none",
+            "row_content": "<p>Besides charging your own device rapidly, it also charges other devices, including your friends' Galaxy devices, at 15W, even if their device doesn't support Super Fast Charging 2.0.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_cUjy4h",
+        "collapsible_row_7PwzDX",
+        "collapsible_row_zeNx6A",
+        "collapsible_row_77XyUG"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "FAQs",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "17145882998fc991c9": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_dkHkTT": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_dkHkTT"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_QHpB3p",
+    "multicolumn_VypmiE",
+    "multirow_RkUGtH",
+    "multicolumn_YkCEkF",
+    "collapsible_content_J79dWV",
+    "related-products",
+    "17145882998fc991c9"
+  ]
+}

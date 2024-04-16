@@ -1,210 +1,480 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
+    "slideshow_Ez6JUt": {
+      "type": "slideshow",
       "blocks": {
-        "heading": {
-          "type": "heading",
+        "slide_e6LkVd": {
+          "type": "slide",
+          "disabled": true,
           "settings": {
-            "heading": "Image banner",
-            "heading_size": "h0"
+            "image": "shopify:\/\/shop_images\/beauty_PersonalCare.png",
+            "heading": "Your Ultimate Beauty Arsenal",
+            "heading_size": "h1",
+            "subheading": "Powering Your World at Lightning Speed",
+            "button_label": "Discover More",
+            "link": "shopify:\/\/collections\/all",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
           }
         },
-        "text": {
-          "type": "text",
+        "slide_YJBe8X": {
+          "type": "slide",
+          "disabled": true,
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
+            "image": "shopify:\/\/shop_images\/Apparel.png",
+            "heading": "Define Your Style",
+            "heading_size": "h1",
+            "subheading": "Crafting Timeless Elegance with Every Stitch",
+            "button_label": "Browse Now",
+            "link": "shopify:\/\/collections\/all",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
           }
         },
-        "button": {
-          "type": "buttons",
+        "slide_xHr6V7": {
+          "type": "slide",
+          "disabled": true,
           "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "image": "shopify:\/\/shop_images\/PetSupplies.png",
+            "heading": "Your Pet's Paradise Awaits",
+            "heading_size": "h1",
+            "subheading": "Discover Tail-Wagging Treasures for Every Furry Friend",
+            "button_label": "Shop Now",
+            "link": "shopify:\/\/collections\/all",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_cdQxMG": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Travel.png",
+            "heading": "Gear Up for Global Expeditions",
+            "heading_size": "h1",
+            "subheading": "Crafting Durable Travel Solutions for the Modern Explorer",
+            "button_label": "Plan Your Trip",
+            "link": "shopify:\/\/collections\/all",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_3piE4a": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/banner.jpg",
+            "heading": "Super Fast Charging",
+            "heading_size": "h1",
+            "subheading": "Powering Your World at Lightning Speed",
+            "button_label": "Discover More",
+            "link": "shopify:\/\/collections\/all",
+            "button_style_secondary": true,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
           }
         }
       },
       "block_order": [
-        "heading",
-        "text",
-        "button"
+        "slide_e6LkVd",
+        "slide_YJBe8X",
+        "slide_xHr6V7",
+        "slide_cdQxMG",
+        "slide_3piE4a"
       ],
       "settings": {
-        "image_overlay_opacity": 40,
-        "image_height": "large",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-3",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "dots",
+        "auto_rotate": true,
+        "change_slides_speed": 7,
+        "image_behavior": "none",
+        "show_text_below": false,
+        "accessibility_info": "Slideshow about our brand"
       }
     },
-    "rich_text": {
-      "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text"
-      ],
-      "settings": {
-        "color_scheme": "scheme-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 0
-      }
-    },
-    "featured_collection": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
-        "collection": "all",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "color_scheme": "scheme-1",
-        "show_view_all": false,
-        "swipe_on_mobile": false,
-        "image_ratio": "adapt",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "columns_mobile": "2",
-        "padding_top": 28,
-        "padding_bottom": 36
-      }
-    },
-    "collage": {
-      "type": "collage",
-      "blocks": {
-        "collection-0": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "product": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "second_image": false
-          }
-        },
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection-0",
-        "product",
-        "collection-1"
-      ],
-      "settings": {
-        "heading": "Multimedia collage",
-        "heading_size": "h2",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "color_scheme": "scheme-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "video": {
-      "type": "video",
-      "settings": {
-        "heading": "",
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "heading_size": "h1",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "scheme-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "multicolumn": {
+    "multicolumn_paAWik": {
       "type": "multicolumn",
       "blocks": {
-        "column1": {
+        "column_f4XdMX": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/security.png",
+            "title": "SECURE PAYMENT",
+            "text": "<p>Reliable Transactions<\/p>",
             "link_label": "",
             "link": ""
           }
         },
-        "column2": {
+        "column_pTJkVU": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/Shipium.png",
+            "title": "FREE SHIPPING",
+            "text": "<p>For All Orders<\/p>",
             "link_label": "",
             "link": ""
           }
         },
-        "column3": {
+        "column_Ka67ge": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/guaranted.png",
+            "title": "30 DAYS MONEY BACK",
+            "text": "<p>Free Returns<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_XQjaUn": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Service.png",
+            "title": "PREMIUM SERVICE",
+            "text": "<p>Lifetime Customer Support<\/p>",
             "link_label": "",
             "link": ""
           }
         }
       },
       "block_order": [
-        "column1",
-        "column2",
-        "column3"
+        "column_f4XdMX",
+        "column_pTJkVU",
+        "column_Ka67ge",
+        "column_XQjaUn"
       ],
       "settings": {
         "title": "",
         "heading_size": "h1",
         "image_width": "third",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
+        "image_ratio": "square",
+        "columns_desktop": 4,
         "column_alignment": "center",
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "swipe_on_mobile": false,
-        "color_scheme": "scheme-1",
+        "color_scheme": "",
         "columns_mobile": "1",
+        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "collection_list_V4zGjq": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_afAe6k": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "electronics-and-gadgets"
+          }
+        },
+        "featured_collection_TXayTq": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "pets-and-pet-supplies"
+          }
+        },
+        "featured_collection_MR79tp": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "home-and-living"
+          }
+        },
+        "featured_collection_aAHN8b": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "beauty-and-personal-care"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_afAe6k",
+        "featured_collection_TXayTq",
+        "featured_collection_MR79tp",
+        "featured_collection_aAHN8b"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Collections",
+        "heading_size": "h2",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "color_scheme": "scheme-2",
+        "show_view_all": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_product_4MKgeY": {
+      "type": "featured-product",
+      "blocks": {
+        "title_AEczQ8": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "rating_DMzJzc": {
+          "type": "rating",
+          "settings": {
+          }
+        },
+        "price_AYyxVW": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker_pg8cBg": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_MPATaf": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons_HHczpx": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        }
+      },
+      "block_order": [
+        "title_AEczQ8",
+        "rating_DMzJzc",
+        "price_AYyxVW",
+        "variant_picker_pg8cBg",
+        "quantity_selector_MPATaf",
+        "buy_buttons_HHczpx"
+      ],
+      "settings": {
+        "product": "usb-car-charger",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "hover",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_product_NtXdkm": {
+      "type": "featured-product",
+      "blocks": {
+        "text_DB6LVY": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_Vmnc6X": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_BarkzM": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker_pppLdB": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_xMRria": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons_37JApm": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_fUyrVi": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_DB6LVY",
+        "title_Vmnc6X",
+        "price_BarkzM",
+        "variant_picker_pppLdB",
+        "quantity_selector_xMRria",
+        "buy_buttons_37JApm",
+        "share_fUyrVi"
+      ],
+      "settings": {
+        "product": "usb-c-wall-charger",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "hover",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "testimonial_3KVxUf": {
+      "type": "testimonial",
+      "blocks": {
+        "column_XVbB4a": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/customer_7.png",
+            "title": "Mark D",
+            "text": "<p>This store exceeded my expectations! Great quality products and excellent service<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_AHDfgb": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/customer_4.png",
+            "title": "Sarah M",
+            "text": "<p>Easy navigation, seamless checkout, and prompt delivery. Highly recommended<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_iYwVXC": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/customer_5.png",
+            "title": "Emily B",
+            "text": "<p>High-quality products at affordable prices. Couldn't be happier with my purchase<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_3QddwF": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/customer_2.png",
+            "title": "Michael T",
+            "text": "<p>Unique finds and hassle-free shopping. Definitely worth exploring<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_MG6xxM": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/customer.png",
+            "title": "David W",
+            "text": "<p>Wide range of products and top-notch customer service. A shopper's paradise<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_z33LxQ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/customer_6.png",
+            "title": "Jessica M",
+            "text": "<p>Outstanding product quality and superb customer service. Will shop again<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_XVbB4a",
+        "column_AHDfgb",
+        "column_iYwVXC",
+        "column_3QddwF",
+        "column_MG6xxM",
+        "column_z33LxQ"
+      ],
+      "settings": {
+        "title": "Join our satisfied customers today",
+        "heading_size": "h2",
+        "image_width": "half",
+        "image_ratio": "circle",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "testimonial_section_background": "#eaeaea",
+        "testimonial_background": "#ffffff",
+        "testimonial_title_color": "#000000",
+        "testimonials_text_color": "#000000",
+        "arrow_color": "#ffffff",
+        "arrow_bg_color": "#000000"
       }
     }
   },
   "order": [
-    "image_banner",
-    "rich_text",
-    "featured_collection",
-    "collage",
-    "video",
-    "multicolumn"
+    "slideshow_Ez6JUt",
+    "multicolumn_paAWik",
+    "collection_list_V4zGjq",
+    "featured_product_4MKgeY",
+    "featured_product_NtXdkm",
+    "testimonial_3KVxUf"
   ]
 }
