@@ -3442,3 +3442,11 @@ details-disclosure > details {
     --border-offset: 0px; /* Prevent the border from growing on buttons when this effect is on. */
   }
 }
+  @media (max-width: 767px){
+  .header__heading-logo {
+  max-width: 70% !important;
+  }
+  a.header__heading-link.link.link--text.focus-inset {
+      padding-top: 0 !important;
+      padding-bottom: 0 !important;
+  }}
