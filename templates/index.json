@@ -45,6 +45,7 @@
         "slide_xHr6V7": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Pet_Supplies.jpg",
             "heading": "Image slide",
             "heading_size": "h1",
             "subheading": "Tell your brand's story through images",
@@ -62,6 +63,7 @@
         "slide_e6LkVd": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Beauty.jpg",
             "heading": "Image slide",
             "heading_size": "h1",
             "subheading": "Tell your brand's story through images",
@@ -75,11 +77,49 @@
             "color_scheme": "",
             "text_alignment_mobile": "center"
           }
+        },
+        "slide_YJBe8X": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Fashion_Apparel.jpg",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_cdQxMG": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Luggage.jpg",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
         "slide_xHr6V7",
-        "slide_e6LkVd"
+        "slide_e6LkVd",
+        "slide_YJBe8X",
+        "slide_cdQxMG"
       ],
       "settings": {
         "layout": "full_bleed",
