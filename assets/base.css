@@ -3442,7 +3442,3 @@ details-disclosure > details {
     --border-offset: 0px; /* Prevent the border from growing on buttons when this effect is on. */
   }
 }
-
-.slideshow__text.banner__box.content-container.content-container--full-width-mobile.color-background-1.gradient.slideshow__text--center.slideshow__text-mobile--center {
-    background: transparent;
-}
