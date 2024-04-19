@@ -6,14 +6,14 @@
         "slide_xHr6V7": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/A.png",
+            "image": "shopify:\/\/shop_images\/Untitled_design_1.png",
             "heading": "Spoil Your Pet",
-            "heading_size": "h1",
+            "heading_size": "h2",
             "subheading": "Discover premium pet supplies",
             "button_label": "Shop Now",
             "link": "shopify:\/\/collections\/pets-and-pet-supplies",
             "button_style_secondary": false,
-            "box_align": "middle-center",
+            "box_align": "middle-left",
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
