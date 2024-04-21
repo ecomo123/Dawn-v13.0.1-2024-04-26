@@ -22,8 +22,8 @@
         "footer-1": {
           "type": "link_list",
           "settings": {
-            "heading": "Info",
-            "menu": "footer"
+            "heading": "",
+            "menu": "delivery-footer"
           }
         },
         "link_list_K3qmNR": {
