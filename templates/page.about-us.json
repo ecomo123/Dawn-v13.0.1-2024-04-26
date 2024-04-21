@@ -23,20 +23,11 @@
             "text": "<p>At Zasown, our mission is simple yet profound: to redefine the online shopping experience by offering a curated selection of high-quality products that inspire and delight our customers. We strive to be more than just a marketplace; we aim to be your trusted companion on your journey to discovering the perfect items that enhance your lifestyle.<\/p>",
             "text_style": "body"
           }
-        },
-        "button_89wQRK": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
         }
       },
       "block_order": [
         "heading_RTHjeA",
-        "text_3LHYab",
-        "button_89wQRK"
+        "text_3LHYab"
       ],
       "settings": {
         "height": "adapt",
@@ -59,30 +50,21 @@
         "heading_4MARM9": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "Our Story",
             "heading_size": "h1"
           }
         },
         "text_7LPmaN": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Zasown didn't start as just another e-commerce platform. Our story began with a shared passion for innovation and a deep-seated desire to make a positive impact in the world of online retail. Founded by a group of friends who saw the potential to revolutionize the way people shop, Zasown was born out of a collective vision to create a platform that not only offers convenience but also fosters genuine connections with our customers.<\/p>",
             "text_style": "body"
-          }
-        },
-        "button_QRVUdk": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
           }
         }
       },
       "block_order": [
         "heading_4MARM9",
-        "text_7LPmaN",
-        "button_QRVUdk"
+        "text_7LPmaN"
       ],
       "settings": {
         "height": "adapt",
@@ -105,30 +87,21 @@
         "heading_MtjpyH": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "Evolution and Growth",
             "heading_size": "h1"
           }
         },
         "text_UfAhGi": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Since our humble beginnings, Zasown has undergone significant growth and evolution. What started as a small venture fueled by ambition has blossomed into a thriving e-commerce destination, serving customers across the globe. With each passing day, we continue to learn, adapt, and innovate, constantly striving to stay ahead of the curve and exceed the expectations of our ever-growing community of shoppers.<\/p>",
             "text_style": "body"
-          }
-        },
-        "button_KYQiUE": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
           }
         }
       },
       "block_order": [
         "heading_MtjpyH",
-        "text_UfAhGi",
-        "button_KYQiUE"
+        "text_UfAhGi"
       ],
       "settings": {
         "height": "adapt",
