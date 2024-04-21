@@ -508,18 +508,18 @@
     }
   }
 }
-  @media(min-width:767px){
+  @media(min-width:767px) {
   
-  #shopify-section-footer .footer__content-top.page-width{
-  display: flex;
+  #shopify-section-footer .footer__content-top.page-width {
+      display: flex;
       flex-flow: row-reverse;
   }
-  #shopify-section-footer .footer__content-top.page-width .footer__blocks-wrapper{
+  #shopify-section-footer .footer__content-top.page-width .footer__blocks-wrapper {
   width: 80%;
   }
-  #shopify-section-footer .footer__content-top.page-width .footer-block--newsletter{
+  #shopify-section-footer .footer__content-top.page-width .footer-block--newsletter {
   flex-direction: column;
   align-items: flex-start;
   margin-top:0
   }
-  }
+}
