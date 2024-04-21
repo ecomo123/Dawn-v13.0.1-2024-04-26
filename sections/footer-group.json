@@ -5,13 +5,14 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "brand_information_AJBnyN": {
-          "type": "brand_information",
+        "footer-0": {
+          "type": "link_list",
           "settings": {
-            "show_social": true
+            "heading": "Quick links",
+            "menu": "footer"
           }
         },
-        "footer-0": {
+        "link_list_ghmyQc": {
           "type": "link_list",
           "settings": {
             "heading": "Quick links",
@@ -24,32 +25,16 @@
             "heading": "Info",
             "menu": "footer"
           }
-        },
-        "footer-2": {
-          "type": "text",
-          "settings": {
-            "heading": "Our mission",
-            "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
-          }
-        },
-        "link_list_ghmyQc": {
-          "type": "link_list",
-          "settings": {
-            "heading": "Quick links",
-            "menu": "footer"
-          }
         }
       },
       "block_order": [
-        "brand_information_AJBnyN",
         "footer-0",
-        "footer-1",
-        "footer-2",
-        "link_list_ghmyQc"
+        "link_list_ghmyQc",
+        "footer-1"
       ],
       "settings": {
-        "color_scheme": "scheme-1",
-        "newsletter_enable": true,
+        "color_scheme": "scheme-4",
+        "newsletter_enable": false,
         "newsletter_heading": "Subscribe to our emails",
         "enable_follow_on_shop": true,
         "show_social": true,
