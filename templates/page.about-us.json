@@ -30,6 +30,7 @@
         "text_3LHYab"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/mission.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -104,6 +105,7 @@
         "text_UfAhGi"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/growth.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
