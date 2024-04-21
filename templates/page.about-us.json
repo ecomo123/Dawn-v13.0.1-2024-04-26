@@ -181,6 +181,7 @@
         "text_zfPrng"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/Audience.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
