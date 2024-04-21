@@ -134,20 +134,11 @@
             "text": "<p>Our journey has been punctuated by countless \"aha!\" moments, but perhaps the most significant one came when we realized the transformative power of personalized shopping experiences. It was this revelation that inspired us to shift our focus from merely selling products to curating collections that resonate with the unique tastes and preferences of our diverse audience.<\/p>",
             "text_style": "body"
           }
-        },
-        "button_gzwJha": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
         }
       },
       "block_order": [
         "heading_q6NtAT",
-        "text_iHd4c9",
-        "button_gzwJha"
+        "text_iHd4c9"
       ],
       "settings": {
         "height": "adapt",
@@ -170,30 +161,21 @@
         "heading_94M6h6": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "Our Audience",
             "heading_size": "h1"
           }
         },
         "text_zfPrng": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>At Zasown, we are proud to serve a diverse and discerning audience of shoppers who share our passion for quality, style, and innovation. Whether you're a fashion enthusiast seeking the latest trends or a homemaker in search of practical yet stylish home essentials, we have something for everyone.<\/p>",
             "text_style": "body"
-          }
-        },
-        "button_cB6Haf": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
           }
         }
       },
       "block_order": [
         "heading_94M6h6",
-        "text_zfPrng",
-        "button_cB6Haf"
+        "text_zfPrng"
       ],
       "settings": {
         "height": "adapt",
@@ -216,30 +198,21 @@
         "heading_DwWMk3": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "Our Brand Values",
             "heading_size": "h1"
           }
         },
         "text_wHYcRh": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Transparency, integrity, and excellence are the cornerstones of our brand values. We believe in conducting business with honesty and integrity, prioritizing the needs and satisfaction of our customers above all else. From the products we offer to the service we provide, every aspect of Zasown reflects our unwavering commitment to quality and customer satisfaction.<\/p>",
             "text_style": "body"
-          }
-        },
-        "button_HRp8yP": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
           }
         }
       },
       "block_order": [
         "heading_DwWMk3",
-        "text_wHYcRh",
-        "button_HRp8yP"
+        "text_wHYcRh"
       ],
       "settings": {
         "height": "adapt",
