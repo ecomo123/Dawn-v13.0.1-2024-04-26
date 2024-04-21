@@ -3442,22 +3442,3 @@ details-disclosure > details {
     --border-offset: 0px; /* Prevent the border from growing on buttons when this effect is on. */
   }
 }
-@media (min-width: 768px) {
-.site-footer {
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    padding-top: 20px;
-}
-
-.site-footer .page-width {
-   margin: 0;
-}
-
-.site-footer__copyright {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: 5px;
-}
-}
