@@ -355,5 +355,11 @@
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
+    <style>
+    .footer-block__newsletter:not(:only-child) {
+    text-align: -webkit-right !important;
+    margin-right: 90px !important;
+    }
+</style>
   </body>
 </html>
