@@ -159,7 +159,13 @@
                 {%- if block.settings.text != blank -%}
                   <div class="rte">{{ block.settings.text }}</div>
                 {%- endif -%}
-                <div><h1>Test</h1></div>
+               <div class="fixed-rating">
+                  <input type="radio" id="fixed-star5" name="fixed-rating" value="5" checked><label for="fixed-star5"></label>
+                  <input type="radio" id="fixed-star4" name="fixed-rating" value="4"><label for="fixed-star4"></label>
+                  <input type="radio" id="fixed-star3" name="fixed-rating" value="3"><label for="fixed-star3"></label>
+                  <input type="radio" id="fixed-star2" name="fixed-rating" value="2"><label for="fixed-star2"></label>
+                  <input type="radio" id="fixed-star1" name="fixed-rating" value="1"><label for="fixed-star1"></label>
+              </div>
                 {%- if block.settings.link_label != blank -%}
                 <div class="center{% if show_mobile_slider %} small-hide medium-hide{% endif %}">
                     <a
