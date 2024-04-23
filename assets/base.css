@@ -3454,9 +3454,6 @@ details-disclosure > details {
     text-decoration: none;
   }
  /* Remove The Underline From footer Menu   */
-.list-menu__item--link {
-    text-decoration: none;
-  }
-  .footer-block__details-content {
-    text-decoration: none;
-  }
+.footer-block__details-content .list-menu__item--link {
+   text-decoration: none;
+}
