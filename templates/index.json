@@ -139,10 +139,106 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "testimonial_3KVxUf": {
+      "type": "testimonial",
+      "blocks": {
+        "column_XVbB4a": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/customer_7.png",
+            "title": "Column",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_AHDfgb": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/customer_6.png",
+            "title": "Sarah M",
+            "text": "<p>Discover the power of testimonials in showcasing our products' quality and effectiveness. Join our satisfied customers today.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_iYwVXC": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/customer_4.png",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_3QddwF": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/customer_2.png",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_MG6xxM": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_7.png",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_z33LxQ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/customer_5.png",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_XVbB4a",
+        "column_AHDfgb",
+        "column_iYwVXC",
+        "column_3QddwF",
+        "column_MG6xxM",
+        "column_z33LxQ"
+      ],
+      "settings": {
+        "title": "Join our satisfied customers today",
+        "heading_size": "h1",
+        "image_width": "half",
+        "image_ratio": "circle",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "testimonial_section_background": "#eaeaea",
+        "testimonial_background": "#fff",
+        "testimonial_title_color": "#000",
+        "testimonials_text_color": "#000",
+        "arrow_color": "#fff",
+        "arrow_bg_color": "#000"
+      }
     }
   },
   "order": [
     "slideshow_Ez6JUt",
-    "collection_list_V4zGjq"
+    "collection_list_V4zGjq",
+    "testimonial_3KVxUf"
   ]
 }
