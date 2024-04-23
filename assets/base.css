@@ -3450,9 +3450,9 @@ details-disclosure > details {
   .header__menu-item:hover span {
     text-decoration: none;
   }
-  .list-menu__item--active {
+ .header__submenu .header__menu-item {
     text-decoration: none;
-  }
+ }
  /* Remove The Underline From footer Menu   */
 .footer-block__details-content .list-menu__item--link {
    text-decoration: none;
