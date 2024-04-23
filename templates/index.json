@@ -158,7 +158,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/customer_6.png",
             "title": "Sarah M",
-            "text": "<p>Discover the power of testimonials in showcasing our products' quality and effectiveness. Join our satisfied customers today.<\/p>",
+            "text": "<p>Our products speak for themselves - see why customers are sharing their testimonials about their wonderful experiences with us.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -218,7 +218,7 @@
         "image_width": "half",
         "image_ratio": "circle",
         "columns_desktop": 4,
-        "column_alignment": "center",
+        "column_alignment": "left",
         "background_style": "primary",
         "button_label": "Button label",
         "button_link": "",
