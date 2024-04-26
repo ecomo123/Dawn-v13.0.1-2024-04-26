@@ -7,9 +7,64 @@
         "padding_bottom": 28
       }
     },
+    "image_with_text_h3X4Vg": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_UVqCRq": {
+          "type": "heading",
+          "settings": {
+            "heading": "Paul Norman",
+            "heading_size": "h2"
+          }
+        },
+        "text_hzemXN": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Paul Norman is dedicated to leveraging technology and business intelligence at e-TeleQuote to meet evolving customer needs and simplify partner integrations. With extensive experience in call center technology operations and implementing solutions for renowned brands, he plays a crucial role in the company's growth. Paul holds an undergraduate degree from American University and a Master of Science in Advanced Technologies from Johns Hopkins University. Beyond his professional endeavors, he actively supports charitable organizations in Tampa and has served on the boards of the Make-A-Wish Foundation and The Jack-and-Jill Foundation of Fort Lauderdale.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "caption_LpVWMp": {
+          "type": "caption",
+          "settings": {
+            "caption": "Cheif Technical Officer",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "heading_UVqCRq",
+        "text_hzemXN",
+        "caption_LpVWMp"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Untitled_design_9.png",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "image_with_text_XbkaXE": {
       "type": "image-with-text",
       "blocks": {
+        "caption_nPTygC": {
+          "type": "caption",
+          "settings": {
+            "caption": "Account Manager",
+            "text_style": "subtitle",
+            "text_size": "medium"
+          }
+        },
         "heading_deTKbY": {
           "type": "heading",
           "settings": {
@@ -26,6 +81,7 @@
         }
       },
       "block_order": [
+        "caption_nPTygC",
         "heading_deTKbY",
         "text_GzPGjD"
       ],
@@ -48,6 +104,7 @@
   },
   "order": [
     "main",
+    "image_with_text_h3X4Vg",
     "image_with_text_XbkaXE"
   ]
 }
