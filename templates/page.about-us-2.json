@@ -1,0 +1,248 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_with_text_YBHCGV": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_RTHjeA": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Mission",
+            "heading_size": "h1"
+          }
+        },
+        "text_3LHYab": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At Zasown, our mission is simple yet profound: to redefine the online shopping experience by offering a curated selection of high-quality products that inspire and delight our customers. We strive to be more than just a marketplace; we aim to be your trusted companion on your journey to discovering the perfect items that enhance your lifestyle.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_RTHjeA",
+        "text_3LHYab"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/mission.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_drQM9A": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_4MARM9": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Story",
+            "heading_size": "h1"
+          }
+        },
+        "text_7LPmaN": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Zasown didn't start as just another e-commerce platform. Our story began with a shared passion for innovation and a deep-seated desire to make a positive impact in the world of online retail. Founded by a group of friends who saw the potential to revolutionize the way people shop, Zasown was born out of a collective vision to create a platform that not only offers convenience but also fosters genuine connections with our customers.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_4MARM9",
+        "text_7LPmaN"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/brand_story.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_gFDYrj": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_MtjpyH": {
+          "type": "heading",
+          "settings": {
+            "heading": "Evolution and Growth",
+            "heading_size": "h1"
+          }
+        },
+        "text_UfAhGi": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Since our humble beginnings, Zasown has undergone significant growth and evolution. What started as a small venture fueled by ambition has blossomed into a thriving e-commerce destination, serving customers across the globe. With each passing day, we continue to learn, adapt, and innovate, constantly striving to stay ahead of the curve and exceed the expectations of our ever-growing community of shoppers.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_MtjpyH",
+        "text_UfAhGi"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/growth.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_4jCAFa": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_q6NtAT": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Eureka Moment",
+            "heading_size": "h1"
+          }
+        },
+        "text_iHd4c9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our journey has been punctuated by countless \"aha!\" moments, but perhaps the most significant one came when we realized the transformative power of personalized shopping experiences. It was this revelation that inspired us to shift our focus from merely selling products to curating collections that resonate with the unique tastes and preferences of our diverse audience.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_q6NtAT",
+        "text_iHd4c9"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Eureka.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_8AgWe7": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_94M6h6": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Audience",
+            "heading_size": "h1"
+          }
+        },
+        "text_zfPrng": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At Zasown, we are proud to serve a diverse and discerning audience of shoppers who share our passion for quality, style, and innovation. Whether you're a fashion enthusiast seeking the latest trends or a homemaker in search of practical yet stylish home essentials, we have something for everyone.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_94M6h6",
+        "text_zfPrng"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Audience.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_reVQHG": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_DwWMk3": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Brand Values",
+            "heading_size": "h1"
+          }
+        },
+        "text_wHYcRh": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Transparency, integrity, and excellence are the cornerstones of our brand values. We believe in conducting business with honesty and integrity, prioritizing the needs and satisfaction of our customers above all else. From the products we offer to the service we provide, every aspect of Zasown reflects our unwavering commitment to quality and customer satisfaction.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_DwWMk3",
+        "text_wHYcRh"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/brand_value.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_YBHCGV",
+    "image_with_text_drQM9A",
+    "image_with_text_gFDYrj",
+    "image_with_text_4jCAFa",
+    "image_with_text_8AgWe7",
+    "image_with_text_reVQHG"
+  ]
+}
