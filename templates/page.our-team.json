@@ -40,7 +40,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Untitled_design_9.png",
-        "height": "adapt",
+        "height": "small",
         "desktop_image_width": "small",
         "layout": "text_first",
         "desktop_content_position": "top",
