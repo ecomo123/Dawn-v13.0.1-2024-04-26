@@ -7,6 +7,53 @@
         "padding_bottom": 28
       }
     },
+    "image_with_text_C4DTYQ": {
+      "type": "image-with-text",
+      "blocks": {
+        "caption_3JLVCR": {
+          "type": "caption",
+          "settings": {
+            "caption": "Chief Executive Officer",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "heading_kyFazR": {
+          "type": "heading",
+          "settings": {
+            "heading": "Steve Cannon",
+            "heading_size": "h1"
+          }
+        },
+        "text_XkkUtk": {
+          "type": "text",
+          "settings": {
+            "text": "<p>our CEO Steve Cannon, leading our e-commerce revolution with a dynamic blend of entrepreneurial savvy and corporate expertise. With a proven track record of scaling ventures and pioneering customer engagement strategies, Steve's leadership has propelled us to the forefront of online retail. Under her guidance, we've achieved remarkable growth and fostered a culture of innovation and inclusivity. With Steve at the helm, we're poised for even greater success as we continue to redefine the e-commerce landscape<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "caption_3JLVCR",
+        "heading_kyFazR",
+        "text_XkkUtk"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Untitled_design_10.png",
+        "height": "medium",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "image_with_text_h3X4Vg": {
       "type": "image-with-text",
       "blocks": {
@@ -104,6 +151,7 @@
   },
   "order": [
     "main",
+    "image_with_text_C4DTYQ",
     "image_with_text_h3X4Vg",
     "image_with_text_XbkaXE"
   ]
