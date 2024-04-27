@@ -5,28 +5,28 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "footer-0": {
+        "link_list_RbBMkd": {
           "type": "link_list",
           "settings": {
             "heading": "",
-            "menu": "footer-menu"
+            "menu": "company-footer"
           }
         },
-        "link_list_ghmyQc": {
+        "link_list_drXndK": {
           "type": "link_list",
           "settings": {
             "heading": "",
             "menu": "shopping-footer"
           }
         },
-        "footer-1": {
+        "link_list_Nf49zH": {
           "type": "link_list",
           "settings": {
             "heading": "",
-            "menu": "delivery-footer"
+            "menu": "shipping-footer"
           }
         },
-        "link_list_K3qmNR": {
+        "link_list_eWUwMH": {
           "type": "link_list",
           "settings": {
             "heading": "",
@@ -35,10 +35,10 @@
         }
       },
       "block_order": [
-        "footer-0",
-        "link_list_ghmyQc",
-        "footer-1",
-        "link_list_K3qmNR"
+        "link_list_RbBMkd",
+        "link_list_drXndK",
+        "link_list_Nf49zH",
+        "link_list_eWUwMH"
       ],
       "settings": {
         "color_scheme": "scheme-4",
