@@ -241,7 +241,7 @@
             "caption": "",
             "heading": "Excellent Heat Dissipation",
             "text": "<p>Extremely glossy and high quality-texture, high hardness, Corrosion resistance, Scratch resistance<\/p>",
-            "button_label": "Button label",
+            "button_label": "",
             "button_link": ""
           }
         },
@@ -254,22 +254,11 @@
             "button_label": "",
             "button_link": ""
           }
-        },
-        "row_WfymbE": {
-          "type": "row",
-          "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
-            "button_link": ""
-          }
         }
       },
       "block_order": [
         "row_H7QpCp",
-        "row_Hd8Nkm",
-        "row_WfymbE"
+        "row_Hd8Nkm"
       ],
       "settings": {
         "image_height": "medium",
