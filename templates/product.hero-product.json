@@ -255,6 +255,67 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "collapsible_content_J79dWV": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_cUjy4h": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What is the maximum power output of this car charger?",
+            "icon": "none",
+            "row_content": "<p>This car charger offers a maximum power output of up to 60W. The USB Type-C port supports up to 45W for Super Fast Charging 2.0, while the USB Type-A port delivers up to 15W for a quick boost.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_7PwzDX": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I charge two devices simultaneously with this car charger?",
+            "icon": "none",
+            "row_content": "<p>Yes, you can charge two devices at the same time using the dual ports of this car charger. Whether you're on the road with a friend or need to power up multiple devices, this charger has you covered.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_zeNx6A": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What charging protocols are supported by this car charger?",
+            "icon": "none",
+            "row_content": "<p>This charger supports PD (Power Delivery), QC (Quick Charge), and AFC (Adaptive Fast Charging) protocols, ensuring compatibility with a wide range of devices including phones, tablets, laptops, wearables, game consoles, and more.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_77XyUG": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is this car charger compatible with my devices?",
+            "icon": "none",
+            "row_content": "<p> Yes, you don't need to worry about compatibility. With support for PD, QC, and AFC charging protocols, this charger can efficiently charge a variety of devices, from smartphones to laptops, ensuring you stay powered up on the go.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_cUjy4h",
+        "collapsible_row_7PwzDX",
+        "collapsible_row_zeNx6A",
+        "collapsible_row_77XyUG"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "FAQs",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -262,6 +323,7 @@
     "image_with_text_QHpB3p",
     "multicolumn_VypmiE",
     "multirow_RkUGtH",
-    "related-products"
+    "related-products",
+    "collapsible_content_J79dWV"
   ]
 }
