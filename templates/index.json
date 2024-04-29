@@ -140,6 +140,77 @@
         "padding_bottom": 36
       }
     },
+    "featured_product_4MKgeY": {
+      "type": "featured-product",
+      "blocks": {
+        "text_Hc8ikb": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_AEczQ8": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_AYyxVW": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker_pg8cBg": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_MPATaf": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons_HHczpx": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_4jCxWG": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_Hc8ikb",
+        "title_AEczQ8",
+        "price_AYyxVW",
+        "variant_picker_pg8cBg",
+        "quantity_selector_MPATaf",
+        "buy_buttons_HHczpx",
+        "share_4jCxWG"
+      ],
+      "settings": {
+        "product": "usb-car-charger",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "testimonial_3KVxUf": {
       "type": "testimonial",
       "blocks": {
@@ -239,6 +310,7 @@
   "order": [
     "slideshow_Ez6JUt",
     "collection_list_V4zGjq",
+    "featured_product_4MKgeY",
     "testimonial_3KVxUf"
   ]
 }
