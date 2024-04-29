@@ -252,6 +252,9 @@
     },
     "image_banner_7dcqYA": {
       "type": "image-banner",
+      "custom_css": [
+        ".banner img {padding: 0 20px;}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/carcharger_life.png",
         "image_2": "shopify:\/\/shop_images\/carcharger_life2.png",
