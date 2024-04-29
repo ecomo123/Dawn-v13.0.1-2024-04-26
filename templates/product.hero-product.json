@@ -295,57 +295,6 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
-    },
-    "collapsible_content_dnVKRM": {
-      "type": "collapsible-content",
-      "blocks": {
-        "collapsible_row_Az8JPn": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "How does the Car Charger ensure safety during charging?",
-            "icon": "none",
-            "row_content": "<p>The Car Charger offers protection from over-current, over-charging, and short-circuiting, with no risk of overheating or damaging your devices. This provides a safe charging experience.<\/p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_pFDUqP": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Is the Car Charger suitable for use in any car?",
-            "icon": "none",
-            "row_content": "<p>Absolutely! This charger is designed to be perfect for your car, providing a spare charger for your family or second car. Its design allows for convenient use in both front and rear seats.<\/p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_frPpxt": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Can I charge multiple devices simultaneously with this charger?",
-            "icon": "none",
-            "row_content": "<p>Yes, you can charge multiple devices simultaneously, making it convenient for you and your passengers to power up your devices on the go.<\/p>",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "collapsible_row_Az8JPn",
-        "collapsible_row_pFDUqP",
-        "collapsible_row_frPpxt"
-      ],
-      "settings": {
-        "caption": "",
-        "heading": "FAQs",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "layout": "section",
-        "color_scheme": "",
-        "container_color_scheme": "",
-        "open_first_collapsible_row": false,
-        "image_ratio": "adapt",
-        "desktop_layout": "image_second",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -353,7 +302,6 @@
     "image_with_text_QHpB3p",
     "multicolumn_VypmiE",
     "multirow_RkUGtH",
-    "related-products",
-    "collapsible_content_dnVKRM"
+    "related-products"
   ]
 }
