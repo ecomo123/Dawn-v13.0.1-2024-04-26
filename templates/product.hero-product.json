@@ -129,32 +129,24 @@
         "heading_m43J3M": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "Not  Limited to Car Models",
             "heading_size": "h1"
           }
         },
         "text_7jjRxD": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>12V - 24V volatge input available in 99% of cars<\/p>",
             "text_style": "body"
-          }
-        },
-        "button_W78r7k": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
           }
         }
       },
       "block_order": [
         "heading_m43J3M",
-        "text_7jjRxD",
-        "button_W78r7k"
+        "text_7jjRxD"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/carModels.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
