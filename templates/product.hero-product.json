@@ -231,6 +231,62 @@
         "padding_bottom": 36
       }
     },
+    "multirow_RkUGtH": {
+      "type": "multirow",
+      "blocks": {
+        "row_H7QpCp": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/heat-charger.png",
+            "caption": "",
+            "heading": "Excellent Heat Dissipation",
+            "text": "<p>Extremely glossy and high quality-texture, high hardness, Corrosion resistance, Scratch resistance<\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "row_Hd8Nkm": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_WfymbE": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_H7QpCp",
+        "row_Hd8Nkm",
+        "row_WfymbE"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "center",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "related-products": {
       "type": "related-products",
       "disabled": true,
@@ -248,27 +304,6 @@
         "columns_mobile": "2",
         "padding_top": 36,
         "padding_bottom": 28
-      }
-    },
-    "image_banner_7dcqYA": {
-      "type": "image-banner",
-      "custom_css": [
-        ".banner img {padding: 0 15px; border-radius: 20px;}",
-        ".banner__media.media {background-color: #ffffff !important;}"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/carcharger_life.png",
-        "image_2": "shopify:\/\/shop_images\/carcharger_life2.png",
-        "image_overlay_opacity": 0,
-        "image_height": "small",
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-1",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": false
       }
     },
     "collapsible_content_dnVKRM": {
@@ -327,8 +362,8 @@
     "main",
     "image_with_text_QHpB3p",
     "multicolumn_VypmiE",
+    "multirow_RkUGtH",
     "related-products",
-    "image_banner_7dcqYA",
     "collapsible_content_dnVKRM"
   ]
 }
