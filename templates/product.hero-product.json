@@ -176,8 +176,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Untitled_design_12.png",
-            "title": "",
-            "text": "<p> Fast Charging<\/p>",
+            "title": "Fast Charging",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -186,8 +186,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Protection_V.png",
-            "title": "",
-            "text": "<p>Overcharge Protection<\/p>",
+            "title": "Overcharge Protection",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -196,8 +196,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/vehicle.png",
-            "title": "",
-            "text": "<p>Multi-vehicle Compatibility<\/p>",
+            "title": "Multi-vehicle Compatibility",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -220,7 +220,7 @@
         "column_RxYwXd"
       ],
       "custom_css": [
-        ".multicolumn-list {text-align: center !important;}"
+        ".multicolumn-list {text-align: center !important; white-space: nowrap;}"
       ],
       "settings": {
         "title": "",
