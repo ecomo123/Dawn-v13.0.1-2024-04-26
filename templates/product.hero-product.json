@@ -187,7 +187,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Protection_V.png",
             "title": "",
-            "text": "<p>Overvoltage Protection<\/p>",
+            "text": "<p>Overcharge Protection<\/p>",
             "link_label": "",
             "link": ""
           }
