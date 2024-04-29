@@ -248,9 +248,10 @@
         "row_Hd8Nkm": {
           "type": "row",
           "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/carcharger_life.png",
+            "caption": "",
+            "heading": "Multi-Compatible",
+            "text": "<p>Simultaneously satisfy mobile phones, tablets, laptops etc Combining appearance, function and cost performance suitable for all car owners<\/p>",
             "button_label": "",
             "button_link": ""
           }
