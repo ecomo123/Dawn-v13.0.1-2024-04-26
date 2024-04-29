@@ -253,7 +253,7 @@
     "image_banner_7dcqYA": {
       "type": "image-banner",
       "custom_css": [
-        ".banner img {padding: 0 20px;}"
+        ".banner img {padding: 0 15px; border-radius: 25px;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/carcharger_life.png",
