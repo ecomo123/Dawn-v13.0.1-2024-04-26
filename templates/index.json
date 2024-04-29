@@ -143,13 +143,6 @@
     "featured_product_4MKgeY": {
       "type": "featured-product",
       "blocks": {
-        "text_Hc8ikb": {
-          "type": "text",
-          "settings": {
-            "text": "{{ section.settings.product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
         "title_AEczQ8": {
           "type": "title",
           "settings": {
@@ -179,22 +172,14 @@
             "show_dynamic_checkout": true,
             "show_gift_card_recipient": true
           }
-        },
-        "share_4jCxWG": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
         }
       },
       "block_order": [
-        "text_Hc8ikb",
         "title_AEczQ8",
         "price_AYyxVW",
         "variant_picker_pg8cBg",
         "quantity_selector_MPATaf",
-        "buy_buttons_HHczpx",
-        "share_4jCxWG"
+        "buy_buttons_HHczpx"
       ],
       "settings": {
         "product": "usb-car-charger",
