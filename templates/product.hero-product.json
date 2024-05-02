@@ -57,7 +57,8 @@
             "image_1": "shopify:\/\/shop_images\/shipping.png",
             "heading_1": "Fast & Free shipping",
             "icon_2": "return",
-            "heading_2": "Hassle free returns",
+            "image_2": "shopify:\/\/shop_images\/secure.png",
+            "heading_2": "Secure Payments",
             "icon_3": "truck",
             "heading_3": "Free Shipping"
           }
