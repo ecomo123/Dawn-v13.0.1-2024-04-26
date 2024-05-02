@@ -54,6 +54,7 @@
           "settings": {
             "layout": "horizontal",
             "icon_1": "heart",
+            "image_1": "shopify:\/\/shop_images\/shipping.png",
             "heading_1": "30 Day Gaurantee",
             "icon_2": "return",
             "heading_2": "Hassle free returns",
