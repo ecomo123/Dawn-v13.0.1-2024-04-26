@@ -149,6 +149,11 @@
             "heading_size": "h1"
           }
         },
+        "rating_DMzJzc": {
+          "type": "rating",
+          "settings": {
+          }
+        },
         "price_AYyxVW": {
           "type": "price",
           "settings": {
@@ -176,6 +181,7 @@
       },
       "block_order": [
         "title_AEczQ8",
+        "rating_DMzJzc",
         "price_AYyxVW",
         "variant_picker_pg8cBg",
         "quantity_selector_MPATaf",
