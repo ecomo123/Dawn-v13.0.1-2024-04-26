@@ -297,12 +297,12 @@
         "column_RPhEYJ"
       ],
       "custom_css": [
-        "img.multicolumn-card__image {max-width: 95px !important; max-height: 95px !important; margin-top: 50%;}"
+
       ],
       "settings": {
         "title": "",
         "heading_size": "h1",
-        "image_width": "full",
+        "image_width": "third",
         "image_ratio": "square",
         "columns_desktop": 4,
         "column_alignment": "left",
