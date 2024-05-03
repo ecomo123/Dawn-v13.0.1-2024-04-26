@@ -521,7 +521,7 @@
   },
   "shopify": {
     "links": {
-      "powered_by_shopify": "Powered by {{brandName}}"
+      "powered_by_shopify": "Powered by zasown"
     }
   }
 }
