@@ -295,6 +295,9 @@
         "column_VXgKxd",
         "column_RPhEYJ"
       ],
+      "custom_css": [
+        "@media (min-width: 750px){.multicolumn-list{max-width: 1000px; width: 100; margin: 0 auto;}.multicolumn-list .multicolumn-card__info{padding: 40px !important;}}"
+      ],
       "settings": {
         "title": "",
         "heading_size": "h1",
