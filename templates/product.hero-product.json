@@ -358,8 +358,9 @@
         "column_eX7jCU": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/shipping.png",
+            "title": "Fast and Free Shipping",
+            "text": "<p>Shipping is free for all orders<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -367,8 +368,9 @@
         "column_VXgKxd": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/customer_satisfaction.png",
+            "title": "Satisfaction Guarantee",
+            "text": "<p>If you are not 100% satisfied, you can return your order within 30 Days of purchase<\/p>",
             "link_label": "",
             "link": ""
           }
