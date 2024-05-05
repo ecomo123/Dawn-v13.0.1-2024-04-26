@@ -354,27 +354,27 @@
         "collapsible_row_cUjy4h": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "What is the maximum power output of this car charger?",
+            "heading": "What power output does the Super Fast charger provide?",
             "icon": "none",
-            "row_content": "<p>This car charger offers a maximum power output of up to 60W. The USB Type-C port supports up to 45W for Super Fast Charging 2.0, while the USB Type-A port delivers up to 15W for a quick boost.<\/p>",
+            "row_content": "<p>The Super Fast charger delivers up to 3 Amps of power, significantly faster than standard chargers which typically provide 1A or 700mA.<\/p>",
             "page": ""
           }
         },
         "collapsible_row_7PwzDX": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Can I charge two devices simultaneously with this car charger?",
+            "heading": "Does the 45W Travel Adapter come with a USB-C cable?",
             "icon": "none",
-            "row_content": "<p>Yes, you can charge two devices at the same time using the dual ports of this car charger. Whether you're on the road with a friend or need to power up multiple devices, this charger has you covered.<\/p>",
+            "row_content": "<p>Yes, a detachable USB-C to USB-C cable is included in the box. This allows you to charge your phone from any USB-C power source and enables fast syncing and file transfers with compatible devices.<\/p>",
             "page": ""
           }
         },
         "collapsible_row_zeNx6A": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "What charging protocols are supported by this car charger?",
+            "heading": "Can the 45W Travel Adapter be used with any standard wall outlet?",
             "icon": "none",
-            "row_content": "<p>This charger supports PD (Power Delivery), QC (Quick Charge), and AFC (Adaptive Fast Charging) protocols, ensuring compatibility with a wide range of devices including phones, tablets, laptops, wearables, game consoles, and more.<\/p>",
+            "row_content": "<p>Yes, it can be plugged into any standard wall outlet using the included AC adapter, providing convenience for charging at home or while traveling.<\/p>",
             "page": ""
           }
         },
