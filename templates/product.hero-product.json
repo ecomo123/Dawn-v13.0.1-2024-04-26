@@ -229,10 +229,10 @@
         "row_Hd8Nkm": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/carcharger_life.png",
+            "image": "shopify:\/\/shop_images\/wallcharger.png",
             "caption": "",
-            "heading": "Charge Two Devices at Once in Your Car",
-            "text": "<p>Our car charger features two ports so you can charge two devices at the same time. Whether you're traveling with a friend or need to power up your phone and wearables, our charger has you covered. Stay connected and fully charged while on the road<\/p>",
+            "heading": "<strong>Swift, Battery-Friendly Charging<\/strong>",
+            "text": "<p>Experience fast, safe charging with our smart-compatible cable.<\/p>",
             "button_label": "",
             "button_link": ""
           }
