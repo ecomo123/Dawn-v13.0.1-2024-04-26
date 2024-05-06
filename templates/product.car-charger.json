@@ -300,9 +300,9 @@
         "collapsible_row_zeNx6A": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Can the 45W Travel Adapter be used with any standard wall outlet?",
+            "heading": "Does this charger support various devices?",
             "icon": "none",
-            "row_content": "<p>Yes, it can be plugged into any standard wall outlet using the included AC adapter, providing convenience for charging at home or while traveling.<\/p>",
+            "row_content": "<p>Absolutely. This charger is compatible with a wide range of devices as it supports PD (Power Delivery), QC (Quick Charge), and AFC (Adaptive Fast Charging) protocols. Whether it's smartphones, tablets, laptops, wearables, game consoles, or more, you can charge them without worrying about compatibility.<\/p>",
             "page": ""
           }
         },
