@@ -98,14 +98,14 @@
         "heading_m43J3M": {
           "type": "heading",
           "settings": {
-            "heading": "Not  Limited to Car Models",
+            "heading": "<strong>Unleash Rapid Charging with  45W Adapter<\/strong>",
             "heading_size": "h1"
           }
         },
         "text_7jjRxD": {
           "type": "text",
           "settings": {
-            "text": "<p>12V - 24V volatge input available in 99% of cars<\/p>",
+            "text": "<p>Powered by Super Fast Charging 2.0, it delivers unrivaled speed, ensuring you're never slowed down by a low battery again.<\/p>",
             "text_style": "body"
           }
         }
@@ -115,7 +115,7 @@
         "text_7jjRxD"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/carModels.png",
+        "image": "shopify:\/\/shop_images\/wall_Charger.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
