@@ -115,7 +115,7 @@
         "text_7jjRxD"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/wall_Charger.png",
+        "image": "shopify:\/\/shop_images\/carModels.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -126,77 +126,6 @@
         "color_scheme": "scheme-2",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "multicolumn_VypmiE": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_q6ErJh": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Untitled_design_12.png",
-            "title": "Fast Charging",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_c8wU9Y": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Protection_V.png",
-            "title": "Overcharge Protection",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_tFxrRg": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/vehicle.png",
-            "title": "Multi-vehicle Compatibility",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_RxYwXd": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Over-Temp.png",
-            "title": "Over-temp Protection",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_q6ErJh",
-        "column_c8wU9Y",
-        "column_tFxrRg",
-        "column_RxYwXd"
-      ],
-      "disabled": true,
-      "custom_css": [
-        ".multicolumn-list {text-align: center !important; white-space: nowrap;}"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "third",
-        "image_ratio": "square",
-        "columns_desktop": 4,
-        "column_alignment": "left",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "scheme-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -428,7 +357,6 @@
   "order": [
     "main",
     "image_with_text_QHpB3p",
-    "multicolumn_VypmiE",
     "multirow_RkUGtH",
     "multicolumn_YkCEkF",
     "related-products",
