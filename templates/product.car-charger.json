@@ -282,9 +282,9 @@
         "collapsible_row_cUjy4h": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "What power output does the Super Fast charger provide?",
+            "heading": "How does the charger ensure safety during charging?",
             "icon": "none",
-            "row_content": "<p>The Super Fast charger delivers up to 3 Amps of power, significantly faster than standard chargers which typically provide 1A or 700mA.<\/p>",
+            "row_content": "<p>The charger provides protection from over-current, over-charging, and short-circuiting, minimizing the risk of overheating and damage to your devices, thus offering a safe charging experience.<\/p>",
             "page": ""
           }
         },
