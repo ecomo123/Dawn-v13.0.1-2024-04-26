@@ -138,6 +138,12 @@
         "disabled": false,
         "settings": {
         }
+      },
+      "8559953418172270618": {
+        "type": "shopify:\/\/apps\/fbtrack-facebook-pixels-app\/blocks\/app-embed\/40a16300-89a3-4e21-943b-e2c31e744e27",
+        "disabled": false,
+        "settings": {
+        }
       }
     },
     "color_schemes": {
