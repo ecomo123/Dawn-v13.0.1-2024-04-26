@@ -202,6 +202,77 @@
         "padding_bottom": 36
       }
     },
+    "featured_product_NtXdkm": {
+      "type": "featured-product",
+      "blocks": {
+        "text_DB6LVY": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_Vmnc6X": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_BarkzM": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker_pppLdB": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_xMRria": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons_37JApm": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_fUyrVi": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_DB6LVY",
+        "title_Vmnc6X",
+        "price_BarkzM",
+        "variant_picker_pppLdB",
+        "quantity_selector_xMRria",
+        "buy_buttons_37JApm",
+        "share_fUyrVi"
+      ],
+      "settings": {
+        "product": "usb-c-wall-charger",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "testimonial_3KVxUf": {
       "type": "testimonial",
       "blocks": {
@@ -302,6 +373,7 @@
     "slideshow_Ez6JUt",
     "collection_list_V4zGjq",
     "featured_product_4MKgeY",
+    "featured_product_NtXdkm",
     "testimonial_3KVxUf"
   ]
 }
