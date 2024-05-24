@@ -368,6 +368,73 @@
         "arrow_color": "#ffffff",
         "arrow_bg_color": "#000000"
       }
+    },
+    "multicolumn_paAWik": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_f4XdMX": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/secure.png",
+            "title": "Secure Payment",
+            "text": "<p>Pay with common and secure payment mehods<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_pTJkVU": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/shipping.png",
+            "title": "Fast and Free Shipping",
+            "text": "<p>Shipping is free for all orders<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Ka67ge": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/customer_satisfaction.png",
+            "title": "Satisfaction Guarantee",
+            "text": "<p>If you are not 100% satisfied, you can return your order within 30 Days of purchase<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_XQjaUn": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/chat_support_1fe78f19-afc8-4dd1-9d6c-4dbce11025d2.png",
+            "title": "Excellent Service",
+            "text": "<p>You can contact our dedicated support team via email<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_f4XdMX",
+        "column_pTJkVU",
+        "column_Ka67ge",
+        "column_XQjaUn"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -375,6 +442,7 @@
     "collection_list_V4zGjq",
     "featured_product_4MKgeY",
     "featured_product_NtXdkm",
-    "testimonial_3KVxUf"
+    "testimonial_3KVxUf",
+    "multicolumn_paAWik"
   ]
 }
