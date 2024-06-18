@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -136,7 +145,7 @@
         "row_H7QpCp": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/charher_latest.png",
+            "image": "shopify:\/\/shop_images\/11.png",
             "caption": "",
             "heading": "<strong>Universal Compatibility<\/strong>",
             "text": "<p>Our charger is your go-to solution for universal compatibility! With support for PD, QC, and AFC charging protocols, you can power up your devices hassle-free, no matter the make or model.<\/p>",
