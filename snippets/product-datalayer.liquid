@@ -3,7 +3,6 @@
 -%}
 
 <script>
-
   var itemObject = {
       item_id: {{ current_variant.id | json }},
       id: {{ current_variant.id | json }},
@@ -29,4 +28,19 @@
           }
       });
   })
+
+   {% comment %} Add To Cart {% endcomment %}
+   document.addEventListener('DOMContentLoaded', () => {
+            const addToCartBtn = document.querySelector('[name="add"]')
+            addToCartBtn?.addEventListener('click', () => {
+                dataLayer.push({ ecommerce: null });
+                dataLayer.push({
+                    event: "custom_add_to_cart",
+                    ecommerce: {
+                    currency: {{ shop.currency | json }},
+                        items: [itemObject]
+                    }
+                });
+            })
+        })
 </script>
