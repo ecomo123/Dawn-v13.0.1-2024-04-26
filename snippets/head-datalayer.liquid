@@ -4,7 +4,7 @@
       dataLayer.push({
         'event': 'user_data',
         'ecommerce' : {
-        'currency': currency: {{shop.currency | json}},
+        'currency': {{shop.currency | json}},
         },
         'user_data': "{{customer.id | default:undefined}}",
         'email_address': "{{customer.email | default: undefined }}",
