@@ -6,7 +6,7 @@
         'ecommerce' : {
         'currency': {{shop.currency | json}},
         },
-        'user_data': "{{customer.id | default:undefined}}",
+        'user_data': "{{customer.id | default: undefined}}",
         'email_address': "{{customer.email | default: undefined }}"
        
       });
