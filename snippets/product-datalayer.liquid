@@ -11,8 +11,11 @@
       currency: {{ shop.currency | json }},
       item_brand: {{ product.vendor | json }},
       item_category: {{ product.type | json }},
-      item_variant: {{ current_variant.title | json }}
-  };
+      item_variant: {{ current_variant.title | json }},
+      price: {{ current_variant.price }} / 100,
+      google_business_vertical: 'retail',
+      quantity: 1
+  }
 
   document.addEventListener('DOMContentLoaded', () => {
       dataLayer.push({ ecommerce: null });
@@ -21,7 +24,7 @@
           ecommerce: {
           value: itemObject.price,
           currency: {{ shop.currency | json }},
-          items: [itemObject]
+              items: [itemObject]
           }
       });
   })
