@@ -26,4 +26,6 @@
     {% endif %}
 </script>
 
-
+{% if template contains 'product' %}
+  {% render 'product-datalayer', product: product %}
+{% endif -%}
