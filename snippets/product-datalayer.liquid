@@ -29,8 +29,8 @@
       });
   })
 
-   {% comment %} Add To Cart {% endcomment %}
-   document.addEventListener('DOMContentLoaded', () => {
+  {% comment %} Add To Cart {% endcomment %}
+  document.addEventListener('DOMContentLoaded', () => {
             const addToCartBtn = document.querySelector('[name="add"]')
             addToCartBtn?.addEventListener('click', () => {
                 dataLayer.push({ ecommerce: null });
@@ -44,8 +44,7 @@
             })
         })
 
-    {% comment %} checkout {% endcomment %}
-
+  {% comment %} initiate checkout {% endcomment %}
   document.addEventListener('DOMContentLoaded', () => {
     const checkoutButtons = document.querySelectorAll('[name="checkout"]');
 
