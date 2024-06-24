@@ -204,7 +204,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/security.png",
-            "title": "Secure Payment",
+            "title": "SECURE PAYMENT",
             "text": "<p>Pay with common and secure payment mehods<\/p>",
             "link_label": "",
             "link": ""
