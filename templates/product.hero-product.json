@@ -274,9 +274,9 @@
         "column_thWq7x": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/secure.png",
-            "title": "Secure Payment",
-            "text": "<p>Pay with common and secure payment mehods<\/p>",
+            "image": "shopify:\/\/shop_images\/security.png",
+            "title": "SECURE PAYMENT",
+            "text": "<p>Reliable Transactions<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -284,9 +284,9 @@
         "column_eX7jCU": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/shipping.png",
-            "title": "Fast and Free Shipping",
-            "text": "<p>Shipping is free for all orders<\/p>",
+            "image": "shopify:\/\/shop_images\/Shipium.png",
+            "title": "FREE SHIPPING",
+            "text": "<p>For All Orders<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -294,9 +294,9 @@
         "column_VXgKxd": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/customer_satisfaction.png",
-            "title": "Satisfaction Guarantee",
-            "text": "<p>If you are not 100% satisfied, you can return your order within 30 Days of purchase<\/p>",
+            "image": "shopify:\/\/shop_images\/guaranted.png",
+            "title": "30 DAYS MONEY BACK",
+            "text": "<p>Free Returns<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -304,9 +304,9 @@
         "column_RPhEYJ": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/chat_support_1fe78f19-afc8-4dd1-9d6c-4dbce11025d2.png",
-            "title": "Excellent Service",
-            "text": "<p>You can contact our dedicated support team via email<\/p>",
+            "image": "shopify:\/\/shop_images\/client.png",
+            "title": "PREMIUM SERVICE",
+            "text": "<p>Lifetime Customer Support<\/p>",
             "link_label": "",
             "link": ""
           }
