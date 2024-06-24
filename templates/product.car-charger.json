@@ -215,7 +215,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Shipium.png",
             "title": "FREE SHIPPING",
-            "text": "<p>Shipping is free for all orders<\/p>",
+            "text": "<p>For All Orders<\/p>",
             "link_label": "",
             "link": ""
           }
