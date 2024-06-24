@@ -213,7 +213,7 @@
         "column_eX7jCU": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/freemium.png",
+            "image": "shopify:\/\/shop_images\/Shipium.png",
             "title": "Fast and Free Shipping",
             "text": "<p>Shipping is free for all orders<\/p>",
             "link_label": "",
@@ -223,7 +223,7 @@
         "column_VXgKxd": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Satisfaction.png",
+            "image": "shopify:\/\/shop_images\/guaranted.png",
             "title": "Satisfaction Guarantee",
             "text": "<p>If you are not 100% satisfied, you can return your order within 30 Days of purchase<\/p>",
             "link_label": "",
@@ -233,7 +233,7 @@
         "column_RPhEYJ": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Service.png",
+            "image": "shopify:\/\/shop_images\/client.png",
             "title": "Excellent Service",
             "text": "<p>You can contact our dedicated support team via email<\/p>",
             "link_label": "",
