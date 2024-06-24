@@ -131,9 +131,9 @@
         "column_f4XdMX": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Payment.png",
-            "title": "Secure Payment",
-            "text": "<p>Pay with common and secure payment mehods<\/p>",
+            "image": "shopify:\/\/shop_images\/security.png",
+            "title": "SECURE PAYMENT",
+            "text": "<p>Reliable Transactions<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -141,9 +141,9 @@
         "column_pTJkVU": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Shipping_7ceb1bb2-58db-4dad-abd1-c42d7d2bfe1c.png",
-            "title": "Fast and Free Shipping",
-            "text": "<p>Shipping is free for all orders<\/p>",
+            "image": "shopify:\/\/shop_images\/Shipium.png",
+            "title": "FREE SHIPPING",
+            "text": "<p>For All Orders<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -151,9 +151,9 @@
         "column_Ka67ge": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Satisfaction_2116e520-7f06-4473-8722-92d06c568a3f.png",
-            "title": "Satisfaction Guarantee",
-            "text": "<p>If you are not 100% satisfied, you can return your order within 30 Days of purchase<\/p>",
+            "image": "shopify:\/\/shop_images\/guaranted.png",
+            "title": "30 DAYS MONEY BACK",
+            "text": "<p>Free Returns<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -162,8 +162,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Service.png",
-            "title": "Excellent Service",
-            "text": "<p>You can contact our dedicated support team via email<\/p>",
+            "title": "PREMIUM SERVICE",
+            "text": "<p>Lifetime Customer Support<\/p>",
             "link_label": "",
             "link": ""
           }
