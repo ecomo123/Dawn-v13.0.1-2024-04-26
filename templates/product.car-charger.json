@@ -63,14 +63,14 @@
           "settings": {
             "layout": "horizontal",
             "icon_1": "none",
-            "image_1": "shopify:\/\/shop_images\/Shipping_7ceb1bb2-58db-4dad-abd1-c42d7d2bfe1c.png",
-            "heading_1": "Fast & Free shipping",
+            "image_1": "shopify:\/\/shop_images\/Shipium.png",
+            "heading_1": "Free Shipping",
             "icon_2": "none",
-            "image_2": "shopify:\/\/shop_images\/card.png",
+            "image_2": "shopify:\/\/shop_images\/security.png",
             "heading_2": "Secure Payment",
             "icon_3": "none",
-            "image_3": "shopify:\/\/shop_images\/chat.png",
-            "heading_3": "Satisfaction Guarantee"
+            "image_3": "shopify:\/\/shop_images\/client.png",
+            "heading_3": "Premium Service"
           }
         }
       },
