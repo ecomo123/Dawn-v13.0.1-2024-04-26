@@ -205,7 +205,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/security.png",
             "title": "SECURE PAYMENT",
-            "text": "<p>Pay with common and secure payment mehods<\/p>",
+            "text": "<p>Reliable Transactions<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -224,8 +224,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/guaranted.png",
-            "title": "MONEY-BACK ASSURANCE",
-            "text": "<p>If you are not 100% satisfied, you can return your order within 30 Days of purchase<\/p>",
+            "title": "30 DAYS MONEY BACK",
+            "text": "<p>Free Returns<\/p>",
             "link_label": "",
             "link": ""
           }
