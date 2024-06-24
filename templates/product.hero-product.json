@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -54,14 +63,14 @@
           "settings": {
             "layout": "horizontal",
             "icon_1": "none",
-            "image_1": "shopify:\/\/shop_images\/shipping.png",
-            "heading_1": "Fast & Free shipping",
+            "image_1": "shopify:\/\/shop_images\/Shipium.png",
+            "heading_1": "Free Shipping",
             "icon_2": "none",
-            "image_2": "shopify:\/\/shop_images\/secure.png",
+            "image_2": "shopify:\/\/shop_images\/security.png",
             "heading_2": "Secure Payment",
             "icon_3": "none",
-            "image_3": "shopify:\/\/shop_images\/customer_satisfaction.png",
-            "heading_3": "Satisfaction Guarantee"
+            "image_3": "shopify:\/\/shop_images\/client.png",
+            "heading_3": "Premium Service"
           }
         }
       },
