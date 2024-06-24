@@ -14,6 +14,7 @@
       "blocks": {
         "slide_e6LkVd": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/beauty_PersonalCare.png",
             "heading": "Your Ultimate Beauty Arsenal",
@@ -32,6 +33,7 @@
         },
         "slide_YJBe8X": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Apparel.png",
             "heading": "Define Your Style",
@@ -50,6 +52,7 @@
         },
         "slide_xHr6V7": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/PetSupplies.png",
             "heading": "Your Pet's Paradise Awaits",
@@ -68,6 +71,7 @@
         },
         "slide_cdQxMG": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Travel.png",
             "heading": "Gear Up for Global Expeditions",
