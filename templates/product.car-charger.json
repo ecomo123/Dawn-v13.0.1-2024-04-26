@@ -41,6 +41,12 @@
             "show_gift_card_recipient": true
           }
         },
+        "custom_liquid_cXhnQV": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<ul style=\"justify-content: flex-start;\" class=\"list list-payment\" role=\"list\">\n              {%- for type in shop.enabled_payment_types -%}\n                <li class=\"list-payment__item\">\n                  {{ type | payment_type_svg_tag: class: 'icon icon--full-color' }}\n                <\/li>\n              {%- endfor -%}\n            <\/ul>"
+          }
+        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {
@@ -80,6 +86,7 @@
         "caption",
         "price",
         "buy_buttons",
+        "custom_liquid_cXhnQV",
         "quantity_selector",
         "variant_picker",
         "description",
