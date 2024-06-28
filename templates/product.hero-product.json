@@ -41,6 +41,12 @@
             "show_gift_card_recipient": true
           }
         },
+        "custom_liquid_KYQDqj": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<ul style=\"justify-content: flex-start;\" class=\"list list-payment\" role=\"list\">\n              {%- for type in shop.enabled_payment_types -%}\n                <li class=\"list-payment__item\">\n                  {{ type | payment_type_svg_tag: class: 'icon icon--full-color' }}\n                <\/li>\n              {%- endfor -%}\n            <\/ul>"
+          }
+        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {
@@ -72,12 +78,6 @@
             "image_3": "shopify:\/\/shop_images\/client.png",
             "heading_3": "Premium Service"
           }
-        },
-        "custom_liquid_KYQDqj": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<ul style=\"justify-content: flex-start;\" class=\"list list-payment\" role=\"list\">\n              {%- for type in shop.enabled_payment_types -%}\n                <li class=\"list-payment__item\">\n                  {{ type | payment_type_svg_tag: class: 'icon icon--full-color' }}\n                <\/li>\n              {%- endfor -%}\n            <\/ul>"
-          }
         }
       },
       "block_order": [
@@ -86,11 +86,11 @@
         "caption",
         "price",
         "buy_buttons",
+        "custom_liquid_KYQDqj",
         "quantity_selector",
         "variant_picker",
         "description",
-        "icon_with_text_neCdPe",
-        "custom_liquid_KYQDqj"
+        "icon_with_text_neCdPe"
       ],
       "settings": {
         "enable_sticky_info": true,
