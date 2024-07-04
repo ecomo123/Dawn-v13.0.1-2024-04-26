@@ -374,9 +374,9 @@
       "settings": {
         "bf_image": "shopify:\/\/shop_images\/before-heel.png",
         "af_image": "shopify:\/\/shop_images\/After-heel.png",
-        "show_badge": false,
-        "grayscale_before": false,
-        "show_content": true,
+        "show_badge": true,
+        "grayscale_before": true,
+        "show_content": false,
         "ba_heading": "hello",
         "ba_content": ""
       }
