@@ -368,6 +368,18 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "before_after_slider_TQUzCc": {
+      "type": "before-after-slider",
+      "settings": {
+        "bf_image": "shopify:\/\/shop_images\/before-heel.png",
+        "af_image": "shopify:\/\/shop_images\/before-heel.png",
+        "show_badge": false,
+        "grayscale_before": false,
+        "show_content": true,
+        "ba_heading": "hello",
+        "ba_content": ""
+      }
     }
   },
   "order": [
@@ -377,6 +389,7 @@
     "multicolumn_YkCEkF",
     "related-products",
     "collapsible_content_J79dWV",
-    "17145882998fc991c9"
+    "17145882998fc991c9",
+    "before_after_slider_TQUzCc"
   ]
 }
