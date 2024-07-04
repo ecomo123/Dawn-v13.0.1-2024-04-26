@@ -373,7 +373,7 @@
       "type": "before-after-slider",
       "settings": {
         "bf_image": "shopify:\/\/shop_images\/before-heel.png",
-        "af_image": "shopify:\/\/shop_images\/before-heel.png",
+        "af_image": "shopify:\/\/shop_images\/After-heel.png",
         "show_badge": false,
         "grayscale_before": false,
         "show_content": true,
