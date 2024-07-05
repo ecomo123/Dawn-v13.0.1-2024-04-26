@@ -149,8 +149,8 @@
     "before_after_slider_TQUzCc": {
       "type": "before-after-slider",
       "settings": {
-        "bf_image": "shopify:\/\/shop_images\/before-heel.png",
-        "af_image": "shopify:\/\/shop_images\/After-heel.png",
+        "bf_image": "shopify:\/\/shop_images\/callus-before.png",
+        "af_image": "shopify:\/\/shop_images\/callus-after.png",
         "show_badge": true,
         "grayscale_before": false,
         "show_content": false,
