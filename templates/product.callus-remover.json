@@ -146,6 +146,18 @@
         "padding_bottom": 36
       }
     },
+    "before_after_slider_TQUzCc": {
+      "type": "before-after-slider",
+      "settings": {
+        "bf_image": "shopify:\/\/shop_images\/before-heel.png",
+        "af_image": "shopify:\/\/shop_images\/After-heel.png",
+        "show_badge": true,
+        "grayscale_before": true,
+        "show_content": false,
+        "ba_heading": "hello",
+        "ba_content": ""
+      }
+    },
     "multirow_RkUGtH": {
       "type": "multirow",
       "blocks": {
@@ -368,28 +380,16 @@
       "settings": {
         "include_margins": true
       }
-    },
-    "before_after_slider_TQUzCc": {
-      "type": "before-after-slider",
-      "settings": {
-        "bf_image": "shopify:\/\/shop_images\/before-heel.png",
-        "af_image": "shopify:\/\/shop_images\/After-heel.png",
-        "show_badge": true,
-        "grayscale_before": true,
-        "show_content": false,
-        "ba_heading": "hello",
-        "ba_content": ""
-      }
     }
   },
   "order": [
     "main",
     "image_with_text_QHpB3p",
+    "before_after_slider_TQUzCc",
     "multirow_RkUGtH",
     "multicolumn_YkCEkF",
     "related-products",
     "collapsible_content_J79dWV",
-    "17145882998fc991c9",
-    "before_after_slider_TQUzCc"
+    "17145882998fc991c9"
   ]
 }
