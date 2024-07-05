@@ -114,14 +114,14 @@
         "heading_m43J3M": {
           "type": "heading",
           "settings": {
-            "heading": "Adjustable speed (0-500 rpm)",
+            "heading": "<strong>Adjustable Speed (0-500 RPM)<\/strong>",
             "heading_size": "h1"
           }
         },
         "text_7jjRxD": {
           "type": "text",
           "settings": {
-            "text": "<p>Choose your comfort level! This foot grinder offers adjustable speeds (0-500 rpm) so you can find the perfect pace for gentle yet effective callus removal. Apply light pressure while using the grinder to ensure smooth operation<\/p>",
+            "text": "<p>Find your perfect pace (0-500 RPM) for gentle callus removal.<\/p>",
             "text_style": "body"
           }
         }
