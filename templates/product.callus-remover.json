@@ -148,6 +148,7 @@
     },
     "before_after_slider_TQUzCc": {
       "type": "before-after-slider",
+      "disabled": true,
       "settings": {
         "bf_image": "shopify:\/\/shop_images\/callus-before.png",
         "af_image": "shopify:\/\/shop_images\/callus-after.png",
@@ -175,7 +176,7 @@
         "row_MaxhLV": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Add_a_little_bit_of_body_text.png",
+            "image": "shopify:\/\/shop_images\/callus-table.png",
             "caption": "",
             "heading": "<strong>Stay Powered Anywhere<\/strong>",
             "text": "<p>Experience confidence on the road with our reliable Charger. Enjoy rapid, simultaneous charging for all your devices, ensuring uninterrupted journeys wherever you roam. Stay connected, stay powered<\/p>",
