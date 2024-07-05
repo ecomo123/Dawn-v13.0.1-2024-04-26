@@ -176,10 +176,10 @@
         "row_MaxhLV": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/callus-table.png",
+            "image": "shopify:\/\/shop_images\/Table.png",
             "caption": "",
-            "heading": "<strong>Stay Powered Anywhere<\/strong>",
-            "text": "<p>Experience confidence on the road with our reliable Charger. Enjoy rapid, simultaneous charging for all your devices, ensuring uninterrupted journeys wherever you roam. Stay connected, stay powered<\/p>",
+            "heading": "<strong>Smooth Feet Made Easy<\/strong>",
+            "text": "<p>Removes dead, hard & dry skin - tackles most calluses<\/p>",
             "button_label": "",
             "button_link": ""
           }
