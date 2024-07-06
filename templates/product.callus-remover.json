@@ -78,11 +78,6 @@
             "image_3": "shopify:\/\/shop_images\/client.png",
             "heading_3": "Premium Service"
           }
-        },
-        "judge_me_reviews_preview_badge_RcDh6d": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
         }
       },
       "block_order": [
@@ -95,8 +90,7 @@
         "quantity_selector",
         "variant_picker",
         "description",
-        "icon_with_text_neCdPe",
-        "judge_me_reviews_preview_badge_RcDh6d"
+        "icon_with_text_neCdPe"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -120,14 +114,14 @@
         "heading_m43J3M": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Charge Any Device, Anywhere!<\/strong>",
+            "heading": "<strong>Adjustable Speed (0-500 RPM)<\/strong>",
             "heading_size": "h1"
           }
         },
         "text_7jjRxD": {
           "type": "text",
           "settings": {
-            "text": "<p>Our USB-C adapter fast charger works with all popular car models and devices, from iPhones to Samsung tablets. Plus, it's compatible with car accessories like wireless chargers<\/p>",
+            "text": "<p>Find your perfect pace (0-500 RPM) for gentle callus removal.<\/p>",
             "text_style": "body"
           }
         }
@@ -137,10 +131,10 @@
         "text_7jjRxD"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/carModels.png",
+        "image": "shopify:\/\/shop_images\/callus-video.gif",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "layout": "image_first",
+        "layout": "text_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "center",
         "content_layout": "no-overlap",
