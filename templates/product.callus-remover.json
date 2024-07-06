@@ -78,6 +78,11 @@
             "image_3": "shopify:\/\/shop_images\/client.png",
             "heading_3": "Premium Service"
           }
+        },
+        "judge_me_reviews_preview_badge_RcDh6d": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -90,7 +95,8 @@
         "quantity_selector",
         "variant_picker",
         "description",
-        "icon_with_text_neCdPe"
+        "icon_with_text_neCdPe",
+        "judge_me_reviews_preview_badge_RcDh6d"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -114,14 +120,14 @@
         "heading_m43J3M": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Adjustable Speed (0-500 RPM)<\/strong>",
+            "heading": "<strong>Charge Any Device, Anywhere!<\/strong>",
             "heading_size": "h1"
           }
         },
         "text_7jjRxD": {
           "type": "text",
           "settings": {
-            "text": "<p>Find your perfect pace (0-500 RPM) for gentle callus removal.<\/p>",
+            "text": "<p>Our USB-C adapter fast charger works with all popular car models and devices, from iPhones to Samsung tablets. Plus, it's compatible with car accessories like wireless chargers<\/p>",
             "text_style": "body"
           }
         }
@@ -131,10 +137,10 @@
         "text_7jjRxD"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/callus-video.gif",
+        "image": "shopify:\/\/shop_images\/carModels.png",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "layout": "text_first",
+        "layout": "image_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "center",
         "content_layout": "no-overlap",
@@ -146,29 +152,16 @@
         "padding_bottom": 36
       }
     },
-    "before_after_slider_TQUzCc": {
-      "type": "before-after-slider",
-      "disabled": true,
-      "settings": {
-        "bf_image": "shopify:\/\/shop_images\/callus-before.png",
-        "af_image": "shopify:\/\/shop_images\/callus-after.png",
-        "show_badge": true,
-        "grayscale_before": false,
-        "show_content": false,
-        "ba_heading": "",
-        "ba_content": "<p><strong>10x Smoother. Softer.<\/strong><\/p>"
-      }
-    },
     "multirow_RkUGtH": {
       "type": "multirow",
       "blocks": {
         "row_H7QpCp": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Electric_Foot.png",
+            "image": "shopify:\/\/shop_images\/11.png",
             "caption": "",
-            "heading": "<strong>From Rough to Radiant<\/strong>",
-            "text": "<p>Get smooth, soft feet. You deserve it!<\/p>",
+            "heading": "<strong>Universal Compatibility<\/strong>",
+            "text": "<p>Our charger is your go-to solution for universal compatibility! With support for PD, QC, and AFC charging protocols, you can power up your devices hassle-free, no matter the make or model.<\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -176,10 +169,10 @@
         "row_MaxhLV": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Table.png",
+            "image": "shopify:\/\/shop_images\/Add_a_little_bit_of_body_text.png",
             "caption": "",
-            "heading": "<strong>Smooth Feet Made Easy<\/strong>",
-            "text": "<p>Removes dead, hard & dry skin - tackles most calluses<\/p>",
+            "heading": "<strong>Stay Powered Anywhere<\/strong>",
+            "text": "<p>Experience confidence on the road with our reliable Charger. Enjoy rapid, simultaneous charging for all your devices, ensuring uninterrupted journeys wherever you roam. Stay connected, stay powered<\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -187,10 +180,10 @@
         "row_Hd8Nkm": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/callus-function.png",
+            "image": "shopify:\/\/shop_images\/carcharger_life.png",
             "caption": "",
-            "heading": "<strong>Skip the Charge, Get Instant Power <\/strong>",
-            "text": "<p>Plug-in for powerful, worry-free foot care<\/p>",
+            "heading": "Charge Two Devices Simultaneously",
+            "text": "<p>Streamline your charging experience with our dual port charger! Now you can power up two devices simultaneously, whether it's your phone, tablet, or other gadgets.<\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -366,17 +359,17 @@
         "padding_bottom": 36
       }
     },
-    "17145882998fc991c9": {
+    "1720304332ed06d4b2": {
       "type": "apps",
       "blocks": {
-        "judge_me_reviews_review_widget_dkHkTT": {
+        "judge_me_reviews_review_widget_iWTRTW": {
           "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
           }
         }
       },
       "block_order": [
-        "judge_me_reviews_review_widget_dkHkTT"
+        "judge_me_reviews_review_widget_iWTRTW"
       ],
       "settings": {
         "include_margins": true
@@ -386,11 +379,10 @@
   "order": [
     "main",
     "image_with_text_QHpB3p",
-    "before_after_slider_TQUzCc",
     "multirow_RkUGtH",
     "multicolumn_YkCEkF",
     "related-products",
     "collapsible_content_J79dWV",
-    "17145882998fc991c9"
+    "1720304332ed06d4b2"
   ]
 }
