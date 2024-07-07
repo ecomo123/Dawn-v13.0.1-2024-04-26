@@ -306,7 +306,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "What comes with the Electric Callus Remover?",
-            "icon": "none",
+            "icon": "check_mark",
             "row_content": "<p>Each Electric Callus Remover includes a box of 60 sandpaper pads at no extra cost.<\/p>",
             "page": ""
           }
@@ -315,7 +315,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Is the Callus Remover suitable for sensitive feet?",
-            "icon": "none",
+            "icon": "check_mark",
             "row_content": "<p>Absolutely! You can adjust the pressure to your comfort level.<\/p>",
             "page": ""
           }
@@ -324,7 +324,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Where does the Callus Remover work best?",
-            "icon": "none",
+            "icon": "check_mark",
             "row_content": "<p>The device is most effective on your heels and toes.<\/p>",
             "page": ""
           }
@@ -333,7 +333,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Can I use the Callus Remover on dry or wet feet?",
-            "icon": "none",
+            "icon": "check_mark",
             "row_content": "<p>Yes, it can be used on both dry and wet feet.<\/p>",
             "page": ""
           }
