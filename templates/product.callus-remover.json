@@ -305,36 +305,72 @@
         "collapsible_row_cUjy4h": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "How does the charger ensure safety during charging?",
+            "heading": "What comes with the Electric Callus Remover?",
             "icon": "none",
-            "row_content": "<p>The charger provides protection from over-current, over-charging, and short-circuiting, minimizing the risk of overheating and damage to your devices, thus offering a safe charging experience.<\/p>",
+            "row_content": "<p>Each Electric Callus Remover includes a box of 60 sandpaper pads at no extra cost.<\/p>",
             "page": ""
           }
         },
         "collapsible_row_7PwzDX": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Is this charger suitable for use in cars?",
+            "heading": "Is the Callus Remover suitable for sensitive feet?",
             "icon": "none",
-            "row_content": "<p>Yes, this charger is specifically designed for car use, providing a spare charger for your family or second car. Its design facilitates convenient usage in both front and rear seats.<\/p>",
+            "row_content": "<p>Absolutely! You can adjust the pressure to your comfort level.<\/p>",
             "page": ""
           }
         },
         "collapsible_row_zeNx6A": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Does this charger support various devices?",
+            "heading": "Where does the Callus Remover work best?",
             "icon": "none",
-            "row_content": "<p>Absolutely. This charger is compatible with a wide range of devices as it supports PD (Power Delivery), QC (Quick Charge), and AFC (Adaptive Fast Charging) protocols. Whether it's smartphones, tablets, laptops, wearables, game consoles, or more, you can charge them without worrying about compatibility.<\/p>",
+            "row_content": "<p>The device is most effective on your heels and toes.<\/p>",
             "page": ""
           }
         },
         "collapsible_row_77XyUG": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Is the charger compatible with all car models?",
+            "heading": "Can I use the Callus Remover on dry or wet feet?",
             "icon": "none",
-            "row_content": "<p>Yes, this charger is designed to be compatible with a wide range of car models, ensuring versatility and convenience for users regardless of the vehicle they own.<\/p>",
+            "row_content": "<p>Yes, it can be used on both dry and wet feet.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_dUUXHk": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What if I'm not satisfied with the product?",
+            "icon": "check_mark",
+            "row_content": "<ul><li>We offer a 30-day money-back guarantee with a hassle-free return policy.<\/li><\/ul>",
+            "page": ""
+          }
+        },
+        "collapsible_row_fFGVxE": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How often should I use the Callus Remover?",
+            "icon": "check_mark",
+            "row_content": "<p>You can use it as often as needed to maintain smooth, callus-free skin.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_7mcHyY": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is the Electric Callus Remover rechargeable?",
+            "icon": "check_mark",
+            "row_content": "<p>Yes, it is rechargeable and doesn't require batteries, offering more power when plugged in.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_EVatrQ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I use the Callus Remover on all parts of my feet?",
+            "icon": "check_mark",
+            "row_content": "<p>Yes, it can be used on any part of your feet, but it is not recommended for other body parts.<\/p>",
             "page": ""
           }
         }
@@ -343,7 +379,11 @@
         "collapsible_row_cUjy4h",
         "collapsible_row_7PwzDX",
         "collapsible_row_zeNx6A",
-        "collapsible_row_77XyUG"
+        "collapsible_row_77XyUG",
+        "collapsible_row_dUUXHk",
+        "collapsible_row_fFGVxE",
+        "collapsible_row_7mcHyY",
+        "collapsible_row_EVatrQ"
       ],
       "settings": {
         "caption": "",
