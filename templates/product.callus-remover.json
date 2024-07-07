@@ -47,6 +47,12 @@
             "custom_liquid": "<ul style=\"justify-content: flex-start;\" class=\"list list-payment\" role=\"list\">\n              {%- for type in shop.enabled_payment_types -%}\n                <li class=\"list-payment__item\">\n                  {{ type | payment_type_svg_tag: class: 'icon icon--full-color' }}\n                <\/li>\n              {%- endfor -%}\n            <\/ul>"
           }
         },
+        "custom_liquid_hiheEz": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<p>\n<img src=\"https:\/\/cdn-icons-png.flaticon.com\/512\/1670\/1670915.png\" style=\"height:25px;float:left;margin-right:10px;padding-bottom: 4px;\"\/>\nGet it between <strong><span id=\"fromDate\"><\/span> - <span id=\"toDate\"><\/span><\/strong>\n<\/p>\n{{ '\/\/cdnjs.cloudflare.com\/ajax\/libs\/datejs\/1.0\/date.min.js' | script_tag }}\n<script>\nvar fromDate = Date.today().addDays(5);\nif (fromDate.is().saturday() || fromDate.is().sunday()) {\nfromDate = fromDate.next().monday();\n}\nvar toDate = Date.today().addDays(10);\nif (toDate.is().saturday() || toDate.is().sunday()) {\ntoDate = toDate.next().monday();\n}\ndocument.getElementById('fromDate').innerHTML = fromDate.toString('dddd MMMM dS');\ndocument.getElementById('toDate').innerHTML = toDate.toString('dddd MMMM dS');\n<\/script>"
+          }
+        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {
@@ -78,12 +84,6 @@
             "image_3": "shopify:\/\/shop_images\/client.png",
             "heading_3": "Premium Service"
           }
-        },
-        "custom_liquid_hiheEz": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<p>\n<img src=\"https:\/\/cdn-icons-png.flaticon.com\/512\/1670\/1670915.png\" style=\"height:25px;float:left;margin-right:10px;padding-bottom: 4px;\"\/>\nGet it between <strong><span id=\"fromDate\"><\/span> - <span id=\"toDate\"><\/span><\/strong>\n<\/p>\n{{ '\/\/cdnjs.cloudflare.com\/ajax\/libs\/datejs\/1.0\/date.min.js' | script_tag }}\n<script>\nvar fromDate = Date.today().addDays(5);\nif (fromDate.is().saturday() || fromDate.is().sunday()) {\nfromDate = fromDate.next().monday();\n}\nvar toDate = Date.today().addDays(10);\nif (toDate.is().saturday() || toDate.is().sunday()) {\ntoDate = toDate.next().monday();\n}\ndocument.getElementById('fromDate').innerHTML = fromDate.toString('dddd MMMM dS');\ndocument.getElementById('toDate').innerHTML = toDate.toString('dddd MMMM dS');\n<\/script>"
-          }
         }
       },
       "block_order": [
@@ -93,11 +93,11 @@
         "price",
         "buy_buttons",
         "custom_liquid_cXhnQV",
+        "custom_liquid_hiheEz",
         "quantity_selector",
         "variant_picker",
         "description",
-        "icon_with_text_neCdPe",
-        "custom_liquid_hiheEz"
+        "icon_with_text_neCdPe"
       ],
       "settings": {
         "enable_sticky_info": true,
