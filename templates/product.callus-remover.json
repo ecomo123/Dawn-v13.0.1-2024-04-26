@@ -178,6 +178,17 @@
             "button_link": ""
           }
         },
+        "row_VCbVfU": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/callus-pads.jpg",
+            "caption": "",
+            "heading": "<strong>Effortless exfoliation!<\/strong>",
+            "text": "<p> With <strong>60 <\/strong>replaceable discs, this electric foot scrubber lets you simply attach a new one and enjoy powerful results for touchably soft feet.<\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
         "row_Hd8Nkm": {
           "type": "row",
           "settings": {
@@ -193,6 +204,7 @@
       "block_order": [
         "row_H7QpCp",
         "row_MaxhLV",
+        "row_VCbVfU",
         "row_Hd8Nkm"
       ],
       "settings": {
