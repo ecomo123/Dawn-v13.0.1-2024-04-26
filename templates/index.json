@@ -197,6 +197,7 @@
       "blocks": {
         "featured_collection_afAe6k": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "collection": "electronics-and-gadgets"
           }
