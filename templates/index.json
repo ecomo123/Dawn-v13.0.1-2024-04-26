@@ -203,12 +203,14 @@
         },
         "featured_collection_TXayTq": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "collection": "pets-and-pet-supplies"
           }
         },
         "featured_collection_MR79tp": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "collection": "home-and-living"
           }
@@ -226,7 +228,6 @@
         "featured_collection_MR79tp",
         "featured_collection_aAHN8b"
       ],
-      "disabled": true,
       "settings": {
         "title": "Collections",
         "heading_size": "h2",
