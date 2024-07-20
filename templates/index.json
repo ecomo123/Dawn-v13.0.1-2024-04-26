@@ -69,25 +69,6 @@
             "text_alignment_mobile": "center"
           }
         },
-        "slide_cdQxMG": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Travel.png",
-            "heading": "Gear Up for Global Expeditions",
-            "heading_size": "h1",
-            "subheading": "Crafting Durable Travel Solutions for the Modern Explorer",
-            "button_label": "Plan Your Trip",
-            "link": "shopify:\/\/collections\/all",
-            "button_style_secondary": false,
-            "box_align": "middle-left",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
-        },
         "slide_3piE4a": {
           "type": "slide",
           "settings": {
@@ -96,10 +77,28 @@
             "heading_size": "h1",
             "subheading": "Powering Your World at Lightning Speed",
             "button_label": "Discover More",
-            "link": "shopify:\/\/collections\/all",
+            "link": "shopify:\/\/collections\/electronics-and-gadgets",
             "button_style_secondary": true,
             "box_align": "middle-center",
             "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_fbPtqQ": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/callus-category.jpg",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
             "color_scheme": "scheme-1",
@@ -111,8 +110,8 @@
         "slide_e6LkVd",
         "slide_YJBe8X",
         "slide_xHr6V7",
-        "slide_cdQxMG",
-        "slide_3piE4a"
+        "slide_3piE4a",
+        "slide_fbPtqQ"
       ],
       "settings": {
         "layout": "full_bleed",
