@@ -170,10 +170,10 @@
         "row_MaxhLV": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Table.png",
+            "image": "shopify:\/\/shop_images\/brain.gif",
             "caption": "",
-            "heading": "<strong>Smooth Feet Made Easy<\/strong>",
-            "text": "<p>Removes dead, hard & dry skin - tackles most calluses<\/p>",
+            "heading": "<strong>Foster Cognitive Growth<\/strong>",
+            "text": "<p>Encourage brain development with limitless opportunities for innovation and play.<\/p>",
             "button_label": "",
             "button_link": ""
           }
