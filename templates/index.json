@@ -219,19 +219,26 @@
           "settings": {
             "collection": "beauty-and-personal-care"
           }
+        },
+        "featured_collection_yNxGrF": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "toys-and-games"
+          }
         }
       },
       "block_order": [
         "featured_collection_afAe6k",
         "featured_collection_TXayTq",
         "featured_collection_MR79tp",
-        "featured_collection_aAHN8b"
+        "featured_collection_aAHN8b",
+        "featured_collection_yNxGrF"
       ],
       "settings": {
         "title": "Collections",
         "heading_size": "h2",
         "image_ratio": "adapt",
-        "columns_desktop": 2,
+        "columns_desktop": 3,
         "color_scheme": "scheme-2",
         "show_view_all": true,
         "columns_mobile": "1",
