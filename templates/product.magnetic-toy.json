@@ -225,6 +225,62 @@
         "padding_bottom": 36
       }
     },
+    "multicolumn_gQ7jBK": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_tKd8Uq": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/9Transform.png",
+            "title": "<strong>✅ Safe Material<\/strong>",
+            "text": "<p>Made from safe ABS material with smooth edges for a secure and comfortable play experience.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Gjjyh3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3Transform.png",
+            "title": "<strong>✅ Magnetic Assembly:<\/strong> ",
+            "text": "<p>Easily snap together magnetic pieces for quick assembly and disassembly, enhancing fine motor skills and problem-solving abilities.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_qgLqXB": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/12Transform.png",
+            "title": "<strong>✅ Portable Storage<\/strong>",
+            "text": "<p>Features a handy storage box for effortless transportation and organization, perfect for travel or home play<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_tKd8Uq",
+        "column_Gjjyh3",
+        "column_qgLqXB"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "multicolumn_YkCEkF": {
       "type": "multicolumn",
       "blocks": {
@@ -430,72 +486,16 @@
       "settings": {
         "include_margins": true
       }
-    },
-    "multicolumn_gQ7jBK": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_tKd8Uq": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/9Transform.png",
-            "title": "<strong>✅ Safe Material<\/strong>",
-            "text": "<p>Made from safe ABS material with smooth edges for a secure and comfortable play experience.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_Gjjyh3": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/3Transform.png",
-            "title": "<strong>✅ Magnetic Assembly:<\/strong> ",
-            "text": "<p>Easily snap together magnetic pieces for quick assembly and disassembly, enhancing fine motor skills and problem-solving abilities.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_qgLqXB": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/12Transform.png",
-            "title": "<strong>✅ Portable Storage<\/strong>",
-            "text": "<p>Features a handy storage box for effortless transportation and organization, perfect for travel or home play<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_tKd8Uq",
-        "column_Gjjyh3",
-        "column_qgLqXB"
-      ],
-      "settings": {
-        "title": "Multicolumn",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "main",
     "image_with_text_QHpB3p",
     "multirow_RkUGtH",
+    "multicolumn_gQ7jBK",
     "multicolumn_YkCEkF",
     "related-products",
     "collapsible_content_J79dWV",
-    "1720304332ed06d4b2",
-    "multicolumn_gQ7jBK"
+    "1720304332ed06d4b2"
   ]
 }
