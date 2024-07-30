@@ -439,7 +439,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/9Transform.png",
             "title": "<strong>Safe Material<\/strong>",
-            "text": "",
+            "text": "<p>Made from safe ABS material with smooth edges for a secure and comfortable play experience.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -447,8 +447,9 @@
         "column_Gjjyh3": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/3Transform.png",
+            "title": "<strong>Magnetic Assembly:<\/strong> ",
+            "text": "<p>Easily snap together magnetic pieces for quick assembly and disassembly, enhancing fine motor skills and problem-solving abilities.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -456,8 +457,9 @@
         "column_qgLqXB": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/12Transform.png",
+            "title": "<strong>Portable Storage<\/strong>",
+            "text": "<p>Features a handy storage box for effortless transportation and organization, perfect for travel or home play<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -475,8 +477,8 @@
         "image_ratio": "adapt",
         "columns_desktop": 3,
         "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "Button label",
+        "background_style": "none",
+        "button_label": "",
         "button_link": "",
         "color_scheme": "",
         "columns_mobile": "1",
