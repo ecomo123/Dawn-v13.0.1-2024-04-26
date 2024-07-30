@@ -121,14 +121,14 @@
         "heading_m43J3M": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Start slow, go pro!<\/strong>",
+            "heading": "Endless Creativity and Discovery",
             "heading_size": "h1"
           }
         },
         "text_7jjRxD": {
           "type": "text",
           "settings": {
-            "text": "<p>This electric foot file offers adjustable speed settings (0-500 RPM). You can begin with a gentle touch for smoother areas and gradually increase the speed for tougher calluses, revealing baby-soft feet.<\/p>",
+            "text": "<p>Unleash your child's imagination with toys that inspire creative thinking and endless adventures.<\/p><p><\/p>",
             "text_style": "body"
           }
         }
@@ -138,7 +138,7 @@
         "text_7jjRxD"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/callus-video.gif",
+        "image": "shopify:\/\/shop_images\/imagination.gif",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
