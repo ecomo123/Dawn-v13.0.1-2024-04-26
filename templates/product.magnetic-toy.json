@@ -34,6 +34,13 @@
           "settings": {
           }
         },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -56,13 +63,6 @@
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {
-          }
-        },
-        "variant_picker": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button",
-            "swatch_shape": "circle"
           }
         },
         "description": {
@@ -91,11 +91,11 @@
         "judge_me_reviews_preview_badge_VUgTEf",
         "caption",
         "price",
+        "variant_picker",
         "buy_buttons",
         "custom_liquid_cXhnQV",
         "custom_liquid_hiheEz",
         "quantity_selector",
-        "variant_picker",
         "description",
         "icon_with_text_neCdPe"
       ],
