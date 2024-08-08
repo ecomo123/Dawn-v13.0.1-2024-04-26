@@ -131,44 +131,6 @@
         "show_text_below": true
       }
     },
-    "image_with_text_QHpB3p": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_m43J3M": {
-          "type": "heading",
-          "settings": {
-            "heading": "Experience Healthier Legs in Just 15 Minutes Daily",
-            "heading_size": "h1"
-          }
-        },
-        "text_7jjRxD": {
-          "type": "text",
-          "settings": {
-            "text": "<h2>Discover the Most Effective Natural Solution for Foot Pain Relief<\/h2><p>This cutting-edge massager employs low-frequency electrical pulses to provide deep stimulation to your foot and leg muscles, precisely targeting trigger points and effectively alleviating tension at its source. Experience the ultimate relief that lasts.<\/p><h4>Alleviates Plantar Fasciitis, Neuropathy, and Inflammation.<\/h4><h3>Highly effective for managing high blood pressure.<\/h3><h3>Successfully diminishes leg swelling, enhances blood circulation, and promotes lymphatic drainage.<\/h3><h3>Immediate relief experienced by 96.6% of users.<\/h3><h3>Like having your personal in-home podiatrists with the added benefit of saving money.<\/h3>",
-            "text_style": "subtitle"
-          }
-        }
-      },
-      "block_order": [
-        "heading_m43J3M",
-        "text_7jjRxD"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/callus-video.gif",
-        "height": "small",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "scheme-1",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "multirow_RkUGtH": {
       "type": "multirow",
       "blocks": {
@@ -459,7 +421,6 @@
   "order": [
     "main",
     "image_banner_LDcQjq",
-    "image_with_text_QHpB3p",
     "multirow_RkUGtH",
     "multicolumn_YkCEkF",
     "related-products",
