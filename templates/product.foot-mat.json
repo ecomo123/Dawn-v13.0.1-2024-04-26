@@ -165,8 +165,8 @@
         "color_scheme": "scheme-1",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
-        "padding_top": 20,
-        "padding_bottom": 24
+        "padding_top": 8,
+        "padding_bottom": 8
       }
     },
     "multirow_RkUGtH": {
