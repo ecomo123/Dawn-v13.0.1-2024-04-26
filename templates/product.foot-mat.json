@@ -115,22 +115,6 @@
         "padding_bottom": 12
       }
     },
-    "image_banner_LDcQjq": {
-      "type": "image-banner",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/14foot-mat.png",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
     "multirow_RkUGtH": {
       "type": "multirow",
       "blocks": {
@@ -145,24 +129,13 @@
             "button_link": ""
           }
         },
-        "row_MaxhLV": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Table.png",
-            "caption": "",
-            "heading": "<strong>Smooth Feet Made Easy<\/strong>",
-            "text": "<p>Removes dead, hard & dry skin - tackles most calluses<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
         "row_VCbVfU": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/callus-pads.jpg",
+            "image": "shopify:\/\/shop_images\/insta-foot72.gif",
             "caption": "",
-            "heading": "<strong>Effortless exfoliation!<\/strong>",
-            "text": "<p> With <strong>60 <\/strong>replaceable discs, this electric foot scrubber lets you simply attach a new one and enjoy powerful results for touchably soft feet.<\/p>",
+            "heading": "Refresh and Renew Your Feet and Legs",
+            "text": "<p><strong>Quickly Soothe Cramps<\/strong><br\/>✅ <strong>Refresh and Renew Your Feet and Legs<\/strong><\/p><p>✅ <strong>Quickly Soothe Cramps<\/strong><\/p><p>✅ Combat fluid retention and reduce cellulite, enhancing comfort and improving the appearance of your feet.<\/p><p>✅ Scientifically validated to support better sleep by easing nighttime leg discomfort and calming the nervous system.<\/p><p>✅ Alleviate neuropathic pain in feet and legs, encouraging cellular repair and restoring healthy nerve function.<\/p><p>✅ Experience swift relief and a deep sense of relaxation.<br\/>Experience swift relief and a deep sense of relaxation.<\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -177,24 +150,12 @@
             "button_label": "",
             "button_link": ""
           }
-        },
-        "row_XNmYdf": {
-          "type": "row",
-          "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
-            "button_link": ""
-          }
         }
       },
       "block_order": [
         "row_H7QpCp",
-        "row_MaxhLV",
         "row_VCbVfU",
-        "row_Hd8Nkm",
-        "row_XNmYdf"
+        "row_Hd8Nkm"
       ],
       "settings": {
         "image_height": "adapt",
@@ -210,6 +171,22 @@
         "mobile_content_alignment": "center",
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "image_banner_LDcQjq": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/14foot-mat.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     },
     "multicolumn_YkCEkF": {
@@ -420,8 +397,8 @@
   },
   "order": [
     "main",
-    "image_banner_LDcQjq",
     "multirow_RkUGtH",
+    "image_banner_LDcQjq",
     "multicolumn_YkCEkF",
     "related-products",
     "collapsible_content_J79dWV",
