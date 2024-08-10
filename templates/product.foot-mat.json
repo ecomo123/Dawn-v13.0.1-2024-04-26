@@ -139,23 +139,11 @@
             "button_label": "",
             "button_link": ""
           }
-        },
-        "row_Hd8Nkm": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/8.png",
-            "caption": "",
-            "heading": "",
-            "text": "<p>Discover why our EMS Foot Massager is the top choice compared to other massagers.<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
         }
       },
       "block_order": [
         "row_H7QpCp",
-        "row_VCbVfU",
-        "row_Hd8Nkm"
+        "row_VCbVfU"
       ],
       "settings": {
         "image_height": "small",
@@ -187,6 +175,44 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
+      }
+    },
+    "image_with_text_gFjTtx": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_WWw4bV": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        },
+        "text_BKkyNF": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Discover why our EMS Foot Massager is the top choice compared to other massagers.<\/strong><\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_WWw4bV",
+        "text_BKkyNF"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/EMS_FOOTM_ADS.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "multicolumn_YkCEkF": {
@@ -359,6 +385,7 @@
     "main",
     "multirow_RkUGtH",
     "image_banner_LDcQjq",
+    "image_with_text_gFjTtx",
     "multicolumn_YkCEkF",
     "related-products",
     "collapsible_content_J79dWV",
