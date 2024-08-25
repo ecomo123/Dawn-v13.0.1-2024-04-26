@@ -15,6 +15,11 @@
         "section_preload": "true"
       }
     },
+    "gp_section_528564755963577470": {
+      "type": "gp-section-528564755963577470",
+      "settings": {
+      }
+    },
     "gp_section_528456898429584336": {
       "type": "gp-section-528456898429584336",
       "settings": {
@@ -53,6 +58,7 @@
   },
   "order": [
     "gp_section_528456898547025022",
+    "gp_section_528564755963577470",
     "gp_section_528456898429584336",
     "gp_section_528456898832237591",
     "gp_section_528456898932900886",
