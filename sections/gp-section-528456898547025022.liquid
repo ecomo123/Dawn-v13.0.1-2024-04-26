@@ -22,7 +22,7 @@
       
     <div class="gp-flex gp-w-full" style="--h:[object Object];--h-tablet:[object Object];--h-mobile:[object Object];--d:flex;--d-mobile:flex;--d-tablet:flex;--mb:var(undefined)">
       <gp-hero-banner
-        gp-data='{"background":{"desktop":{"attachment":"scroll","color":"bg-2","image":{"height":646,"src":"https://ucarecdn.com/ca522c7f-31c8-4111-b774-e1dfe0219563/-/format/auto/-/preview/3000x3000/-/quality/lighter/b6.png","width":1920},"position":{"x":50,"y":50},"repeat":"no-repeat","size":"cover","type":"image","videoHtml5":"https://media.w3.org/2010/05/sintel/trailer.mp4"},"tablet":{"attachment":"scroll","color":"bg-2","image":{"height":646,"src":"https://ucarecdn.com/ca522c7f-31c8-4111-b774-e1dfe0219563/-/format/auto/-/preview/3000x3000/-/quality/lighter/b6.png","width":1920},"position":{"x":50,"y":50},"repeat":"no-repeat","size":"cover","type":"image","videoHtml5":"https://media.w3.org/2010/05/sintel/trailer.mp4"},"mobile":{"attachment":"scroll","color":"bg-2","image":{"height":692,"src":"https://ucarecdn.com/2f7b4ac8-3432-4588-9005-f8bceb4bb976/-/format/auto/-/preview/3000x3000/-/quality/lighter/b5.png","width":375},"position":{"x":50,"y":50},"repeat":"no-repeat","size":"cover","type":"image","videoHtml5":"https://media.w3.org/2010/05/sintel/trailer.mp4"}},"uid":"ggDVqN-yPq","enableParallax":false,"speedParallax":0,"hoverEffect":false,"hoverEffectScale":1.1,"layout":{"desktop":{"cols":[12],"display":"fill"}},"contentPosition1Col":{"desktop":"top"},"contentPosition2Col":{"desktop":"top"},"aspectRatio":{}}'
+        gp-data='{"background":{"desktop":{"attachment":"scroll","color":"bg-2","image":{"src":"https://cdn.shopify.com/s/files/1/0703/5397/7558/files/gempages_527026070508012437-1c16a528-447e-477d-8883-20d7d174fea7.png","width":1920,"height":800,"backupFileKey":"gempages_527026070508012437-1c16a528-447e-477d-8883-20d7d174fea7.png","storage":"FILE_CONTENT"},"position":{"x":50,"y":50},"repeat":"no-repeat","size":"cover","type":"image","videoHtml5":"https://media.w3.org/2010/05/sintel/trailer.mp4"},"tablet":{"attachment":"scroll","color":"bg-2","image":{"src":"https://cdn.shopify.com/s/files/1/0703/5397/7558/files/gempages_527026070508012437-1c16a528-447e-477d-8883-20d7d174fea7.png","width":1920,"height":800,"backupFileKey":"gempages_527026070508012437-1c16a528-447e-477d-8883-20d7d174fea7.png","storage":"FILE_CONTENT"},"position":{"x":50,"y":50},"repeat":"no-repeat","size":"cover","type":"image","videoHtml5":"https://media.w3.org/2010/05/sintel/trailer.mp4"},"mobile":{"attachment":"scroll","color":"bg-2","image":{"height":692,"src":"https://ucarecdn.com/2f7b4ac8-3432-4588-9005-f8bceb4bb976/-/format/auto/-/preview/3000x3000/-/quality/lighter/b5.png","width":375},"position":{"x":50,"y":50},"repeat":"no-repeat","size":"cover","type":"image","videoHtml5":"https://media.w3.org/2010/05/sintel/trailer.mp4"}},"uid":"ggDVqN-yPq","enableParallax":false,"speedParallax":0,"hoverEffect":false,"hoverEffectScale":1.1,"layout":{"desktop":{"cols":[12],"display":"fill"}},"contentPosition1Col":{"desktop":"top"},"contentPosition2Col":{"desktop":"top"},"aspectRatio":{}}'
         
         class="ggDVqN-yPq gp-group/hero gp-flex gp-flex-col gp-transition-colors gp-duration-200 gp-ease-in-out gp-w-full"
         style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:flex;--d-mobile:flex;--d-tablet:flex;--op:100%;--radius:var(--g-radius-none);--pt:var(undefined);--pb:var(undefined);--pt-mobile:0px;--pb-mobile:0px;--h:[object Object];--h-tablet:[object Object];--h-mobile:[object Object];--w:100%;--w-tablet:100%;--w-mobile:100%"
@@ -55,10 +55,10 @@
         <img
           title
           class="adaptive-hero-banner"
-          src="https://ucarecdn.com/ca522c7f-31c8-4111-b774-e1dfe0219563/-/format/auto/-/preview/3000x3000/-/quality/lighter/b6.png"
+          src="{{ "gempages_527026070508012437-1c16a528-447e-477d-8883-20d7d174fea7.png" | file_url }}"
           alt=""
           fetchpriority="high"
-          style="--aspect:1920/646;--aspect-tablet:1920/646;--aspect-mobile:375/692;--d:none;--d-tablet:none;--d-mobile:none;--h:[object Object];--h-tablet:[object Object];--h-mobile:[object Object];--w:100%;--w-tablet:100%;--w-mobile:100%;--op:0;--z:-1"
+          style="--aspect:1920/800;--aspect-tablet:1920/800;--aspect-mobile:375/692;--d:none;--d-tablet:none;--d-mobile:none;--h:[object Object];--h-tablet:[object Object];--h-mobile:[object Object];--w:100%;--w-tablet:100%;--w-mobile:100%;--op:0;--z:-1"
         />
     {%- else -%}
       <source media="(max-width: 767px)" data-srcSet="https://ucarecdn.com/2f7b4ac8-3432-4588-9005-f8bceb4bb976/-/format/auto/-/preview/3000x3000/-/quality/lighter/b5.png" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAA1JREFUGFdj+Pr1638ACaED3/nOThIAAAAASUVORK5CYII=" />
@@ -67,10 +67,10 @@
         title
         class="adaptive-hero-banner gp_lazyload"
         src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAA1JREFUGFdj+Pr1638ACaED3/nOThIAAAAASUVORK5CYII="
-        data-src="https://ucarecdn.com/ca522c7f-31c8-4111-b774-e1dfe0219563/-/format/auto/-/preview/3000x3000/-/quality/lighter/b6.png"
+        data-src="{{ "gempages_527026070508012437-1c16a528-447e-477d-8883-20d7d174fea7.png" | file_url }}"
         width="100%"
         alt=""
-        style="--aspect:1920/646;--aspect-tablet:1920/646;--aspect-mobile:375/692;--d:none;--d-tablet:none;--d-mobile:none;--h:[object Object];--h-tablet:[object Object];--h-mobile:[object Object];--w:100%;--w-tablet:100%;--w-mobile:100%;--op:0;--z:-1"
+        style="--aspect:1920/800;--aspect-tablet:1920/800;--aspect-mobile:375/692;--d:none;--d-tablet:none;--d-mobile:none;--h:[object Object];--h-tablet:[object Object];--h-mobile:[object Object];--w:100%;--w-tablet:100%;--w-mobile:100%;--op:0;--z:-1"
       />
     {%- endif -%}
   </picture>
@@ -85,7 +85,7 @@
                 style="clip-path:inset(0 0 0)"
               > 
               <div class="hero-banner-bg-parallax"
-             style="--bgc:var(--g-c-bg-2);--bgc-mobile:var(--g-c-bg-2);--bgi:url(https://ucarecdn.com/ca522c7f-31c8-4111-b774-e1dfe0219563/-/format/auto/-/preview/3000x3000/-/quality/lighter/b6.png);--bgi-mobile:url(https://ucarecdn.com/2f7b4ac8-3432-4588-9005-f8bceb4bb976/-/format/auto/-/preview/3000x3000/-/quality/lighter/b5.png);--bgp:50% 50%;--bgp-mobile:50% 50%;--bgs:cover;--bgs-mobile:cover;--bgr:no-repeat;--bgr-mobile:no-repeat;--duration:0.5s;--scale:1.1;--pos:absolute;--pos-tablet:absolute;--pos-mobile:absolute;--h:100%;--h-tablet:100%;--h-mobile:100%;--w:100%;--w-tablet:100%;--w-mobile:100%;--top:;--top-tablet:;--top-mobile:"
+             style="--bgc:var(--g-c-bg-2);--bgc-mobile:var(--g-c-bg-2);--bgi:url(https://cdn.shopify.com/s/files/1/0703/5397/7558/files/gempages_527026070508012437-1c16a528-447e-477d-8883-20d7d174fea7.png);--bgi-mobile:url(https://ucarecdn.com/2f7b4ac8-3432-4588-9005-f8bceb4bb976/-/format/auto/-/preview/3000x3000/-/quality/lighter/b5.png);--bgp:50% 50%;--bgp-mobile:50% 50%;--bgs:cover;--bgs-mobile:cover;--bgr:no-repeat;--bgr-mobile:no-repeat;--duration:0.5s;--scale:1.1;--pos:absolute;--pos-tablet:absolute;--pos-mobile:absolute;--h:100%;--h-tablet:100%;--h-mobile:100%;--w:100%;--w-tablet:100%;--w-mobile:100%;--top:;--top-tablet:;--top-mobile:"
              >
               </div>  
                </div>
