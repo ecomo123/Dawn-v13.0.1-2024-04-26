@@ -26,16 +26,16 @@
         {%- liquid
           if request.page_type == 'product'
             if 'static' == 'static'
-              if 'latest' == 'latest'
+              if '8711754547414' == 'latest'
                 paginate collections.all.products by 100000
                   assign product = collections.all.products | sort: 'created_at' | reverse | first
                 endpaginate
               else
-                assign product = all_products['']
+                assign product = all_products['vacuum-sealer-kit']
                 if product == empty or product == null
                   paginate collections.all.products by 100000
                     for item in collections.all.products
-                      if item.id == 'latest'
+                      if item.id == '8711754547414'
                         assign product = item
                       endif
                     endfor
@@ -44,16 +44,16 @@
               endif
             endif
           else
-            if 'latest' == 'latest'
+            if '8711754547414' == 'latest'
               paginate collections.all.products by 100000
                 assign product = collections.all.products | sort: 'created_at'| reverse | first
               endpaginate
             else
-              assign product = all_products['']
+              assign product = all_products['vacuum-sealer-kit']
               if product == empty or product == null
                 paginate collections.all.products by 100000
                   for item in collections.all.products
-                    if item.id == 'latest'
+                    if item.id == '8711754547414'
                       assign product = item
                     endif
                   endfor
@@ -65,10 +65,10 @@
       
 
     {%-if product != empty and product != null -%}
-      {%- assign initVariantId = 41169846370366 -%}
+      {%- assign initVariantId =  -%}
       {%- assign product_form_id = 'product-form-' | append: "gPnFIy2pjL" -%}
-      {%- assign variant = product.variants | where: 'id', initVariantId | first -%}
-      {%- assign productSelectedVariant = product.variants | where: 'id', initVariantId | first -%}
+      {%- assign variant = product.selected_or_first_available_variant -%}
+      {%- assign productSelectedVariant = product.selected_or_first_available_variant -%}
       {%-if productSelectedVariant == empty or productSelectedVariant == null -%}
         {%- assign productSelectedVariant = product.selected_or_first_available_variant -%}
       {%- endif -%}
@@ -1412,6 +1412,239 @@
     </gp-product-images-v2>
     <script {% if section.settings.section_preload == "false" %}class="gps-link" delay {% else %}src{% endif %}="https://d2ls1pfffhvy22.cloudfront.net/assets-v2/gp-product-images-v2.js?v={{ shop.metafields.GEMPAGES.ASSETS_VERSION }}" defer="defer"></script>
   
+      
+      
+    <div
+      parentTag="Col" id="gSeGi6TmKm"
+        style="--b:solid;--bc:#E0E0E0;--bw:1px 1px 1px 1px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--op-mobile:100%;--bblr:6px;--bbrr:6px;--btlr:6px;--btrr:6px;--mt:40px;--mb:24px;--pt:24px;--pl:24px;--pb:24px;--pr:24px;--mb-mobile:21px;--pt-mobile:14px;--pl-mobile:14px;--pb-mobile:14px;--pr-mobile:14px;--cg:8px;--pc:start;--gtc:minmax(0, 12fr);--w:var(--g-ct-w, 1200px);--w-tablet:var(--g-ct-w, 100%);--w-mobile:var(--g-ct-w, 100%);--bgc:#ffffff;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="gSeGi6TmKm gp-mx-auto gp-mb-0 gp-grid gp-max-w-full gp-gap-y-0 gp-transition-colors gp-duration-200 gp-ease-in-out [&_*]:gp-max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="gaRjvKLXvW gp-relative gp-flex gp-flex-col"
+    >
+      
+      
+      
+    <div
+      parentTag="Col" id="g293Bb55fH"
+        style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--mb:8px;--cg:8px;--pc:start;--gtc:minmax(0, auto) minmax(0, auto);--gtc-mobile:minmax(0, auto) minmax(0, auto);--w:var(--g-ct-w, 1200px);--w-tablet:var(--g-ct-w, 100%);--w-mobile:var(--g-ct-w, 100%);--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="g293Bb55fH gp-mx-auto gp-mb-0 gp-grid gp-max-w-full gp-gap-y-0 gp-transition-colors gp-duration-200 gp-ease-in-out [&_*]:gp-max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:center"
+      class="gw5Lque4uL gp-relative gp-flex gp-flex-col"
+    >
+      
+    
+    <div
+      
+      style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll">
+
+    <div
+            class="gp-flex gp-flex-wrap"
+            style="--cg:2px;--jc:left">
+            <div style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none)" class="gaCx8-JIWC ">
+      
+    <div 
+      
+      class="gp-flex gp-w-full gp-flex-col gp-items-center"
+    >
+    <div
+      
+      style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--ta:left"
+      class="gp-leading-[0] gVvO_8WVWr"
+    >
+      <div class="gp-inline-flex gp-overflow-hidden"
+      style="--bs:none;--bw:1px 1px 1px 1px;--bc:#000000"
+      >
+      <div
+      
+    >
+      <span
+        style="--c:#FDAC2B;--t:rotate(0deg);--w:16px;--w-tablet:16px;--w-mobile:14px;--h:16px;--h-tablet:16px;--h-mobile:14px;--minw:16px;--minw-tablet:16px;--minw-mobile:14px;--height-desktop:16px;--height-tablet:16px;--height-mobile:14px"
+        class="gp-inline-flex gp-items-center gp-justify-center gp-overflow-hidden [&>svg]:!gp-h-[var(--height-desktop)] [&>svg]:!gp-w-auto tablet:[&>svg]:!gp-h-[var(--height-tablet)] mobile:[&>svg]:!gp-h-[var(--height-mobile)]"
+      ><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" data-id="508414815326568800" viewBox="0 0 256 256"><path d="m234.29 114.85-45 38.83L203 211.75a16.4 16.4 0 0 1-24.5 17.82L128 198.49l-50.53 31.08A16.4 16.4 0 0 1 53 211.75l13.76-58.07-45-38.83A16.46 16.46 0 0 1 31.08 86l59-4.76 22.76-55.08a16.36 16.36 0 0 1 30.27 0l22.75 55.08 59 4.76a16.46 16.46 0 0 1 9.37 28.86Z"/></svg></span>
+    </div>
+      </div>
+    </div>
+    
+    </div>
+  
+      </div><div style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none)" class="gHkFRdzMGR ">
+      
+    <div 
+      
+      class="gp-flex gp-w-full gp-flex-col gp-items-center"
+    >
+    <div
+      
+      style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--ta:left"
+      class="gp-leading-[0] gojUQJ2-_1"
+    >
+      <div class="gp-inline-flex gp-overflow-hidden"
+      style="--bs:none;--bw:1px 1px 1px 1px;--bc:#000000"
+      >
+      <div
+      
+    >
+      <span
+        style="--c:#FDAC2B;--t:rotate(0deg);--w:16px;--w-tablet:16px;--w-mobile:14px;--h:16px;--h-tablet:16px;--h-mobile:14px;--minw:16px;--minw-tablet:16px;--minw-mobile:14px;--height-desktop:16px;--height-tablet:16px;--height-mobile:14px"
+        class="gp-inline-flex gp-items-center gp-justify-center gp-overflow-hidden [&>svg]:!gp-h-[var(--height-desktop)] [&>svg]:!gp-w-auto tablet:[&>svg]:!gp-h-[var(--height-tablet)] mobile:[&>svg]:!gp-h-[var(--height-mobile)]"
+      ><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" data-id="508414815326568800" viewBox="0 0 256 256"><path d="m234.29 114.85-45 38.83L203 211.75a16.4 16.4 0 0 1-24.5 17.82L128 198.49l-50.53 31.08A16.4 16.4 0 0 1 53 211.75l13.76-58.07-45-38.83A16.46 16.46 0 0 1 31.08 86l59-4.76 22.76-55.08a16.36 16.36 0 0 1 30.27 0l22.75 55.08 59 4.76a16.46 16.46 0 0 1 9.37 28.86Z"/></svg></span>
+    </div>
+      </div>
+    </div>
+    
+    </div>
+  
+      </div><div style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none)" class="gifBFjZ58s ">
+      
+    <div 
+      
+      class="gp-flex gp-w-full gp-flex-col gp-items-center"
+    >
+    <div
+      
+      style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--ta:left"
+      class="gp-leading-[0] gZ98fCin-c"
+    >
+      <div class="gp-inline-flex gp-overflow-hidden"
+      style="--bs:none;--bw:1px 1px 1px 1px;--bc:#000000"
+      >
+      <div
+      
+    >
+      <span
+        style="--c:#FDAC2B;--t:rotate(0deg);--w:16px;--w-tablet:16px;--w-mobile:14px;--h:16px;--h-tablet:16px;--h-mobile:14px;--minw:16px;--minw-tablet:16px;--minw-mobile:14px;--height-desktop:16px;--height-tablet:16px;--height-mobile:14px"
+        class="gp-inline-flex gp-items-center gp-justify-center gp-overflow-hidden [&>svg]:!gp-h-[var(--height-desktop)] [&>svg]:!gp-w-auto tablet:[&>svg]:!gp-h-[var(--height-tablet)] mobile:[&>svg]:!gp-h-[var(--height-mobile)]"
+      ><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" data-id="508414815326568800" viewBox="0 0 256 256"><path d="m234.29 114.85-45 38.83L203 211.75a16.4 16.4 0 0 1-24.5 17.82L128 198.49l-50.53 31.08A16.4 16.4 0 0 1 53 211.75l13.76-58.07-45-38.83A16.46 16.46 0 0 1 31.08 86l59-4.76 22.76-55.08a16.36 16.36 0 0 1 30.27 0l22.75 55.08 59 4.76a16.46 16.46 0 0 1 9.37 28.86Z"/></svg></span>
+    </div>
+      </div>
+    </div>
+    
+    </div>
+  
+      </div><div style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none)" class="gmM2kZTlaa ">
+      
+    <div 
+      
+      class="gp-flex gp-w-full gp-flex-col gp-items-center"
+    >
+    <div
+      
+      style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--ta:left"
+      class="gp-leading-[0] gyBtFMY_HI"
+    >
+      <div class="gp-inline-flex gp-overflow-hidden"
+      style="--bs:none;--bw:1px 1px 1px 1px;--bc:#000000"
+      >
+      <div
+      
+    >
+      <span
+        style="--c:#FDAC2B;--t:rotate(0deg);--w:16px;--w-tablet:16px;--w-mobile:14px;--h:16px;--h-tablet:16px;--h-mobile:14px;--minw:16px;--minw-tablet:16px;--minw-mobile:14px;--height-desktop:16px;--height-tablet:16px;--height-mobile:14px"
+        class="gp-inline-flex gp-items-center gp-justify-center gp-overflow-hidden [&>svg]:!gp-h-[var(--height-desktop)] [&>svg]:!gp-w-auto tablet:[&>svg]:!gp-h-[var(--height-tablet)] mobile:[&>svg]:!gp-h-[var(--height-mobile)]"
+      ><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" data-id="508414815326568800" viewBox="0 0 256 256"><path d="m234.29 114.85-45 38.83L203 211.75a16.4 16.4 0 0 1-24.5 17.82L128 198.49l-50.53 31.08A16.4 16.4 0 0 1 53 211.75l13.76-58.07-45-38.83A16.46 16.46 0 0 1 31.08 86l59-4.76 22.76-55.08a16.36 16.36 0 0 1 30.27 0l22.75 55.08 59 4.76a16.46 16.46 0 0 1 9.37 28.86Z"/></svg></span>
+    </div>
+      </div>
+    </div>
+    
+    </div>
+  
+      </div><div style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none)" class="gzHr6jJRvJ ">
+      
+    <div 
+      
+      class="gp-flex gp-w-full gp-flex-col gp-items-center"
+    >
+    <div
+      
+      style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--ta:left"
+      class="gp-leading-[0] gKvSgp8aF2"
+    >
+      <div class="gp-inline-flex gp-overflow-hidden"
+      style="--bs:none;--bw:1px 1px 1px 1px;--bc:#000000"
+      >
+      <div
+      
+    >
+      <span
+        style="--c:#FDAC2B;--t:rotate(0deg);--w:16px;--w-tablet:16px;--w-mobile:14px;--h:16px;--h-tablet:16px;--h-mobile:14px;--minw:16px;--minw-tablet:16px;--minw-mobile:14px;--height-desktop:16px;--height-tablet:16px;--height-mobile:14px"
+        class="gp-inline-flex gp-items-center gp-justify-center gp-overflow-hidden [&>svg]:!gp-h-[var(--height-desktop)] [&>svg]:!gp-w-auto tablet:[&>svg]:!gp-h-[var(--height-tablet)] mobile:[&>svg]:!gp-h-[var(--height-mobile)]"
+      ><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" data-id="508414815326568800" viewBox="0 0 256 256"><path d="m234.29 114.85-45 38.83L203 211.75a16.4 16.4 0 0 1-24.5 17.82L128 198.49l-50.53 31.08A16.4 16.4 0 0 1 53 211.75l13.76-58.07-45-38.83A16.46 16.46 0 0 1 31.08 86l59-4.76 22.76-55.08a16.36 16.36 0 0 1 30.27 0l22.75 55.08 59 4.76a16.46 16.46 0 0 1 9.37 28.86Z"/></svg></span>
+    </div>
+      </div>
+    </div>
+    
+    </div>
+  
+      </div>
+         </div>
+    </div>
+  
+    </div><div
+      label="Block" tag="Col" type="component"
+      style="--jc:center"
+      class="guaToyyLbZ gp-relative gp-flex gp-flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="gf5XfNwbWp "
+        style="--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb:0px"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+         
+          data-gp-text
+          class="[&_p]:gp-inline [&_p]:after:gp-whitespace-pre-wrap [&_p]:after:gp-content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:center;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--fs:normal;--ff:var(--g-font-body, body);--weight:400;--ls:normal;--size:16px;--size-tablet:16px;--size-mobile:14px;--lh:130%;--lh-tablet:130%;--lh-mobile:130%;--c:#242424;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden"
+        >{{ section.settings.ggf5XfNwbWp_text }}</div>
+      </div>
+    </div>
+      <style id="custom-css-gf5XfNwbWp">
+        .gf5XfNwbWp {
+
+}
+.gf5XfNwbWp p {
+
+}
+      </style>
+    
+    </div>
+    </div>
+  
+    
+    <div
+      parentTag="Col"
+        class="gzli-QEYt0 "
+        style="--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none)"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+         
+          data-gp-text
+          class="[&_p]:gp-inline [&_p]:after:gp-whitespace-pre-wrap [&_p]:after:gp-content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--fs:normal;--ff:var(--g-font-body, body);--weight:400;--ls:normal;--size:16px;--size-tablet:16px;--size-mobile:14px;--lh:130%;--lh-tablet:130%;--lh-mobile:130%;--c:#242424;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden"
+        >{{ section.settings.ggzli-QEYt0_text }}</div>
+      </div>
+    </div>
+      <style id="custom-css-gzli-QEYt0">
+        .gzli-QEYt0 {
+
+}
+.gzli-QEYt0 p {
+
+}
+      </style>
+    
+    </div>
+    </div>
+  
+    
     </div><div
       label="Block" tag="Col" type="component"
       style="--jc:start"
@@ -2485,7 +2718,7 @@
     "name": "Section 2",
     "tag": "section",
     "class": "gps-528769762503689239 gps gpsil",
-    "settings": [{"type":"paragraph","content":"Section design by GemPages. [Click here to start design](https://admin.shopify.com/store/499862-95/apps/gempages-cro/app/shopify/edit?pageType=GP_STATIC&editorId=528698223716467734&sectionId=528769762503689239)"},{"type":"select","label":"Section Preload","id":"section_preload","options":[{"label":"On","value":"true"},{"label":"Off","value":"false"},{"label":"Off Lazy Script","value":"off_lazy_script"}],"default":"false"},{"type":"html","id":"ggNsHVocZth_text","label":"ggNsHVocZth_text","default":"<p>Best Seller</p>"},{"type":"html","id":"ggQM-ABuyrr_text","label":"ggQM-ABuyrr_text","default":"<p>2,500+ Verified Reviews!</p>"},{"type":"html","id":"ggoj297rYbM_text","label":"ggoj297rYbM_text","default":"<p>Save money and reduce waste effortlessly —just one click extends your food's freshness 3x to 5x longer.</p>"},{"type":"html","id":"ggAslPpNhbF_childItem_0","label":"ggAslPpNhbF_childItem_0","default":"<p><span style=\"font-size:14px;\">Keeps pantry pests and air out with an airtight vacuum seal</span></p>"},{"type":"html","id":"ggAslPpNhbF_childItem_1","label":"ggAslPpNhbF_childItem_1","default":"<p><span style=\"font-size:14px;\">Compatible with all mason jars &amp; lids, including Ball, Kerr, and Bernardin</span></p>"},{"type":"html","id":"ggAslPpNhbF_childItem_2","label":"ggAslPpNhbF_childItem_2","default":"<p><span style=\"font-size:14px;\">Increase shelf life by 3-5 times instantly</span></p>"},{"type":"html","id":"ggrgDBjvDfh_text","label":"ggrgDBjvDfh_text","default":"<p>Kit Includes</p>"},{"type":"html","id":"ggo3E-eaaAZ_childItem_0","label":"ggo3E-eaaAZ_childItem_0","default":"<p><span style=\"font-size:14px;\">&nbsp;</span>5 x Regular Chalktop Lids FREE!</p>"},{"type":"html","id":"ggo3E-eaaAZ_childItem_1","label":"ggo3E-eaaAZ_childItem_1","default":"<p>5 x Wide Chalktop Lids FREE!</p>"},{"type":"html","id":"ggZ_tVECYfl_label","label":"ggZ_tVECYfl_label","default":"Add to cart 👉"},{"type":"html","id":"ggZ_tVECYfl_outOfStockLabel","label":"ggZ_tVECYfl_outOfStockLabel","default":"Out of stock"},{"type":"html","id":"gg8OH4lWQP-_text","label":"gg8OH4lWQP-_text","default":"<p>But I must explain to you how&nbsp;</p>"},{"type":"html","id":"ggAWDeBu3wV_text","label":"ggAWDeBu3wV_text","default":"<p>But I must explain to you how&nbsp;</p>"},{"type":"html","id":"ggBKpNGcZDh_text","label":"ggBKpNGcZDh_text","default":"<p>But I must explain to you how&nbsp;</p>"},{"type":"html","id":"gg8WB5vWwpL_text","label":"gg8WB5vWwpL_text","default":"<p>But I must explain to you how&nbsp;</p>"},{"type":"html","id":"ggt9H7IBx8j_text","label":"ggt9H7IBx8j_text","default":"<p>But I must explain to you how&nbsp;</p>"},{"type":"html","id":"ggf5XfNwbWp_text","label":"ggf5XfNwbWp_text","default":"<p>Briana M. <strong>Verified Buyer</strong></p>"},{"type":"html","id":"ggzli-QEYt0_text","label":"ggzli-QEYt0_text","default":"<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt culpa qui officia deserunt mollitia animi</p>"},{"type":"html","id":"ggLdZteFjBv_text","label":"ggLdZteFjBv_text","default":"<p>500+ &nbsp;Reviews!</p>"},{"type":"html","id":"gg7ZCBUFb0Q_text","label":"gg7ZCBUFb0Q_text","default":"<p>But I must explain to you how all this mistaken</p>"},{"type":"html","id":"gg6l6vVEsvK_text","label":"gg6l6vVEsvK_text","default":"<p>At vero eos et accusamus et iusto odio dignissimos</p>"},{"type":"html","id":"ggetFf2QEHF_label","label":"ggetFf2QEHF_label","default":"Add"},{"type":"html","id":"ggetFf2QEHF_outOfStockLabel","label":"ggetFf2QEHF_outOfStockLabel","default":"Out of stock"},{"type":"html","id":"ggNwbr73Ps-_text","label":"ggNwbr73Ps-_text","default":"<p>500+ &nbsp;Reviews!</p>"},{"type":"html","id":"ggstTKx8l57_text","label":"ggstTKx8l57_text","default":"<p>But I must explain to you how all this mistaken</p>"},{"type":"html","id":"ggNfnGAZSLV_text","label":"ggNfnGAZSLV_text","default":"<p>At vero eos et accusamus et iusto odio dignissimos</p>"},{"type":"html","id":"gg7zrrUvPWt_label","label":"gg7zrrUvPWt_label","default":"Add"},{"type":"html","id":"gg7zrrUvPWt_outOfStockLabel","label":"gg7zrrUvPWt_outOfStockLabel","default":"Out of stock"},{"type":"html","id":"gguYFXFDZtx_text","label":"gguYFXFDZtx_text","default":"<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>"},{"type":"html","id":"ggCh4-9euFz_childItem_0","label":"ggCh4-9euFz_childItem_0","default":"<p>UV protection</p>"},{"type":"html","id":"ggCh4-9euFz_childItem_1","label":"ggCh4-9euFz_childItem_1","default":"<p>Hydration</p>"},{"type":"html","id":"ggCh4-9euFz_childItem_2","label":"ggCh4-9euFz_childItem_2","default":"<p>Anti-aging</p>"},{"type":"html","id":"ggCh4-9euFz_childItem_3","label":"ggCh4-9euFz_childItem_3","default":"<p>Brightening</p>"},{"type":"html","id":"ggTfM9yH5Ki_childItem_0","label":"ggTfM9yH5Ki_childItem_0","default":"<p>Smoothing</p>"},{"type":"html","id":"ggTfM9yH5Ki_childItem_1","label":"ggTfM9yH5Ki_childItem_1","default":"<p>Nourishing</p>"},{"type":"html","id":"ggTfM9yH5Ki_childItem_2","label":"ggTfM9yH5Ki_childItem_2","default":"<p>Anti-aging</p>"},{"type":"html","id":"ggUWbyImDsa_childItem_0","label":"ggUWbyImDsa_childItem_0","default":"<p>Application</p>"},{"type":"html","id":"ggUWbyImDsa_childItem_1","label":"ggUWbyImDsa_childItem_1","default":"<p>Key Ingredients</p>"},{"type":"html","id":"ggSJk1pThWv_childItem_0","label":"ggSJk1pThWv_childItem_0","default":"<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium&nbsp;</p>"},{"type":"html","id":"ggSJk1pThWv_childItem_1","label":"ggSJk1pThWv_childItem_1","default":"<p>But I must explain to you how all this mistaken idea&nbsp;</p>"},{"type":"html","id":"ggSJk1pThWv_childItem_2","label":"ggSJk1pThWv_childItem_2","default":"<p>On the other hand, we denounce with righteous indignation and dislike men</p>"},{"type":"html","id":"ggWo_TvEPxV_text","label":"ggWo_TvEPxV_text","default":"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"}],
+    "settings": [{"type":"paragraph","content":"Section design by GemPages. [Click here to start design](https://admin.shopify.com/store/499862-95/apps/gempages-cro/app/shopify/edit?pageType=GP_STATIC&editorId=528698223716467734&sectionId=528769762503689239)"},{"type":"select","label":"Section Preload","id":"section_preload","options":[{"label":"On","value":"true"},{"label":"Off","value":"false"},{"label":"Off Lazy Script","value":"off_lazy_script"}],"default":"false"},{"type":"html","id":"ggf5XfNwbWp_text","label":"ggf5XfNwbWp_text","default":"<p>Briana M. <strong>Verified Buyer</strong></p>"},{"type":"html","id":"ggzli-QEYt0_text","label":"ggzli-QEYt0_text","default":"<p><span style=\"background-color:rgb(255,255,255);color:rgb(0,0,0);font-size:16px;\"><i>“It’s small but does the job perfectly. Sealed my spices and they're as fresh as day one!”</i></span></p>"},{"type":"html","id":"ggNsHVocZth_text","label":"ggNsHVocZth_text","default":"<p>Best Seller</p>"},{"type":"html","id":"ggQM-ABuyrr_text","label":"ggQM-ABuyrr_text","default":"<p>2,500+ Verified Reviews!</p>"},{"type":"html","id":"ggoj297rYbM_text","label":"ggoj297rYbM_text","default":"<p>Save money and reduce waste effortlessly —just one click extends your food's freshness 3x to 5x longer.</p>"},{"type":"html","id":"ggAslPpNhbF_childItem_0","label":"ggAslPpNhbF_childItem_0","default":"<p><span style=\"font-size:14px;\">Keeps pantry pests and air out with an airtight vacuum seal</span></p>"},{"type":"html","id":"ggAslPpNhbF_childItem_1","label":"ggAslPpNhbF_childItem_1","default":"<p><span style=\"font-size:14px;\">Compatible with all mason jars &amp; lids, including Ball, Kerr, and Bernardin</span></p>"},{"type":"html","id":"ggAslPpNhbF_childItem_2","label":"ggAslPpNhbF_childItem_2","default":"<p><span style=\"font-size:14px;\">Increase shelf life by 3-5 times instantly</span></p>"},{"type":"html","id":"ggrgDBjvDfh_text","label":"ggrgDBjvDfh_text","default":"<p>Kit Includes</p>"},{"type":"html","id":"ggo3E-eaaAZ_childItem_0","label":"ggo3E-eaaAZ_childItem_0","default":"<p><span style=\"font-size:14px;\">&nbsp;</span>5 x Regular Chalktop Lids FREE!</p>"},{"type":"html","id":"ggo3E-eaaAZ_childItem_1","label":"ggo3E-eaaAZ_childItem_1","default":"<p>5 x Wide Chalktop Lids FREE!</p>"},{"type":"html","id":"ggZ_tVECYfl_label","label":"ggZ_tVECYfl_label","default":"Add to cart 👉"},{"type":"html","id":"ggZ_tVECYfl_outOfStockLabel","label":"ggZ_tVECYfl_outOfStockLabel","default":"Out of stock"},{"type":"html","id":"gg8OH4lWQP-_text","label":"gg8OH4lWQP-_text","default":"<p>But I must explain to you how&nbsp;</p>"},{"type":"html","id":"ggAWDeBu3wV_text","label":"ggAWDeBu3wV_text","default":"<p>But I must explain to you how&nbsp;</p>"},{"type":"html","id":"ggBKpNGcZDh_text","label":"ggBKpNGcZDh_text","default":"<p>But I must explain to you how&nbsp;</p>"},{"type":"html","id":"gg8WB5vWwpL_text","label":"gg8WB5vWwpL_text","default":"<p>But I must explain to you how&nbsp;</p>"},{"type":"html","id":"ggt9H7IBx8j_text","label":"ggt9H7IBx8j_text","default":"<p>But I must explain to you how&nbsp;</p>"},{"type":"html","id":"ggLdZteFjBv_text","label":"ggLdZteFjBv_text","default":"<p>500+ &nbsp;Reviews!</p>"},{"type":"html","id":"gg7ZCBUFb0Q_text","label":"gg7ZCBUFb0Q_text","default":"<p>But I must explain to you how all this mistaken</p>"},{"type":"html","id":"gg6l6vVEsvK_text","label":"gg6l6vVEsvK_text","default":"<p>At vero eos et accusamus et iusto odio dignissimos</p>"},{"type":"html","id":"ggetFf2QEHF_label","label":"ggetFf2QEHF_label","default":"Add"},{"type":"html","id":"ggetFf2QEHF_outOfStockLabel","label":"ggetFf2QEHF_outOfStockLabel","default":"Out of stock"},{"type":"html","id":"ggNwbr73Ps-_text","label":"ggNwbr73Ps-_text","default":"<p>500+ &nbsp;Reviews!</p>"},{"type":"html","id":"ggstTKx8l57_text","label":"ggstTKx8l57_text","default":"<p>But I must explain to you how all this mistaken</p>"},{"type":"html","id":"ggNfnGAZSLV_text","label":"ggNfnGAZSLV_text","default":"<p>At vero eos et accusamus et iusto odio dignissimos</p>"},{"type":"html","id":"gg7zrrUvPWt_label","label":"gg7zrrUvPWt_label","default":"Add"},{"type":"html","id":"gg7zrrUvPWt_outOfStockLabel","label":"gg7zrrUvPWt_outOfStockLabel","default":"Out of stock"},{"type":"html","id":"gguYFXFDZtx_text","label":"gguYFXFDZtx_text","default":"<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>"},{"type":"html","id":"ggCh4-9euFz_childItem_0","label":"ggCh4-9euFz_childItem_0","default":"<p>UV protection</p>"},{"type":"html","id":"ggCh4-9euFz_childItem_1","label":"ggCh4-9euFz_childItem_1","default":"<p>Hydration</p>"},{"type":"html","id":"ggCh4-9euFz_childItem_2","label":"ggCh4-9euFz_childItem_2","default":"<p>Anti-aging</p>"},{"type":"html","id":"ggCh4-9euFz_childItem_3","label":"ggCh4-9euFz_childItem_3","default":"<p>Brightening</p>"},{"type":"html","id":"ggTfM9yH5Ki_childItem_0","label":"ggTfM9yH5Ki_childItem_0","default":"<p>Smoothing</p>"},{"type":"html","id":"ggTfM9yH5Ki_childItem_1","label":"ggTfM9yH5Ki_childItem_1","default":"<p>Nourishing</p>"},{"type":"html","id":"ggTfM9yH5Ki_childItem_2","label":"ggTfM9yH5Ki_childItem_2","default":"<p>Anti-aging</p>"},{"type":"html","id":"ggUWbyImDsa_childItem_0","label":"ggUWbyImDsa_childItem_0","default":"<p>Application</p>"},{"type":"html","id":"ggUWbyImDsa_childItem_1","label":"ggUWbyImDsa_childItem_1","default":"<p>Key Ingredients</p>"},{"type":"html","id":"ggSJk1pThWv_childItem_0","label":"ggSJk1pThWv_childItem_0","default":"<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium&nbsp;</p>"},{"type":"html","id":"ggSJk1pThWv_childItem_1","label":"ggSJk1pThWv_childItem_1","default":"<p>But I must explain to you how all this mistaken idea&nbsp;</p>"},{"type":"html","id":"ggSJk1pThWv_childItem_2","label":"ggSJk1pThWv_childItem_2","default":"<p>On the other hand, we denounce with righteous indignation and dislike men</p>"},{"type":"html","id":"ggWo_TvEPxV_text","label":"ggWo_TvEPxV_text","default":"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"}],
     "blocks": [{"type": "@app"}],
     "locales": {}
   }
