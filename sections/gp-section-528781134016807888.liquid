@@ -40,10 +40,10 @@
         
 
     {%-if product != empty and product != null -%}
-      {%- assign initVariantId = 46098876563670 -%}
+      {%- assign initVariantId =  -%}
       {%- assign product_form_id = 'product-form-' | append: "gPnFIy2pjL" -%}
-      {%- assign variant = product.variants | where: 'id', initVariantId | first -%}
-      {%- assign productSelectedVariant = product.variants | where: 'id', initVariantId | first -%}
+      {%- assign variant = product.selected_or_first_available_variant -%}
+      {%- assign productSelectedVariant = product.selected_or_first_available_variant -%}
       {%-if productSelectedVariant == empty or productSelectedVariant == null -%}
         {%- assign productSelectedVariant = product.selected_or_first_available_variant -%}
       {%- endif -%}
@@ -2022,15 +2022,15 @@
       
     <div
       parentTag="Col" id="gdi1nPsz3I"
-        style="--mb:24px;--d:grid;--d-tablet:grid;--d-mobile:grid;--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--border:[object Object];--rounded:[object Object];--hasBoxShadow:[object Object];--shadow:none;--boxShadow:[object Object];--op:100%;--animation:[object Object];--cg:8px;--pc:start;--gtc:minmax(0, 3fr) minmax(0, 9fr);--w:var(--g-ct-w, 1200px);--w-tablet:var(--g-ct-w, 100%);--w-mobile:var(--g-ct-w, 100%);--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        style="--mb:24px;--d:grid;--d-tablet:grid;--d-mobile:grid;--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--border:[object Object];--rounded:[object Object];--hasBoxShadow:[object Object];--shadow:none;--boxShadow:[object Object];--op:100%;--cg:8px;--pc:start;--gtc:minmax(0, 3fr) minmax(0, 9fr);--w:var(--g-ct-w, 1200px);--w-tablet:var(--g-ct-w, 100%);--w-mobile:var(--g-ct-w, 100%);--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
         class="gdi1nPsz3I gp-mx-auto gp-mb-0 gp-grid gp-max-w-full gp-gap-y-0 gp-transition-colors gp-duration-200 gp-ease-in-out [&_*]:gp-max-w-full"
     >
     <div
       tag="Col" label="Block" type="component"
-      style="--jc:start"
+      style="--jc:center"
       class="gIxN9DMfkr gp-relative gp-flex gp-flex-col"
     >
-      <div style="--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--border:[object Object];--rounded:[object Object];--hasBoxShadow:[object Object];--shadow:none;--boxShadow:[object Object];--op:100%;--animation:[object Object]" class="gNvnBOG-FL ">
+      <div style="--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--border:[object Object];--rounded:[object Object];--hasBoxShadow:[object Object];--shadow:none;--boxShadow:[object Object];--op:100%" class="gNvnBOG-FL ">
       
     {%- liquid
       assign current_variant = product.selected_or_first_available_variant
@@ -2040,7 +2040,7 @@
         data-disabled="{%- if available -%} false {%- else -%} true {%- endif -%}"
         data-price="false"
         class="quantityClass gp-relative gp-inline-flex gp-w-full gp-bg-transparent gp-transition-all gp-duration-150 data-[disabled=true]:gp-opacity-60 "
-        style="--h:62px;--jc:left"
+        style="--h:55px;--jc:left"
       >
 
       
@@ -2069,7 +2069,7 @@
           name="product-quantity"
           {% if available == false %} disabled {% endif %}
           class="gp-border-g-line-2 hover:gp-border-g-line-3 gp-bg-g-bg-3 gp-text-g-text-2 gp-g-paragraph-2 !gp-border-x-0 gp-px-4 gp-flex gp-shadow-none gp-appearance-none gp-items-center gp-border-y gp-text-center gp-outline-none gp-transition-all gp-duration-150 hover:gp-text-black disabled:gp-pointer-events-none gp-h-auto gp-rounded-none gp-shrink-[99999] gp-w-full gp-min-w-[45px]"
-          style="--maxw:50px;--maxw-tablet:50px;--maxw-mobile:50px;--c:var(--g-c-text-2, text-2);--bg:var(--g-c-bg-3, bg-3);--bs:solid;--hvr-bs:solid;--bw:1px 1px 1px 1px;--hvr-bw:1px 1px 1px 1px;--bc:var(--g-c-line-2, line-2);--hvr-bc:var(--g-c-line-3, line-3)"
+          style="--maxw:45px;--maxw-tablet:50px;--maxw-mobile:50px;--c:var(--g-c-text-2, text-2);--bg:var(--g-c-bg-3, bg-3);--bs:solid;--hvr-bs:solid;--bw:1px 1px 1px 1px;--hvr-bw:1px 1px 1px 1px;--bc:var(--g-c-line-2, line-2);--hvr-bc:var(--g-c-line-3, line-3)"
           aria-label="Quantity"
           inputmode="numeric"
           min="{{ current_variant.quantity_rule.min }}"
@@ -2109,7 +2109,7 @@
       </div>
     </div><div
       tag="Col" label="Block" type="component"
-      style="--jc:start"
+      style="--jc:center"
       class="gASifezdCJ gp-relative gp-flex gp-flex-col"
     >
       
