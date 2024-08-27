@@ -40,11 +40,6 @@
       "settings": {
       }
     },
-    "gp_section_528781133932921808": {
-      "type": "gp-section-528781133932921808",
-      "settings": {
-      }
-    },
     "gp_section_528781133949699024": {
       "type": "gp-section-528781133949699024",
       "settings": {
@@ -52,31 +47,6 @@
     },
     "gp_section_528781133983253456": {
       "type": "gp-section-528781133983253456",
-      "settings": {
-      }
-    },
-    "gp_section_528781134234911696": {
-      "type": "gp-section-528781134234911696",
-      "settings": {
-      }
-    },
-    "gp_section_528781134218134480": {
-      "type": "gp-section-528781134218134480",
-      "settings": {
-      }
-    },
-    "gp_section_528781134033585104": {
-      "type": "gp-section-528781134033585104",
-      "settings": {
-      }
-    },
-    "gp_section_528781134167802832": {
-      "type": "gp-section-528781134167802832",
-      "settings": {
-      }
-    },
-    "gp_section_528781134100693968": {
-      "type": "gp-section-528781134100693968",
       "settings": {
       }
     },
@@ -93,14 +63,8 @@
     "gp_section_528781133849035728",
     "gp_section_528781133882590160",
     "gp_section_528781133899367376",
-    "gp_section_528781133932921808",
     "gp_section_528781133949699024",
     "gp_section_528781133983253456",
-    "gp_section_528781134234911696",
-    "gp_section_528781134218134480",
-    "gp_section_528781134033585104",
-    "gp_section_528781134167802832",
-    "gp_section_528781134100693968",
     "gp_section_528781134134248400"
   ]
 }
