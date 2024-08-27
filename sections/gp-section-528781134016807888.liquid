@@ -24,51 +24,26 @@
     {%- assign gpBkProduct = product -%}
     
         {%- liquid
-          if request.page_type == 'product'
-            if 'static' == 'static'
-              if '8711754547414' == 'latest'
-                paginate collections.all.products by 100000
-                  assign product = collections.all.products | sort: 'created_at' | reverse | first
-                endpaginate
-              else
-                assign product = all_products['vacuum-sealer-kit']
-                if product == empty or product == null
-                  paginate collections.all.products by 100000
-                    for item in collections.all.products
-                      if item.id == '8711754547414'
-                        assign product = item
-                      endif
-                    endfor
-                  endpaginate
-                endif
-              endif
-            endif
-          else
-            if '8711754547414' == 'latest'
+          if request.page_type != 'product'
+            assign product = all_products['vacuum-sealer-kit']
+            if product == empty or product == null
               paginate collections.all.products by 100000
-                assign product = collections.all.products | sort: 'created_at'| reverse | first
+                for item in collections.all.products
+                  if item.id == '8711754547414'
+                    assign product = item
+                  endif
+                endfor
               endpaginate
-            else
-              assign product = all_products['vacuum-sealer-kit']
-              if product == empty or product == null
-                paginate collections.all.products by 100000
-                  for item in collections.all.products
-                    if item.id == '8711754547414'
-                      assign product = item
-                    endif
-                  endfor
-                endpaginate
-              endif
             endif
           endif
         -%}
-      
+        
 
     {%-if product != empty and product != null -%}
-      {%- assign initVariantId =  -%}
+      {%- assign initVariantId = 46098876563670 -%}
       {%- assign product_form_id = 'product-form-' | append: "gPnFIy2pjL" -%}
-      {%- assign variant = product.selected_or_first_available_variant -%}
-      {%- assign productSelectedVariant = product.selected_or_first_available_variant -%}
+      {%- assign variant = product.variants | where: 'id', initVariantId | first -%}
+      {%- assign productSelectedVariant = product.variants | where: 'id', initVariantId | first -%}
       {%-if productSelectedVariant == empty or productSelectedVariant == null -%}
         {%- assign productSelectedVariant = product.selected_or_first_available_variant -%}
       {%- endif -%}
