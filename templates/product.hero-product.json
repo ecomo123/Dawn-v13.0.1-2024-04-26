@@ -69,13 +69,10 @@
           "settings": {
             "layout": "horizontal",
             "icon_1": "none",
-            "image_1": "shopify:\/\/shop_images\/Shipium.png",
             "heading_1": "Free Shipping",
             "icon_2": "none",
-            "image_2": "shopify:\/\/shop_images\/security.png",
             "heading_2": "Secure Payment",
             "icon_3": "none",
-            "image_3": "shopify:\/\/shop_images\/client.png",
             "heading_3": "Premium Service"
           }
         }
@@ -131,7 +128,7 @@
         "text_7jjRxD"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/15.png",
+        "image": "shopify:\/\/shop_images\/wallc_2.webp",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -152,7 +149,6 @@
         "column_q6ErJh": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Untitled_design_12.png",
             "title": "Fast Charging",
             "text": "",
             "link_label": "",
@@ -162,7 +158,6 @@
         "column_c8wU9Y": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Protection_V.png",
             "title": "Overcharge Protection",
             "text": "",
             "link_label": "",
@@ -172,7 +167,6 @@
         "column_tFxrRg": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/vehicle.png",
             "title": "Multi-vehicle Compatibility",
             "text": "",
             "link_label": "",
@@ -182,7 +176,6 @@
         "column_RxYwXd": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Over-Temp.png",
             "title": "Over-temp Protection",
             "text": "",
             "link_label": "",
@@ -223,7 +216,7 @@
         "row_H7QpCp": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/21.png",
+            "image": "shopify:\/\/shop_images\/wallc_5.jpg",
             "caption": "",
             "heading": "<strong>High-Quality Flex-Cable<\/strong>",
             "text": "<p>Experience flexible, reliable charging with our premium-grade cable. Designed for durability and safety, it's the perfect companion for your charging needs.<\/p>",
@@ -234,21 +227,10 @@
         "row_MaxhLV": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Add_a_little_bit_of_body_text.png",
+            "image": "shopify:\/\/shop_images\/wallc_6.jpg",
             "caption": "",
             "heading": "<strong>Energizing Connections, Everywhere<\/strong>",
             "text": "<p>Journey with confidence using our Charger. Crafted for convenience and trustworthiness, it ensures seamless connectivity for you and your devices while on the go. Enjoy rapid, simultaneous charging for all passengers, guaranteeing no interruptions to your journey. Wherever you roam, stay powered with us<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "row_Hd8Nkm": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/19.png",
-            "caption": "",
-            "heading": "<strong>Swift, Battery-Friendly Charging<\/strong>",
-            "text": "<p>Experience fast, safe charging with our smart-compatible cable.<\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -256,8 +238,7 @@
       },
       "block_order": [
         "row_H7QpCp",
-        "row_MaxhLV",
-        "row_Hd8Nkm"
+        "row_MaxhLV"
       ],
       "settings": {
         "image_height": "adapt",
@@ -281,7 +262,6 @@
         "column_thWq7x": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/security.png",
             "title": "SECURE PAYMENT",
             "text": "<p>Reliable Transactions<\/p>",
             "link_label": "",
@@ -291,7 +271,6 @@
         "column_eX7jCU": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Shipium.png",
             "title": "FREE SHIPPING",
             "text": "<p>For All Orders<\/p>",
             "link_label": "",
@@ -301,7 +280,6 @@
         "column_VXgKxd": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/guaranted.png",
             "title": "30 DAYS MONEY BACK",
             "text": "<p>Free Returns<\/p>",
             "link_label": "",
@@ -311,7 +289,6 @@
         "column_RPhEYJ": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/client.png",
             "title": "PREMIUM SERVICE",
             "text": "<p>Lifetime Customer Support<\/p>",
             "link_label": "",
