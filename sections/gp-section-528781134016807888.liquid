@@ -2221,7 +2221,7 @@
         data-disabled="{%- if available -%} false {%- else -%} true {%- endif -%}"
         data-price="false"
         class="quantityClass gp-relative gp-inline-flex gp-w-full gp-bg-transparent gp-transition-all gp-duration-150 data-[disabled=true]:gp-opacity-60 "
-        style="--h:50px;--jc:left"
+        style="--h:50px;--h-mobile:40px;--jc:left"
       >
 
       
@@ -2250,7 +2250,7 @@
           name="product-quantity"
           {% if available == false %} disabled {% endif %}
           class="gp-border-g-line-2 hover:gp-border-g-line-3 gp-bg-g-bg-3 gp-text-g-text-2 gp-g-paragraph-2 !gp-border-x-0 gp-px-4 gp-flex gp-shadow-none gp-appearance-none gp-items-center gp-border-y gp-text-center gp-outline-none gp-transition-all gp-duration-150 hover:gp-text-black disabled:gp-pointer-events-none gp-h-auto gp-rounded-none gp-shrink-[99999] gp-w-full gp-min-w-[45px]"
-          style="--maxw:40px;--maxw-tablet:50px;--maxw-mobile:50px;--c:var(--g-c-text-2, text-2);--bg:var(--g-c-bg-3, bg-3);--bs:solid;--hvr-bs:solid;--bw:1px 1px 1px 1px;--hvr-bw:1px 1px 1px 1px;--bc:var(--g-c-line-2, line-2);--hvr-bc:var(--g-c-line-3, line-3)"
+          style="--maxw:40px;--maxw-tablet:50px;--maxw-mobile:20px;--c:var(--g-c-text-2, text-2);--bg:var(--g-c-bg-3, bg-3);--bs:solid;--hvr-bs:solid;--bw:1px 1px 1px 1px;--hvr-bw:1px 1px 1px 1px;--bc:var(--g-c-line-2, line-2);--hvr-bc:var(--g-c-line-3, line-3)"
           aria-label="Quantity"
           inputmode="numeric"
           min="{{ current_variant.quantity_rule.min }}"
@@ -2306,7 +2306,7 @@
   <gp-button >
   <div
     
-    style="--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--border:[object Object];--shadow:none;--boxShadow:[object Object];--d:block;--d-mobile:block;--d-tablet:block;--hasBoxShadow:[object Object];--op:100%;--op-mobile:100%;--op-tablet:100%;--rounded:[object Object];--mb-mobile:10px;--mb-tablet:16px;--ta:left"
+    style="--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--border:[object Object];--shadow:none;--boxShadow:[object Object];--d:block;--d-mobile:block;--d-tablet:block;--hasBoxShadow:[object Object];--op:100%;--op-mobile:100%;--op-tablet:100%;--rounded:[object Object];--ml-mobile:var(--g-s-m);--mb-mobile:10px;--mb-tablet:16px;--ta:left"
     class="{% unless variant.available %} !gp-hidden {% endunless %}"
   >
     <style>
@@ -2407,7 +2407,7 @@
   <gp-button >
   <div
     
-    style="--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--border:[object Object];--shadow:none;--boxShadow:[object Object];--d:block;--d-mobile:block;--d-tablet:block;--hasBoxShadow:[object Object];--op:100%;--op-mobile:100%;--op-tablet:100%;--rounded:[object Object];--mb-mobile:10px;--mb-tablet:16px;--ta:left"
+    style="--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--border:[object Object];--shadow:none;--boxShadow:[object Object];--d:block;--d-mobile:block;--d-tablet:block;--hasBoxShadow:[object Object];--op:100%;--op-mobile:100%;--op-tablet:100%;--rounded:[object Object];--ml-mobile:var(--g-s-m);--mb-mobile:10px;--mb-tablet:16px;--ta:left"
     class="{% if variant.available %} !gp-hidden {% endif %}"
   >
     <style>
