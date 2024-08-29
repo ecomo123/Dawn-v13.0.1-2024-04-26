@@ -75,13 +75,10 @@
           "settings": {
             "layout": "horizontal",
             "icon_1": "none",
-            "image_1": "shopify:\/\/shop_images\/Shipium.png",
             "heading_1": "Free Shipping",
             "icon_2": "none",
-            "image_2": "shopify:\/\/shop_images\/security.png",
             "heading_2": "Secure Payment",
             "icon_3": "none",
-            "image_3": "shopify:\/\/shop_images\/client.png",
             "heading_3": "Premium Service"
           }
         }
@@ -138,7 +135,7 @@
         "text_7jjRxD"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/imagination.gif",
+        "image": "shopify:\/\/shop_images\/magnetic_11.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -159,7 +156,6 @@
         "row_H7QpCp": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/10Transform.png",
             "caption": "",
             "heading": "Build, Transform, and Explore",
             "text": "<p>Experience engineering and creativity with our Magnetic Transform Engineering Car Toys. These versatile toys offer endless building and transforming possibilities, delivering hours of fun and educational play for all ages. Let imagination take the wheel!<\/p>",
@@ -170,7 +166,6 @@
         "row_MaxhLV": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/brain.gif",
             "caption": "",
             "heading": "<strong>Foster Cognitive Growth<\/strong>",
             "text": "<p>Encourage brain development with limitless opportunities for innovation and play.<\/p>",
@@ -182,7 +177,6 @@
           "type": "row",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/callus-pads.jpg",
             "caption": "",
             "heading": "<strong>Effortless exfoliation!<\/strong>",
             "text": "<p> With <strong>60 <\/strong>replaceable discs, this electric foot scrubber lets you simply attach a new one and enjoy powerful results for touchably soft feet.<\/p>",
@@ -194,7 +188,6 @@
           "type": "row",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/callus-function.png",
             "caption": "",
             "heading": "No batteries required",
             "text": "<p>Simply plug this electric callus remover in for powerful results. The compact and lightweight design makes it perfect for taking with you wherever you go, so you can maintain smooth feet on the go.<\/p>",
@@ -231,7 +224,6 @@
         "column_tKd8Uq": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/9Transform.png",
             "title": "<strong>✅ Safe Material<\/strong>",
             "text": "<p>Made from safe ABS material with smooth edges for a secure and comfortable play experience.<\/p>",
             "link_label": "",
@@ -241,7 +233,6 @@
         "column_Gjjyh3": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/3Transform.png",
             "title": "<strong>✅ Magnetic Assembly:<\/strong> ",
             "text": "<p>Easily snap together magnetic pieces for quick assembly and disassembly, enhancing fine motor skills and problem-solving abilities.<\/p>",
             "link_label": "",
@@ -251,7 +242,6 @@
         "column_qgLqXB": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/13Transform.png",
             "title": "<strong>✅ Portable Storage<\/strong>",
             "text": "<p>Features a handy storage box for effortless transportation and organization, perfect for travel or home play<\/p>",
             "link_label": "",
@@ -287,7 +277,6 @@
         "column_thWq7x": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/security.png",
             "title": "SECURE PAYMENT",
             "text": "<p>Reliable Transactions<\/p>",
             "link_label": "",
@@ -297,7 +286,6 @@
         "column_eX7jCU": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Shipium.png",
             "title": "FREE SHIPPING",
             "text": "<p>For All Orders<\/p>",
             "link_label": "",
@@ -307,7 +295,6 @@
         "column_VXgKxd": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/guaranted.png",
             "title": "30 DAYS MONEY BACK",
             "text": "<p>Free Returns<\/p>",
             "link_label": "",
@@ -317,7 +304,6 @@
         "column_RPhEYJ": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/client.png",
             "title": "PREMIUM SERVICE",
             "text": "<p>Lifetime Customer Support<\/p>",
             "link_label": "",
