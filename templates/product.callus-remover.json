@@ -75,13 +75,10 @@
           "settings": {
             "layout": "horizontal",
             "icon_1": "none",
-            "image_1": "shopify:\/\/shop_images\/Shipium.png",
             "heading_1": "Free Shipping",
             "icon_2": "none",
-            "image_2": "shopify:\/\/shop_images\/security.png",
             "heading_2": "Secure Payment",
             "icon_3": "none",
-            "image_3": "shopify:\/\/shop_images\/client.png",
             "heading_3": "Premium Service"
           }
         }
@@ -138,7 +135,7 @@
         "text_7jjRxD"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/callus-video.gif",
+        "image": "shopify:\/\/shop_images\/callus_8.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -159,7 +156,7 @@
         "row_H7QpCp": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Electric_Foot.png",
+            "image": "shopify:\/\/shop_images\/callus_14.png",
             "caption": "",
             "heading": "<strong>Wave goodbye to rough feet!<\/strong>",
             "text": "<p>This handy electric foot sander helps you buff away dry skin and show off smoother, healthier-looking feet with regular use. Just remember, it's best for daily maintenance and might not be strong enough for super thick calluses or corns.<\/p>",
@@ -170,7 +167,7 @@
         "row_MaxhLV": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Table.png",
+            "image": "shopify:\/\/shop_images\/callus_15.png",
             "caption": "",
             "heading": "<strong>Smooth Feet Made Easy<\/strong>",
             "text": "<p>Removes dead, hard & dry skin - tackles most calluses<\/p>",
@@ -181,7 +178,7 @@
         "row_VCbVfU": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/callus-pads.jpg",
+            "image": "shopify:\/\/shop_images\/callus_13.png",
             "caption": "",
             "heading": "<strong>Effortless exfoliation!<\/strong>",
             "text": "<p> With <strong>60 <\/strong>replaceable discs, this electric foot scrubber lets you simply attach a new one and enjoy powerful results for touchably soft feet.<\/p>",
@@ -192,7 +189,7 @@
         "row_Hd8Nkm": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/callus-function.png",
+            "image": "shopify:\/\/shop_images\/callus_16.png",
             "caption": "",
             "heading": "No batteries required",
             "text": "<p>Simply plug this electric callus remover in for powerful results. The compact and lightweight design makes it perfect for taking with you wherever you go, so you can maintain smooth feet on the go.<\/p>",
@@ -229,7 +226,6 @@
         "column_thWq7x": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/security.png",
             "title": "SECURE PAYMENT",
             "text": "<p>Reliable Transactions<\/p>",
             "link_label": "",
@@ -239,7 +235,6 @@
         "column_eX7jCU": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Shipium.png",
             "title": "FREE SHIPPING",
             "text": "<p>For All Orders<\/p>",
             "link_label": "",
@@ -249,7 +244,6 @@
         "column_VXgKxd": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/guaranted.png",
             "title": "30 DAYS MONEY BACK",
             "text": "<p>Free Returns<\/p>",
             "link_label": "",
@@ -259,7 +253,6 @@
         "column_RPhEYJ": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/client.png",
             "title": "PREMIUM SERVICE",
             "text": "<p>Lifetime Customer Support<\/p>",
             "link_label": "",
