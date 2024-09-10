@@ -172,7 +172,7 @@
           "stop_shopify_rate": false,
           "dev_mode": false,
           "beta_version": false,
-          "custom_code": "<script>\n  window.mu_sticky_atc_selector = `.gp-product-button`;\n<\/script>"
+          "custom_code": "<script>\n  window.mu_sticky_atc_selector = `.gp-product-button`;\n<\/script>\n<script>\n  document.addEventListener(\"DOMContentLoaded\", () => {\n    var atc_btns = document.querySelectorAll('gp-product-button .gp-button-base');\n    atc_btns.forEach((atc_btn) => {\n      atc_btn.onclick=() => {\n        let atc_observer = new MutationObserver(() => {\n          let loading = !!atc_btn.getAttribute('data-state')?.includes('loading');\n          if(!loading) {\n            atc_observer.disconnect();\n            if(window.openCart) monster_refresh();\n          }\n        });\n        atc_observer.observe(atc_btn, { attributes: true, characterData: true });\n      }\n    });\n  });\n<\/script>"
         }
       }
     },
