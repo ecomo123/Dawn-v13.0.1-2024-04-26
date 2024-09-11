@@ -2355,7 +2355,7 @@
     -%}
     <gp-product-button
       class="gp-product-button"
-      gp-data='{"setting":{"actionEffect":"continue-shopping","errorMessage":"Cannot add product to cart","successMessage":"Add product to cart successfully","enableSuccessMessage":true,"enableErrorMessage":true,"label":"Add to cart","outOfStockLabel":"Out of stock","errorType":"built-in","customURL":{"link":"/cart","target":"_self"}},"styles":{"errorTypo":{"attrs":{"color":"error"},"type":"paragraph-2"},"successTypo":{"attrs":{"color":"success"},"type":"paragraph-2"}},"disabled":"{{variant.available}}","variantID":"{{variant.id}}","totalVariant":"{{product.variants.size}}"}' 
+      gp-data='{"setting":{"actionEffect":"continue-shopping","errorMessage":"Cannot add product to cart","successMessage":"hello Add product to cart successfully","enableSuccessMessage":true,"enableErrorMessage":true,"label":"Add to cart","outOfStockLabel":"Out of stock","errorType":"built-in","customURL":{"link":"/cart","target":"_self"}},"styles":{"errorTypo":{"attrs":{"color":"error"},"type":"paragraph-2"},"successTypo":{"attrs":{"color":"success"},"type":"paragraph-2"}},"disabled":"{{variant.available}}","variantID":"{{variant.id}}","totalVariant":"{{product.variants.size}}"}' 
        gp-href="{{ request.origin }}{{ routes.root_url | split: '/' | join: '/' }}/cart"
     >
         
