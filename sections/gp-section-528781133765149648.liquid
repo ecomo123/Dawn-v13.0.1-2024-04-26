@@ -20,7 +20,7 @@
       class="gbD5MD2xpk gp-relative gp-flex gp-flex-col"
     >
       
-    <script {% if section.settings.section_preload == "false" %}class="gps-link" delay {% else %}src{% endif %}="https://d2ls1pfffhvy22.cloudfront.net/assets-v2/gp-product.v2.js?v={{ shop.metafields.GEMPAGES.ASSETS_VERSION }}" defer="defer"></script>
+    
     {%- assign gpBkProduct = product -%}
     
         {%- liquid
@@ -75,8 +75,8 @@
       {%-if variant == empty or variant == null -%}
         {%- assign variant = product.selected_or_first_available_variant -%}
       {%- endif -%}
-      <gp-product data-uid="gzI2_lsMJ_"  gp-context='{"productId": {{ product.id }}, "isSyncProduct": "", "variantSelected": {{ variant | json | escape }}, "quantity": 1, "formId": "{{ product_form_id }}" }'
-        gp-data='{"variantSelected": {{ variant | json | escape }}, "quantity": 1}'>
+      <gp-product data-uid="gzI2_lsMJ_"   gp-context='{"productId": {{ product.id }}, "isSyncProduct": "", "variantSelected": {{ variant | json | escape }}, "quantity": 1, "formId": "{{ product_form_id }}" }'
+        gp-data='{"variantSelected": {{ variant | json | escape }}, "quantity": 1, "productUrl":{{ product.url | json | escape }}, "productHandle":{{ product.handle | json | escape }}, "collectionUrl": {{ collection.url | json | escape }}, "collectionHandle": {{ collection.handle | json | escape }}}'>
         <product-form class="product-form">
           {%- form 'product', product, id: product_form_id, class: 'form contents', data-type: 'add-to-cart-form', autocomplete: 'off'  -%}
             <input type="hidden" name="id" value="{{ variant.id }}" />
@@ -157,7 +157,7 @@
     
     role="presentation"
     class="gp-group/image gofHCnDrYP"
-    style="--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--border:[object Object];--rounded:[object Object];--hasBoxShadow:[object Object];--shadow:none;--boxShadow:[object Object];--op:100%;--ta:center"
+    style="--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--border:[object Object];--shadow:none;--boxShadow:[object Object];--d:block;--d-mobile:block;--d-tablet:block;--hasBoxShadow:[object Object];--op:100%;--rounded:[object Object];--ta:center"
     >
       <div
         class="pointer-events-auto h-full"
@@ -492,7 +492,7 @@
   <gp-button >
   <div
     
-    style="--mb:var(--g-s-3xl);--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--border:[object Object];--rounded:[object Object];--hasBoxShadow:[object Object];--shadow:none;--boxShadow:[object Object];--op:100%;--ta:left"
+    style="--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--border:[object Object];--shadow:none;--boxShadow:[object Object];--d:block;--d-mobile:block;--d-tablet:block;--hasBoxShadow:[object Object];--op:100%;--rounded:[object Object];--mb:var(--g-s-3xl);--ta:left"
     
   >
     <style>
@@ -548,14 +548,15 @@
       
       data-state="idle"
       class="gGlkhx4lBP gp-button-base gp-rounded-none gp-max-w-full gp-relative gp-group gp-inline-flex gp-items-center gp-justify-center gp-no-underline gp-transition-colors gp-duration-300 disabled:gp-btn-disabled disabled:gp-opacity-30 disabled:gp-pointer-events-none gp-text-g-text-3 gp-text-center gp-g-paragraph-1"
-      style="--bg:#473FA8;--hvr-bg:#473FA8;--bblr:32px;--bbrr:32px;--btlr:32px;--btrr:32px;--shadow:none;--w:100%;--w-tablet:100%;--w-mobile:100%;--h:Auto;--h-tablet:Auto;--h-mobile:Auto;--pl:24px;--pr:24px;--pt:8px;--pb:8px;--c:var(--g-c-text-3, text-3)"
+      style="--hvr-bg:#473FA8;--bg:#473FA8;--bblr:32px;--bbrr:32px;--btlr:32px;--btrr:32px;--shadow:none;--w:100%;--w-tablet:100%;--w-mobile:100%;--h:Auto;--h-tablet:Auto;--h-mobile:Auto;--pl:24px;--pr:24px;--pt:8px;--pb:8px;--c:var(--g-c-text-3, text-3)"
     >
       
     <div
     class="gp-inline-flex">
     
       <span
-        class="gp-break-words group-data-[state=loading]:gp-invisible [&_p]:gp-whitespace-pre-line gp-z-1 gp-h-full gp-flex gp-items-center gp-overflow-hidden gp-g-paragraph-1
+        data-gp-text
+        class="gp-button-text-only gp-break-words group-data-[state=loading]:gp-invisible [&_p]:gp-whitespace-pre-line gp-z-1 gp-h-full gp-flex gp-items-center gp-overflow-hidden gp-g-paragraph-1
         "
         
       >
@@ -755,6 +756,7 @@
     {% else %}
       <div class="gp-text-center">{{ "gempages.Product.product_not_found" | t }}</div>
     {%- endif -%}
+     <script {% if section.settings.section_preload == "false" %}class="gps-link" delay {% else %}src{% endif %}="https://d2ls1pfffhvy22.cloudfront.net/assets-v2/gp-product.v2.js?v={{ shop.metafields.GEMPAGES.ASSETS_VERSION }}" defer="defer"></script>
   
     </div>
     </div>

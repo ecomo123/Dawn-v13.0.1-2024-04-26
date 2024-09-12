@@ -20,7 +20,7 @@
       class="gxHhBo8jsb gp-relative gp-flex gp-flex-col"
     >
       
-    <script {% if section.settings.section_preload == "false" %}class="gps-link" delay {% else %}src{% endif %}="https://d2ls1pfffhvy22.cloudfront.net/assets-v2/gp-product.v2.js?v={{ shop.metafields.GEMPAGES.ASSETS_VERSION }}" defer="defer"></script>
+    
     {%- assign gpBkProduct = product -%}
     
         {%- liquid
@@ -75,8 +75,8 @@
       {%-if variant == empty or variant == null -%}
         {%- assign variant = product.selected_or_first_available_variant -%}
       {%- endif -%}
-      <gp-product data-uid="g3SLVPiX24"  gp-context='{"productId": {{ product.id }}, "isSyncProduct": "", "variantSelected": {{ variant | json | escape }}, "quantity": 1, "formId": "{{ product_form_id }}" }'
-        gp-data='{"variantSelected": {{ variant | json | escape }}, "quantity": 1}'>
+      <gp-product data-uid="g3SLVPiX24"   gp-context='{"productId": {{ product.id }}, "isSyncProduct": "", "variantSelected": {{ variant | json | escape }}, "quantity": 1, "formId": "{{ product_form_id }}" }'
+        gp-data='{"variantSelected": {{ variant | json | escape }}, "quantity": 1, "productUrl":{{ product.url | json | escape }}, "productHandle":{{ product.handle | json | escape }}, "collectionUrl": {{ collection.url | json | escape }}, "collectionHandle": {{ collection.handle | json | escape }}}'>
         <product-form class="product-form">
           {%- form 'product', product, id: product_form_id, class: 'form contents', data-type: 'add-to-cart-form', autocomplete: 'off'  -%}
             <input type="hidden" name="id" value="{{ variant.id }}" />
@@ -144,11 +144,11 @@
       
     <div
       parentTag="Col" id="gL2x-D55e5"
-        style="--mb:var(--g-s-3xl);--mb-mobile:var(--g-s-l);--pt-mobile:var(--g-s-m);--pl-mobile:var(--g-s-m);--pb-mobile:var(--g-s-m);--pr-mobile:var(--g-s-m);--d:grid;--d-tablet:grid;--d-mobile:grid;--bs:none;--bs-mobile:dashed;--bw:1px 1px 1px 1px;--bw-mobile:4px 4px 4px 4px;--bc:#121212;--bc-mobile:#00539E;--border:[object Object];--border-mobile:[object Object];--bblr-mobile:16px;--bbrr-mobile:16px;--btlr-mobile:16px;--btrr-mobile:16px;--rounded:[object Object];--rounded-mobile:[object Object];--hasBoxShadow:[object Object];--shadow:none;--boxShadow:[object Object];--op:100%;--cg:8px;--pc:start;--gtc:minmax(0, 12fr);--w:var(--g-ct-w, 1200px);--w-tablet:var(--g-ct-w, 100%);--w-mobile:var(--g-ct-w, 100%);--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        style="--bs:none;--bs-mobile:dashed;--bw:1px 1px 1px 1px;--bw-mobile:4px 4px 4px 4px;--bc:#121212;--bc-mobile:#00539E;--border:[object Object];--border-mobile:[object Object];--shadow:none;--boxShadow:[object Object];--d:grid;--d-mobile:grid;--d-tablet:grid;--hasBoxShadow:[object Object];--op:100%;--bblr-mobile:16px;--bbrr-mobile:16px;--btlr-mobile:16px;--btrr-mobile:16px;--rounded:[object Object];--rounded-mobile:[object Object];--mb:var(--g-s-3xl);--mb-mobile:var(--g-s-l);--pt-mobile:var(--g-s-m);--pl-mobile:var(--g-s-m);--pb-mobile:var(--g-s-m);--pr-mobile:var(--g-s-m);--cg:8px;--pc:start;--gtc:minmax(0, 12fr);--w:var(--g-ct-w, 1200px);--w-tablet:var(--g-ct-w, 100%);--w-mobile:var(--g-ct-w, 100%);--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
         class="gL2x-D55e5 gp-mx-auto gp-mb-0 gp-grid gp-max-w-full gp-gap-y-0 gp-transition-colors gp-duration-200 gp-ease-in-out [&_*]:gp-max-w-full"
     >
     <div
-      tag="Col" label="Block" type="component"
+      label="Block" tag="Col" type="component"
       style="--jc:start"
       class="gRD7lsG0Nu gp-relative gp-flex gp-flex-col"
     >
@@ -157,11 +157,11 @@
       
     <div
       parentTag="Col" id="gTYtzsRJ8F"
-        style="--mt-mobile:10px;--pl-mobile:var(--g-s-m);--d:grid;--d-tablet:grid;--d-mobile:grid;--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--border:[object Object];--rounded:[object Object];--hasBoxShadow:[object Object];--shadow:none;--boxShadow:[object Object];--op:100%;--cg:8px;--pc:start;--gtc:minmax(0, 6fr) minmax(0, 6fr);--gtc-mobile:minmax(0, auto) minmax(0, auto);--w:var(--g-ct-w, 1200px);--w-tablet:var(--g-ct-w, 100%);--w-mobile:var(--g-ct-w, 100%);--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        style="--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--border:[object Object];--shadow:none;--boxShadow:[object Object];--d:grid;--d-mobile:grid;--d-tablet:grid;--hasBoxShadow:[object Object];--op:100%;--rounded:[object Object];--mt-mobile:10px;--pl-mobile:var(--g-s-m);--cg:8px;--pc:start;--gtc:minmax(0, 6fr) minmax(0, 6fr);--gtc-mobile:minmax(0, auto) minmax(0, auto);--w:var(--g-ct-w, 1200px);--w-tablet:var(--g-ct-w, 100%);--w-mobile:var(--g-ct-w, 100%);--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
         class="gTYtzsRJ8F gp-mx-auto gp-mb-0 gp-grid gp-max-w-full gp-gap-y-0 gp-transition-colors gp-duration-200 gp-ease-in-out [&_*]:gp-max-w-full"
     >
     <div
-      tag="Col" label="Block" type="component"
+      label="Block" tag="Col" type="component"
       style="--jc:start"
       class="gmg7Gb7yl5 gp-relative gp-flex gp-flex-col"
     >
@@ -211,7 +211,7 @@
       </div>
   </div>
     </div><div
-      tag="Col" label="Block" type="component"
+      label="Block" tag="Col" type="component"
       style="--jc:start"
       class="g45IgRRjgQ gp-relative gp-flex gp-flex-col"
     >
@@ -256,11 +256,11 @@
       
     <div
       parentTag="Col" id="gEdsXoU6Ql"
-        style="--mb:var(--g-s-3xl);--mt-mobile:var(--g-s-xl);--mb-mobile:var(--g-s-s);--pt-mobile:var(--g-s-m);--pl-mobile:var(--g-s-m);--pb-mobile:var(--g-s-m);--pr-mobile:var(--g-s-m);--d:grid;--d-tablet:grid;--d-mobile:grid;--bs:none;--bs-mobile:dashed;--bw:1px 1px 1px 1px;--bw-mobile:4px 4px 4px 4px;--bc:#121212;--bc-mobile:#00539E;--border:[object Object];--border-mobile:[object Object];--bblr-mobile:16px;--bbrr-mobile:16px;--btlr-mobile:16px;--btrr-mobile:16px;--rounded:[object Object];--rounded-mobile:[object Object];--hasBoxShadow:[object Object];--shadow:none;--boxShadow:[object Object];--op:100%;--cg:8px;--pc:start;--gtc:minmax(0, 12fr);--w:var(--g-ct-w, 1200px);--w-tablet:var(--g-ct-w, 100%);--w-mobile:var(--g-ct-w, 100%);--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        style="--bs:none;--bs-mobile:dashed;--bw:1px 1px 1px 1px;--bw-mobile:4px 4px 4px 4px;--bc:#121212;--bc-mobile:#00539E;--border:[object Object];--border-mobile:[object Object];--shadow:none;--boxShadow:[object Object];--d:grid;--d-mobile:grid;--d-tablet:grid;--hasBoxShadow:[object Object];--op:100%;--bblr-mobile:16px;--bbrr-mobile:16px;--btlr-mobile:16px;--btrr-mobile:16px;--rounded:[object Object];--rounded-mobile:[object Object];--mb:var(--g-s-3xl);--mt-mobile:var(--g-s-xl);--mb-mobile:var(--g-s-s);--pt-mobile:var(--g-s-m);--pl-mobile:var(--g-s-m);--pb-mobile:var(--g-s-m);--pr-mobile:var(--g-s-m);--cg:8px;--pc:start;--gtc:minmax(0, 12fr);--w:var(--g-ct-w, 1200px);--w-tablet:var(--g-ct-w, 100%);--w-mobile:var(--g-ct-w, 100%);--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
         class="gEdsXoU6Ql gp-mx-auto gp-mb-0 gp-grid gp-max-w-full gp-gap-y-0 gp-transition-colors gp-duration-200 gp-ease-in-out [&_*]:gp-max-w-full"
     >
     <div
-      tag="Col" label="Block" type="component"
+      label="Block" tag="Col" type="component"
       style="--jc:start"
       class="g3FWP5Zr6R gp-relative gp-flex gp-flex-col"
     >
@@ -269,11 +269,11 @@
       
     <div
       parentTag="Col" id="gFRTx7GjJr"
-        style="--pl-mobile:var(--g-s-m);--d:grid;--d-tablet:grid;--d-mobile:grid;--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--border:[object Object];--rounded:[object Object];--hasBoxShadow:[object Object];--shadow:none;--boxShadow:[object Object];--op:100%;--cg:8px;--pc:start;--gtc:minmax(0, 6fr) minmax(0, 6fr);--gtc-mobile:minmax(0, auto) minmax(0, auto);--w:var(--g-ct-w, 1200px);--w-tablet:var(--g-ct-w, 100%);--w-mobile:var(--g-ct-w, 100%);--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        style="--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--border:[object Object];--shadow:none;--boxShadow:[object Object];--d:grid;--d-mobile:grid;--d-tablet:grid;--hasBoxShadow:[object Object];--op:100%;--rounded:[object Object];--pl-mobile:var(--g-s-m);--cg:8px;--pc:start;--gtc:minmax(0, 6fr) minmax(0, 6fr);--gtc-mobile:minmax(0, auto) minmax(0, auto);--w:var(--g-ct-w, 1200px);--w-tablet:var(--g-ct-w, 100%);--w-mobile:var(--g-ct-w, 100%);--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
         class="gFRTx7GjJr gp-mx-auto gp-mb-0 gp-grid gp-max-w-full gp-gap-y-0 gp-transition-colors gp-duration-200 gp-ease-in-out [&_*]:gp-max-w-full"
     >
     <div
-      tag="Col" label="Block" type="component"
+      label="Block" tag="Col" type="component"
       style="--jc:start"
       class="g-DM8CcIRm gp-relative gp-flex gp-flex-col"
     >
@@ -323,7 +323,7 @@
       </div>
   </div>
     </div><div
-      tag="Col" label="Block" type="component"
+      label="Block" tag="Col" type="component"
       style="--jc:start"
       class="gjbq-MPsCG gp-relative gp-flex gp-flex-col"
     >
@@ -368,11 +368,11 @@
       
     <div
       parentTag="Col" id="gDILGgA7WC"
-        style="--mb:var(--g-s-3xl);--mt-mobile:var(--g-s-xl);--mb-mobile:var(--g-s-s);--pt-mobile:var(--g-s-m);--pl-mobile:var(--g-s-m);--pb-mobile:var(--g-s-m);--pr-mobile:var(--g-s-m);--d:grid;--d-tablet:grid;--d-mobile:grid;--bs:none;--bs-mobile:dashed;--bw:1px 1px 1px 1px;--bw-mobile:4px 4px 4px 4px;--bc:#121212;--bc-mobile:#00539E;--border:[object Object];--border-mobile:[object Object];--bblr-mobile:16px;--bbrr-mobile:16px;--btlr-mobile:16px;--btrr-mobile:16px;--rounded:[object Object];--rounded-mobile:[object Object];--hasBoxShadow:[object Object];--shadow:none;--boxShadow:[object Object];--op:100%;--cg:8px;--pc:start;--gtc:minmax(0, 12fr);--w:var(--g-ct-w, 1200px);--w-tablet:var(--g-ct-w, 100%);--w-mobile:var(--g-ct-w, 100%);--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        style="--bs:none;--bs-mobile:dashed;--bw:1px 1px 1px 1px;--bw-mobile:4px 4px 4px 4px;--bc:#121212;--bc-mobile:#00539E;--border:[object Object];--border-mobile:[object Object];--shadow:none;--boxShadow:[object Object];--d:grid;--d-mobile:grid;--d-tablet:grid;--hasBoxShadow:[object Object];--op:100%;--bblr-mobile:16px;--bbrr-mobile:16px;--btlr-mobile:16px;--btrr-mobile:16px;--rounded:[object Object];--rounded-mobile:[object Object];--mb:var(--g-s-3xl);--mt-mobile:var(--g-s-xl);--mb-mobile:var(--g-s-s);--pt-mobile:var(--g-s-m);--pl-mobile:var(--g-s-m);--pb-mobile:var(--g-s-m);--pr-mobile:var(--g-s-m);--cg:8px;--pc:start;--gtc:minmax(0, 12fr);--w:var(--g-ct-w, 1200px);--w-tablet:var(--g-ct-w, 100%);--w-mobile:var(--g-ct-w, 100%);--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
         class="gDILGgA7WC gp-mx-auto gp-mb-0 gp-grid gp-max-w-full gp-gap-y-0 gp-transition-colors gp-duration-200 gp-ease-in-out [&_*]:gp-max-w-full"
     >
     <div
-      tag="Col" label="Block" type="component"
+      label="Block" tag="Col" type="component"
       style="--jc:start"
       class="g2IgtYyDwT gp-relative gp-flex gp-flex-col"
     >
@@ -381,11 +381,11 @@
       
     <div
       parentTag="Col" id="ge1Z-0yYgC"
-        style="--pt-mobile:0px;--pl-mobile:0px;--pb-mobile:0px;--pr-mobile:0px;--d:grid;--d-tablet:grid;--d-mobile:grid;--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--border:[object Object];--rounded:[object Object];--hasBoxShadow:[object Object];--shadow:none;--boxShadow:[object Object];--op:100%;--cg:8px;--pc:start;--gtc:minmax(0, 6fr) minmax(0, 6fr);--gtc-mobile:minmax(0, auto) minmax(0, auto);--w:var(--g-ct-w, 1200px);--w-tablet:var(--g-ct-w, 100%);--w-mobile:var(--g-ct-w, 100%);--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        style="--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--border:[object Object];--shadow:none;--boxShadow:[object Object];--d:grid;--d-mobile:grid;--d-tablet:grid;--hasBoxShadow:[object Object];--op:100%;--rounded:[object Object];--pt-mobile:0px;--pl-mobile:0px;--pb-mobile:0px;--pr-mobile:0px;--cg:8px;--pc:start;--gtc:minmax(0, 6fr) minmax(0, 6fr);--gtc-mobile:minmax(0, auto) minmax(0, auto);--w:var(--g-ct-w, 1200px);--w-tablet:var(--g-ct-w, 100%);--w-mobile:var(--g-ct-w, 100%);--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
         class="ge1Z-0yYgC gp-mx-auto gp-mb-0 gp-grid gp-max-w-full gp-gap-y-0 gp-transition-colors gp-duration-200 gp-ease-in-out [&_*]:gp-max-w-full"
     >
     <div
-      tag="Col" label="Block" type="component"
+      label="Block" tag="Col" type="component"
       style="--jc:start"
       class="gyQ209f6gG gp-relative gp-flex gp-flex-col"
     >
@@ -435,7 +435,7 @@
       </div>
   </div>
     </div><div
-      tag="Col" label="Block" type="component"
+      label="Block" tag="Col" type="component"
       style="--jc:start"
       class="guASPqiUlB gp-relative gp-flex gp-flex-col"
     >
@@ -480,11 +480,11 @@
       
     <div
       parentTag="Col" id="gsZ8Ors7S6"
-        style="--mb:var(--g-s-3xl);--mt-mobile:var(--g-s-xl);--mb-mobile:var(--g-s-l);--pt-mobile:var(--g-s-m);--pl-mobile:var(--g-s-m);--pb-mobile:var(--g-s-m);--pr-mobile:var(--g-s-m);--d:grid;--d-tablet:grid;--d-mobile:grid;--bs:none;--bs-mobile:dashed;--bw:1px 1px 1px 1px;--bw-mobile:4px 4px 4px 4px;--bc:#121212;--bc-mobile:#00539E;--border:[object Object];--border-mobile:[object Object];--bblr-mobile:16px;--bbrr-mobile:16px;--btlr-mobile:16px;--btrr-mobile:16px;--rounded:[object Object];--rounded-mobile:[object Object];--hasBoxShadow:[object Object];--shadow:none;--boxShadow:[object Object];--op:100%;--cg:8px;--pc:start;--gtc:minmax(0, 12fr);--w:var(--g-ct-w, 1200px);--w-tablet:var(--g-ct-w, 100%);--w-mobile:var(--g-ct-w, 100%);--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        style="--bs:none;--bs-mobile:dashed;--bw:1px 1px 1px 1px;--bw-mobile:4px 4px 4px 4px;--bc:#121212;--bc-mobile:#00539E;--border:[object Object];--border-mobile:[object Object];--shadow:none;--boxShadow:[object Object];--d:grid;--d-mobile:grid;--d-tablet:grid;--hasBoxShadow:[object Object];--op:100%;--bblr-mobile:16px;--bbrr-mobile:16px;--btlr-mobile:16px;--btrr-mobile:16px;--rounded:[object Object];--rounded-mobile:[object Object];--mb:var(--g-s-3xl);--mt-mobile:var(--g-s-xl);--mb-mobile:var(--g-s-l);--pt-mobile:var(--g-s-m);--pl-mobile:var(--g-s-m);--pb-mobile:var(--g-s-m);--pr-mobile:var(--g-s-m);--cg:8px;--pc:start;--gtc:minmax(0, 12fr);--w:var(--g-ct-w, 1200px);--w-tablet:var(--g-ct-w, 100%);--w-mobile:var(--g-ct-w, 100%);--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
         class="gsZ8Ors7S6 gp-mx-auto gp-mb-0 gp-grid gp-max-w-full gp-gap-y-0 gp-transition-colors gp-duration-200 gp-ease-in-out [&_*]:gp-max-w-full"
     >
     <div
-      tag="Col" label="Block" type="component"
+      label="Block" tag="Col" type="component"
       style="--jc:start"
       class="gvcgbRCKHg gp-relative gp-flex gp-flex-col"
     >
@@ -493,11 +493,11 @@
       
     <div
       parentTag="Col" id="gzwOP2G9Az"
-        style="--pl-mobile:var(--g-s-m);--d:grid;--d-tablet:grid;--d-mobile:grid;--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--border:[object Object];--rounded:[object Object];--hasBoxShadow:[object Object];--shadow:none;--boxShadow:[object Object];--op:100%;--cg:8px;--pc:start;--gtc:minmax(0, 6fr) minmax(0, 6fr);--gtc-mobile:minmax(0, auto) minmax(0, auto);--w:var(--g-ct-w, 1200px);--w-tablet:var(--g-ct-w, 100%);--w-mobile:var(--g-ct-w, 100%);--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        style="--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--border:[object Object];--shadow:none;--boxShadow:[object Object];--d:grid;--d-mobile:grid;--d-tablet:grid;--hasBoxShadow:[object Object];--op:100%;--rounded:[object Object];--pl-mobile:var(--g-s-m);--cg:8px;--pc:start;--gtc:minmax(0, 6fr) minmax(0, 6fr);--gtc-mobile:minmax(0, auto) minmax(0, auto);--w:var(--g-ct-w, 1200px);--w-tablet:var(--g-ct-w, 100%);--w-mobile:var(--g-ct-w, 100%);--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
         class="gzwOP2G9Az gp-mx-auto gp-mb-0 gp-grid gp-max-w-full gp-gap-y-0 gp-transition-colors gp-duration-200 gp-ease-in-out [&_*]:gp-max-w-full"
     >
     <div
-      tag="Col" label="Block" type="component"
+      label="Block" tag="Col" type="component"
       style="--jc:start"
       class="guqjrYLm7R gp-relative gp-flex gp-flex-col"
     >
@@ -547,7 +547,7 @@
       </div>
   </div>
     </div><div
-      tag="Col" label="Block" type="component"
+      label="Block" tag="Col" type="component"
       style="--jc:start"
       class="gO-uMM3II3 gp-relative gp-flex gp-flex-col"
     >
@@ -597,7 +597,7 @@
     
     role="presentation"
     class="gp-group/image gZPr6fyIug"
-    style="--mt:var(--g-s-3xl);--mb:var(--g-s-xxs);--mt-mobile:var(--g-s-xs);--mb-mobile:var(--g-s-xxs);--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--border:[object Object];--rounded:[object Object];--hasBoxShadow:[object Object];--shadow:none;--boxShadow:[object Object];--op:100%;--ta:center"
+    style="--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--border:[object Object];--shadow:none;--boxShadow:[object Object];--d:block;--d-mobile:block;--d-tablet:block;--hasBoxShadow:[object Object];--op:100%;--rounded:[object Object];--mt:var(--g-s-3xl);--mb:var(--g-s-xxs);--mt-mobile:var(--g-s-xs);--mb-mobile:var(--g-s-xxs);--ta:center"
     >
       <div
         class="pointer-events-auto h-full"
@@ -653,6 +653,7 @@
     {% else %}
       <div class="gp-text-center">{{ "gempages.Product.product_not_found" | t }}</div>
     {%- endif -%}
+     <script {% if section.settings.section_preload == "false" %}class="gps-link" delay {% else %}src{% endif %}="https://d2ls1pfffhvy22.cloudfront.net/assets-v2/gp-product.v2.js?v={{ shop.metafields.GEMPAGES.ASSETS_VERSION }}" defer="defer"></script>
   
     </div>
     </div>

@@ -20,7 +20,7 @@
       class="gWcu38MkW9 gp-relative gp-flex gp-flex-col"
     >
       
-    <script {% if section.settings.section_preload == "false" %}class="gps-link" delay {% else %}src{% endif %}="https://d2ls1pfffhvy22.cloudfront.net/assets-v2/gp-product.v2.js?v={{ shop.metafields.GEMPAGES.ASSETS_VERSION }}" defer="defer"></script>
+    
     {%- assign gpBkProduct = product -%}
     
         {%- liquid
@@ -50,8 +50,8 @@
       {%-if variant == empty or variant == null -%}
         {%- assign variant = product.selected_or_first_available_variant -%}
       {%- endif -%}
-      <gp-product data-uid="gPnFIy2pjL"  gp-context='{"productId": {{ product.id }}, "isSyncProduct": "true", "variantSelected": {{ variant | json | escape }}, "quantity": 1, "formId": "{{ product_form_id }}" }'
-        gp-data='{"variantSelected": {{ variant | json | escape }}, "quantity": 1}'>
+      <gp-product data-uid="gPnFIy2pjL"   gp-context='{"productId": {{ product.id }}, "isSyncProduct": "true", "variantSelected": {{ variant | json | escape }}, "quantity": 1, "formId": "{{ product_form_id }}" }'
+        gp-data='{"variantSelected": {{ variant | json | escape }}, "quantity": 1, "productUrl":{{ product.url | json | escape }}, "productHandle":{{ product.handle | json | escape }}, "collectionUrl": {{ collection.url | json | escape }}, "collectionHandle": {{ collection.handle | json | escape }}}'>
         <product-form class="product-form">
           {%- form 'product', product, id: product_form_id, class: 'form contents', data-type: 'add-to-cart-form', autocomplete: 'off'  -%}
             <input type="hidden" name="id" value="{{ variant.id }}" />
@@ -80,7 +80,7 @@
     {
       "id":"gaBUQXWvmO",
       "setting":{"arrowIcon":"<svg width=\"100%\" height=\"100%\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n    <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M12 0C18.6274 0 24 5.37258 24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12C0 5.37258 5.37258 0 12 0ZM10.6828 8.13017C10.5266 7.95661 10.2734 7.95661 10.1172 8.13017C9.96095 8.30374 9.96095 8.58515 10.1172 8.75871L13.0343 12L10.1172 15.2413C9.96095 15.4149 9.96095 15.6963 10.1172 15.8698C10.2734 16.0434 10.5266 16.0434 10.6828 15.8698L13.8828 12.3143C14.0391 12.1407 14.0391 11.8593 13.8828 11.6857L10.6828 8.13017Z\" fill=\"currentColor\"/>\n    </svg>","arrowIconColor":"#000000","arrowNavBorder":{"border":"none","borderType":"none","borderWidth":"1px","isCustom":false,"width":"1px 1px 1px 1px"},"arrowNavRadius":{"bblr":"0px","bbrr":"0px","btlr":"0px","btrr":"0px","radiusType":"none"},"borderActive":{"border":"solid","borderType":"none","borderWidth":"1px","color":"#000000","isCustom":false,"width":"1px 1px 1px 1px"},"clickOpenLightBox":{"desktop":false},"dragToScroll":true,"ftArrowIcon":"<svg width=\"100%\" height=\"100%\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n    <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M12 0C18.6274 0 24 5.37258 24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12C0 5.37258 5.37258 0 12 0ZM10.6828 8.13017C10.5266 7.95661 10.2734 7.95661 10.1172 8.13017C9.96095 8.30374 9.96095 8.58515 10.1172 8.75871L13.0343 12L10.1172 15.2413C9.96095 15.4149 9.96095 15.6963 10.1172 15.8698C10.2734 16.0434 10.5266 16.0434 10.6828 15.8698L13.8828 12.3143C14.0391 12.1407 14.0391 11.8593 13.8828 11.6857L10.6828 8.13017Z\" fill=\"currentColor\"/>\n    </svg>","ftArrowIconColor":"#000000","ftArrowNavBorder":{"border":"none","borderType":"none","borderWidth":"1px","isCustom":false,"width":"1px 1px 1px 1px"},"ftArrowNavRadius":{"bblr":"0px","bbrr":"0px","btlr":"0px","btrr":"0px","radiusType":"none"},"ftClickOpenLightBox":{"desktop":"none"},"ftDotActiveColor":{"desktop":"line-3"},"ftDotColor":{"desktop":"bg-1"},"ftDotGapToCarousel":{"desktop":16},"ftDotSize":{"desktop":12},"ftDotStyle":{"desktop":"none"},"ftDragToScroll":true,"ftLoop":{"desktop":false},"ftNavigationPosition":{"desktop":"none"},"ftPauseOnHover":true,"ftSpeed":1,"galleryHoverEffect":"none","galleryZoom":150,"galleryZoomType":"default","hoverEffect":"none","loop":{"desktop":false},"navigationPosition":{"desktop":"inside"},"otherImage":0,"pauseOnHover":true,"preDisplay":"1st-images","preload":false,"qualityPercent":{"desktop":100},"qualityType":{"desktop":"finest"},"speed":1,"type":{"desktop":"slider"},"typeDisplay":"all-images","zoom":150,"zoomType":"default"},
-      "styles":{"align":{"desktop":"flex-start"},"corner":{"bblr":"0px","bbrr":"0px","btlr":"0px","btrr":"0px","radiusType":"none"},"ftCorner":{"bblr":"0px","bbrr":"0px","btlr":"0px","btrr":"0px","radiusType":"none"},"ftLayout":{"desktop":"cover"},"ftShape":{"desktop":{"shape":"square","shapeLinked":true,"shapeValue":"1/1","width":"100%"}},"itemSpacing":{"desktop":"var(--g-s-s)","mobile":"var(--g-s-s)"},"layout":{"desktop":"cover"},"position":{"desktop":"left","mobile":"bottom-center"},"ratioLayout":{"desktop":[2,10]},"ratioLayoutRight":{"desktop":[10,2]},"shape":{"desktop":{"shape":"square","shapeLinked":true,"shapeValue":"1/1","width":"100%"}},"shapeFor1Col":{"desktop":{"shape":"square","shapeLinked":true,"shapeValue":"1/1","width":"100%"}},"shapeFor2Col":{"desktop":{"shape":"square","shapeLinked":true,"shapeValue":"1/1","width":"50%"}},"shapeForBottom":{"desktop":{"shape":"square","shapeLinked":true,"shapeValue":"1/1","width":"20%"}},"shapeForFtOnly":{"desktop":{"shape":"square","shapeLinked":true,"shapeValue":"1/1","width":"100%"}},"shapeForInside":{"desktop":{"shape":"square","shapeLinked":true,"shapeValue":"1/1","width":"20%"}},"shapeForInsideBottom":{"desktop":{"shape":"square","shapeLinked":true,"shapeValue":"1/1","width":"20%"}},"spacing":{"desktop":"12px","mobile":"var(--g-s-s)"}}, "productUrl":{{product.url | json | escape}}, "product":{{product | json | escape}}
+      "styles":{"align":{"desktop":"flex-start"},"corner":{"bblr":"0px","bbrr":"0px","btlr":"0px","btrr":"0px","radiusType":"none"},"ftCorner":{"bblr":"0px","bbrr":"0px","btlr":"0px","btrr":"0px","radiusType":"none"},"ftLayout":{"desktop":"cover"},"ftShape":{"desktop":{"shape":"square","shapeLinked":true,"shapeValue":"1/1","width":"100%"}},"itemSpacing":{"desktop":"var(--g-s-s)","mobile":"var(--g-s-s)"},"layout":{"desktop":"cover"},"position":{"desktop":"left","mobile":"bottom-center"},"ratioLayout":{"desktop":[2,10]},"ratioLayoutRight":{"desktop":[10,2]},"shape":{"desktop":{"shape":"square","shapeLinked":true,"shapeValue":"1/1","width":"100%"}},"shapeFor1Col":{"desktop":{"shape":"square","shapeLinked":true,"shapeValue":"1/1","width":"100%"}},"shapeFor2Col":{"desktop":{"shape":"square","shapeLinked":true,"shapeValue":"1/1","width":"50%"}},"shapeForBottom":{"desktop":{"shape":"square","shapeLinked":true,"shapeValue":"1/1","width":"20%"}},"shapeForFtOnly":{"desktop":{"shape":"square","shapeLinked":true,"shapeValue":"1/1","width":"100%"}},"shapeForInside":{"desktop":{"shape":"square","shapeLinked":true,"shapeValue":"1/1","width":"20%"}},"shapeForInsideBottom":{"desktop":{"shape":"square","shapeLinked":true,"shapeValue":"1/1","width":"20%"}},"spacing":{"desktop":"12px","mobile":"var(--g-s-s)"}}, "productUrl":{{product.url | json | escape}}, "product":{{product | json | escape}}, "collectionUrl": {{ collection.url | json | escape }}, "collection": {{ collection | json | escape}}
     }
   '
       section-id="{{section.id}}"
@@ -170,7 +170,8 @@
       quality-type={"desktop":"finest"}
       quality-percent={"desktop":100}
       data-sizes="auto"
-      sizes="100vw"
+      srcset="{{src | img_url: '480x480'}} 480w, {{src | img_url: '768x768'}} 768w,{{src | img_url: '1024x1024'}} 1024w,{{src | img_url: '1440x1440'}} 1440w"
+      sizes="(max-width: 768px) 50vw, 100vw"
       style="--aspect:1/1;--aspect-tablet:1/1;--aspect-mobile:1/1;--objf:cover"
     />
   {%- else -%}
@@ -182,7 +183,7 @@
       draggable="false"
       class="gp-w-full gp-h-full gp-absolute gp-top-0 gp-left-0 featured-image-only gp-cursor-pointer !gp-rounded-none gp-w-full gp-transition-opacity {{shouldHidden}} gp_lazyload"
       data-src="{{src | image_url}}" data-srcset="{%- if src != null -%}
-              {{src | img_url: '768x768'}} 768w,{{src | img_url: '1024x1024'}} 1024w,{{src | img_url: '1440x1440'}} 1440w
+              {{src | img_url: '480x480'}} 480w, {{src | img_url: '768x768'}} 768w,{{src | img_url: '1024x1024'}} 1024w,{{src | img_url: '1440x1440'}} 1440w
             {%- else -%}
               {{ 'https://cdn.shopify.com/s/assets/no-image-2048-5e88c1b20e087fb7bbe9a3771824e743c244f437e4f8ba93bbf7b11b53f7824c_large.gif' }}
             {%- endif -%}" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAA1JREFUGFdj+Pr1638ACaED3/nOThIAAAAASUVORK5CYII=" width="{{featureMedia.width}}" height="{{featureMedia.height}}" alt="{{featureMedia.alt}}" base-src="{{src | image_url}}"
@@ -456,7 +457,8 @@
       quality-type={"desktop":"finest"}
       quality-percent={"desktop":100}
       data-sizes="auto"
-      sizes="100vw"
+      srcset="{{src | img_url: '480x480'}} 480w, {{src | img_url: '768x768'}} 768w,{{src | img_url: '1024x1024'}} 1024w,{{src | img_url: '1440x1440'}} 1440w"
+      sizes="(max-width: 768px) 50vw, 100vw"
       style="--aspect:1/1;--aspect-tablet:1/1;--aspect-mobile:1/1;--objf:cover"
     />
   {%- else -%}
@@ -468,7 +470,7 @@
       draggable="false"
       class="gp-w-full gp-h-full gp-absolute gp-top-0 gp-left-0 featured-image-only gp-cursor-pointer !gp-rounded-none gp-w-full gp-transition-opacity {{shouldHidden}} gp_lazyload"
       data-src="{{src | image_url}}" data-srcset="{%- if src != null -%}
-              {{src | img_url: '768x768'}} 768w,{{src | img_url: '1024x1024'}} 1024w,{{src | img_url: '1440x1440'}} 1440w
+              {{src | img_url: '480x480'}} 480w, {{src | img_url: '768x768'}} 768w,{{src | img_url: '1024x1024'}} 1024w,{{src | img_url: '1440x1440'}} 1440w
             {%- else -%}
               {{ 'https://cdn.shopify.com/s/assets/no-image-2048-5e88c1b20e087fb7bbe9a3771824e743c244f437e4f8ba93bbf7b11b53f7824c_large.gif' }}
             {%- endif -%}" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAA1JREFUGFdj+Pr1638ACaED3/nOThIAAAAASUVORK5CYII=" width="{{featureMedia.width}}" height="{{featureMedia.height}}" alt="{{featureMedia.alt}}" base-src="{{src | image_url}}"
@@ -572,6 +574,7 @@
       quality-type={"desktop":"finest"}
       quality-percent={"desktop":100}
       data-sizes="auto"
+      srcset=""
       sizes="100vw"
       style="--aspect:1/1;--aspect-tablet:1/1;--aspect-mobile:1/1;--objf:cover;height:100%"
     />
@@ -691,7 +694,8 @@
  ></div>
       </div>
     </gp-carousel>
-    <script {% if section.settings.section_preload == "false" %}class="gps-link" delay {% else %}src{% endif %}="https://d2ls1pfffhvy22.cloudfront.net/assets-v2/gp-carousel-v2.js?v={{ shop.metafields.GEMPAGES.ASSETS_VERSION }}" defer="defer"></script>
+    {% if product.media.size > 1 %} <script {% if section.settings.section_preload == "false" %}class="gps-link" delay {% else %}src{% endif %}="https://d2ls1pfffhvy22.cloudfront.net/assets-v2/gp-carousel-v2.js?v={{ shop.metafields.GEMPAGES.ASSETS_VERSION }}" defer="defer"></script> {% endif %}
+
   
     
       
@@ -894,6 +898,7 @@
       quality-type={"desktop":"finest"}
       quality-percent={"desktop":100}
       data-sizes="auto"
+      srcset=""
       sizes="100vw"
       style="--aspect:1/1;--aspect-tablet:1/1;--aspect-mobile:1/1;--objf:cover;width:100%;height:100%;cursor:pointer"
     />
@@ -903,7 +908,7 @@
       
       draggable="false"
       class="!gp-rounded-none gp-w-full gp-h-full gp-absolute gp-top-0 gp-left-0 gp-cursor-pointer "
-      data-src="{{media.preview_image | image_url}}" data-srcset="{{media.preview_image | img_url: '768x768'}} 768w,{{media.preview_image | img_url: '1024x1024'}} 1024w,{{media.preview_image | img_url: '1440x1440'}} 1440w" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAA1JREFUGFdj+Pr1638ACaED3/nOThIAAAAASUVORK5CYII=" width="{{media.width}}" height="{{media.height}}" alt="{{media.alt}}" base-src="{{media.preview_image | image_url}}"
+      data-src="{{media.preview_image | image_url}}" data-srcset="{{media.preview_image | img_url: '480x480'}} 480w, {{media.preview_image | img_url: '768x768'}} 768w,{{media.preview_image | img_url: '1024x1024'}} 1024w,{{media.preview_image | img_url: '1440x1440'}} 1440w" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAA1JREFUGFdj+Pr1638ACaED3/nOThIAAAAASUVORK5CYII=" width="{{media.width}}" height="{{media.height}}" alt="{{media.alt}}" base-src="{{media.preview_image | image_url}}"
       quality-type={"desktop":"finest"}
       quality-percent={"desktop":100}
       data-sizes="auto"
@@ -1000,6 +1005,7 @@
       quality-type={"desktop":"finest"}
       quality-percent={"desktop":100}
       data-sizes="auto"
+      srcset=""
       sizes="100vw"
       style="--aspect:1/1;--aspect-tablet:1/1;--aspect-mobile:1/1;--objf:cover;width:100%;height:100%;cursor:pointer"
     />
@@ -1009,7 +1015,7 @@
       
       draggable="false"
       class="!gp-rounded-none gp-w-full gp-h-full gp-absolute gp-top-0 gp-left-0 gp-cursor-pointer "
-      data-src="{{media.preview_image | image_url}}" data-srcset="{{media.preview_image | img_url: '768x768'}} 768w,{{media.preview_image | img_url: '1024x1024'}} 1024w,{{media.preview_image | img_url: '1440x1440'}} 1440w" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAA1JREFUGFdj+Pr1638ACaED3/nOThIAAAAASUVORK5CYII=" width="{{media.width}}" height="{{media.height}}" alt="{{media.alt}}" base-src="{{media.preview_image | image_url}}"
+      data-src="{{media.preview_image | image_url}}" data-srcset="{{media.preview_image | img_url: '480x480'}} 480w, {{media.preview_image | img_url: '768x768'}} 768w,{{media.preview_image | img_url: '1024x1024'}} 1024w,{{media.preview_image | img_url: '1440x1440'}} 1440w" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAA1JREFUGFdj+Pr1638ACaED3/nOThIAAAAASUVORK5CYII=" width="{{media.width}}" height="{{media.height}}" alt="{{media.alt}}" base-src="{{media.preview_image | image_url}}"
       quality-type={"desktop":"finest"}
       quality-percent={"desktop":100}
       data-sizes="auto"
@@ -1164,6 +1170,7 @@
       </div>
     </gp-carousel>
     <script {% if section.settings.section_preload == "false" %}class="gps-link" delay {% else %}src{% endif %}="https://d2ls1pfffhvy22.cloudfront.net/assets-v2/gp-carousel-v2.js?v={{ shop.metafields.GEMPAGES.ASSETS_VERSION }}" defer="defer"></script>
+
   
   
             </div>
@@ -1247,6 +1254,7 @@
       quality-type={"desktop":"finest"}
       quality-percent={"desktop":100}
       data-sizes="auto"
+      srcset=""
       sizes="100vw"
       style="--aspect:1/1;--aspect-tablet:1/1;--aspect-mobile:1/1;--objf:cover"
     />
@@ -1256,7 +1264,7 @@
       
       draggable="false"
       class="!gp-rounded-none gp_lazyload"
-      data-src="{{media.preview_image | image_url}}" data-srcset="{{media.preview_image | img_url: '768x768'}} 768w,{{media.preview_image | img_url: '1024x1024'}} 1024w,{{media.preview_image | img_url: '1440x1440'}} 1440w" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAA1JREFUGFdj+Pr1638ACaED3/nOThIAAAAASUVORK5CYII=" width="{{media.width}}" height="{{media.height}}" alt="{{media.alt}}" base-src="{{media.preview_image | image_url}}"
+      data-src="{{media.preview_image | image_url}}" data-srcset="{{media.preview_image | img_url: '480x480'}} 480w, {{media.preview_image | img_url: '768x768'}} 768w,{{media.preview_image | img_url: '1024x1024'}} 1024w,{{media.preview_image | img_url: '1440x1440'}} 1440w" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAA1JREFUGFdj+Pr1638ACaED3/nOThIAAAAASUVORK5CYII=" width="{{media.width}}" height="{{media.height}}" alt="{{media.alt}}" base-src="{{media.preview_image | image_url}}"
       quality-type={"desktop":"finest"}
       quality-percent={"desktop":100}
       data-sizes="auto"
@@ -1433,6 +1441,7 @@
       quality-type={"desktop":"finest"}
       quality-percent={"desktop":100}
       data-sizes="auto"
+      srcset=""
       sizes="100vw"
       style="--aspect:1/1;--aspect-tablet:1/1;--aspect-mobile:1/1;--objf:cover"
     />
@@ -1442,7 +1451,7 @@
       
       draggable="false"
       class="!gp-rounded-none gp_lazyload"
-      data-src="{{media.preview_image | image_url}}" data-srcset="{{media.preview_image | img_url: '768x768'}} 768w,{{media.preview_image | img_url: '1024x1024'}} 1024w,{{media.preview_image | img_url: '1440x1440'}} 1440w" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAA1JREFUGFdj+Pr1638ACaED3/nOThIAAAAASUVORK5CYII=" width="{{media.width}}" height="{{media.height}}" alt="{{media.alt}}" base-src="{{media.preview_image | image_url}}"
+      data-src="{{media.preview_image | image_url}}" data-srcset="{{media.preview_image | img_url: '480x480'}} 480w, {{media.preview_image | img_url: '768x768'}} 768w,{{media.preview_image | img_url: '1024x1024'}} 1024w,{{media.preview_image | img_url: '1440x1440'}} 1440w" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAA1JREFUGFdj+Pr1638ACaED3/nOThIAAAAASUVORK5CYII=" width="{{media.width}}" height="{{media.height}}" alt="{{media.alt}}" base-src="{{media.preview_image | image_url}}"
       quality-type={"desktop":"finest"}
       quality-percent={"desktop":100}
       data-sizes="auto"
@@ -2045,6 +2054,70 @@
              <div class=" gp-text-left gp-icon-list-text" style="--ff:var(--g-font-Poppins, 'Poppins'), var(--g-font-body, body);--weight:400;--size:16px;--size-tablet:16px;--size-mobile:14px;--lh:120%;--lh-tablet:180%;--lh-mobile:180%;--c:#121212">
                 {{ section.settings.ggo3E-eaaAZ_childItem_1 }}
             </div>
+            </div> 
+           <div
+            class="gp-icon-list-wrapper gp-flex"
+            style="--cg:8px;--ai:center;--ai-tablet:center;--ai-mobile:center"
+          >
+            <div class="gp-icon-list-icon gp-inline-flex gp-shrink-0 gp-overflow-hidden" style="--pl:0px;--pr:0px;--pt:0px;--pb:0px;--bs:none;--bw:1px 1px 1px 1px;--bc:#000000;--bg:transparent;--pos:relative;--pos-tablet:relative;--pos-mobile:relative;--top:inherit;--top-tablet:inherit;--top-mobile:inherit">
+              <span
+                class="gp-inline-flex gp-items-center gp-justify-center gp-overflow-hidden [&>svg]:!gp-h-[var(--size-desktop)] tablet:[&>svg]:!gp-h-[var(--size-tablet)] mobile:[&>svg]:!gp-h-[var(--size-mobile)] [&>svg]:!gp-w-[var(--size-desktop)] tablet:[&>svg]:!gp-w-[var(--size-tablet)] mobile:[&>svg]:!gp-w-[var(--size-mobile)]"
+                style="--c:#52C41A;--w:100%;--h:100%;--size-desktop:20px;--size-tablet:16px;--size-mobile:16px"
+              >
+               <svg height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor" data-id="508414807831544168"><path fill="currentColor" strokelinecap="round" strokelinejoin="round" d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm45.66,85.66-56,56a8,8,0,0,1-11.32,0l-24-24a8,8,0,0,1,11.32-11.32L112,148.69l50.34-50.35a8,8,0,0,1,11.32,11.32Z"></path></svg>
+              </span>
+            </div>
+             <div class=" gp-text-left gp-icon-list-text" style="--ff:var(--g-font-Poppins, 'Poppins'), var(--g-font-body, body);--weight:400;--size:16px;--size-tablet:16px;--size-mobile:14px;--lh:120%;--lh-tablet:180%;--lh-mobile:180%;--c:#121212">
+                {{ section.settings.ggo3E-eaaAZ_childItem_2 }}
+            </div>
+            </div> 
+           <div
+            class="gp-icon-list-wrapper gp-flex"
+            style="--cg:8px;--ai:center;--ai-tablet:center;--ai-mobile:center"
+          >
+            <div class="gp-icon-list-icon gp-inline-flex gp-shrink-0 gp-overflow-hidden" style="--pl:0px;--pr:0px;--pt:0px;--pb:0px;--bs:none;--bw:1px 1px 1px 1px;--bc:#000000;--bg:transparent;--pos:relative;--pos-tablet:relative;--pos-mobile:relative;--top:inherit;--top-tablet:inherit;--top-mobile:inherit">
+              <span
+                class="gp-inline-flex gp-items-center gp-justify-center gp-overflow-hidden [&>svg]:!gp-h-[var(--size-desktop)] tablet:[&>svg]:!gp-h-[var(--size-tablet)] mobile:[&>svg]:!gp-h-[var(--size-mobile)] [&>svg]:!gp-w-[var(--size-desktop)] tablet:[&>svg]:!gp-w-[var(--size-tablet)] mobile:[&>svg]:!gp-w-[var(--size-mobile)]"
+                style="--c:#52C41A;--w:100%;--h:100%;--size-desktop:20px;--size-tablet:16px;--size-mobile:16px"
+              >
+               <svg height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor" data-id="508414807831544168"><path fill="currentColor" strokelinecap="round" strokelinejoin="round" d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm45.66,85.66-56,56a8,8,0,0,1-11.32,0l-24-24a8,8,0,0,1,11.32-11.32L112,148.69l50.34-50.35a8,8,0,0,1,11.32,11.32Z"></path></svg>
+              </span>
+            </div>
+             <div class=" gp-text-left gp-icon-list-text" style="--ff:var(--g-font-Poppins, 'Poppins'), var(--g-font-body, body);--weight:400;--size:16px;--size-tablet:16px;--size-mobile:14px;--lh:120%;--lh-tablet:180%;--lh-mobile:180%;--c:#121212">
+                {{ section.settings.ggo3E-eaaAZ_childItem_3 }}
+            </div>
+            </div> 
+           <div
+            class="gp-icon-list-wrapper gp-flex"
+            style="--cg:8px;--ai:center;--ai-tablet:center;--ai-mobile:center"
+          >
+            <div class="gp-icon-list-icon gp-inline-flex gp-shrink-0 gp-overflow-hidden" style="--pl:0px;--pr:0px;--pt:0px;--pb:0px;--bs:none;--bw:1px 1px 1px 1px;--bc:#000000;--bg:transparent;--pos:relative;--pos-tablet:relative;--pos-mobile:relative;--top:inherit;--top-tablet:inherit;--top-mobile:inherit">
+              <span
+                class="gp-inline-flex gp-items-center gp-justify-center gp-overflow-hidden [&>svg]:!gp-h-[var(--size-desktop)] tablet:[&>svg]:!gp-h-[var(--size-tablet)] mobile:[&>svg]:!gp-h-[var(--size-mobile)] [&>svg]:!gp-w-[var(--size-desktop)] tablet:[&>svg]:!gp-w-[var(--size-tablet)] mobile:[&>svg]:!gp-w-[var(--size-mobile)]"
+                style="--c:#52C41A;--w:100%;--h:100%;--size-desktop:20px;--size-tablet:16px;--size-mobile:16px"
+              >
+               <svg height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor" data-id="508414807831544168"><path fill="currentColor" strokelinecap="round" strokelinejoin="round" d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm45.66,85.66-56,56a8,8,0,0,1-11.32,0l-24-24a8,8,0,0,1,11.32-11.32L112,148.69l50.34-50.35a8,8,0,0,1,11.32,11.32Z"></path></svg>
+              </span>
+            </div>
+             <div class=" gp-text-left gp-icon-list-text" style="--ff:var(--g-font-Poppins, 'Poppins'), var(--g-font-body, body);--weight:400;--size:16px;--size-tablet:16px;--size-mobile:14px;--lh:120%;--lh-tablet:180%;--lh-mobile:180%;--c:#121212">
+                {{ section.settings.ggo3E-eaaAZ_childItem_4 }}
+            </div>
+            </div> 
+           <div
+            class="gp-icon-list-wrapper gp-flex"
+            style="--cg:8px;--ai:center;--ai-tablet:center;--ai-mobile:center"
+          >
+            <div class="gp-icon-list-icon gp-inline-flex gp-shrink-0 gp-overflow-hidden" style="--pl:0px;--pr:0px;--pt:0px;--pb:0px;--bs:none;--bw:1px 1px 1px 1px;--bc:#000000;--bg:transparent;--pos:relative;--pos-tablet:relative;--pos-mobile:relative;--top:inherit;--top-tablet:inherit;--top-mobile:inherit">
+              <span
+                class="gp-inline-flex gp-items-center gp-justify-center gp-overflow-hidden [&>svg]:!gp-h-[var(--size-desktop)] tablet:[&>svg]:!gp-h-[var(--size-tablet)] mobile:[&>svg]:!gp-h-[var(--size-mobile)] [&>svg]:!gp-w-[var(--size-desktop)] tablet:[&>svg]:!gp-w-[var(--size-tablet)] mobile:[&>svg]:!gp-w-[var(--size-mobile)]"
+                style="--c:#52C41A;--w:100%;--h:100%;--size-desktop:20px;--size-tablet:16px;--size-mobile:16px"
+              >
+               <svg height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor" data-id="508414807831544168"><path fill="currentColor" strokelinecap="round" strokelinejoin="round" d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm45.66,85.66-56,56a8,8,0,0,1-11.32,0l-24-24a8,8,0,0,1,11.32-11.32L112,148.69l50.34-50.35a8,8,0,0,1,11.32,11.32Z"></path></svg>
+              </span>
+            </div>
+             <div class=" gp-text-left gp-icon-list-text" style="--ff:var(--g-font-Poppins, 'Poppins'), var(--g-font-body, body);--weight:400;--size:16px;--size-tablet:16px;--size-mobile:14px;--lh:120%;--lh-tablet:180%;--lh-mobile:180%;--c:#121212">
+                {{ section.settings.ggo3E-eaaAZ_childItem_5 }}
+            </div>
             </div>
       </div>
       </div>
@@ -2060,11 +2133,11 @@
       
     <div
       parentTag="Col" id="gvY6vsVzxO"
-        style="--mb:24px;--d:grid;--d-tablet:grid;--d-mobile:grid;--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--border:[object Object];--rounded:[object Object];--hasBoxShadow:[object Object];--shadow:none;--boxShadow:[object Object];--op:100%;--cg:8px;--pc:start;--gtc:minmax(0, auto) minmax(0, auto) minmax(0, auto);--w:var(--g-ct-w, 1200px);--w-tablet:var(--g-ct-w, 100%);--w-mobile:var(--g-ct-w, 100%);--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        style="--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--border:[object Object];--shadow:none;--boxShadow:[object Object];--d:grid;--d-mobile:grid;--d-tablet:grid;--hasBoxShadow:[object Object];--op:100%;--rounded:[object Object];--mb:24px;--cg:8px;--pc:start;--gtc:minmax(0, auto) minmax(0, auto) minmax(0, auto);--w:var(--g-ct-w, 1200px);--w-tablet:var(--g-ct-w, 100%);--w-mobile:var(--g-ct-w, 100%);--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
         class="gvY6vsVzxO gp-mx-auto gp-mb-0 gp-grid gp-max-w-full gp-gap-y-0 gp-transition-colors gp-duration-200 gp-ease-in-out [&_*]:gp-max-w-full"
     >
     <div
-      tag="Col" label="Block" type="component"
+      label="Block" tag="Col" type="component"
       style="--jc:start"
       class="gOibhHWUnu gp-relative gp-flex gp-flex-col"
     >
@@ -2074,7 +2147,7 @@
         gp-data='{"priceType":"regular","uid":"gxsTr6EWYK","locale":"{{shop.locale}}","currency":"{{shop.currency}}","moneyFormat":"{{ shop.money_format | replace: '"', '\\"' | escape }}"}'
         
         class=" data-[hidden=true]:gp-hidden "
-        style="--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--border:[object Object];--rounded:[object Object];--hasBoxShadow:[object Object];--shadow:none;--boxShadow:[object Object];--op:100%"
+        style="--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--border:[object Object];--shadow:none;--boxShadow:[object Object];--d:block;--d-mobile:block;--d-tablet:block;--hasBoxShadow:[object Object];--op:100%;--rounded:[object Object]"
         data-hidden="false"
       >
         
@@ -2100,7 +2173,7 @@
       <script {% if section.settings.section_preload == "false" %}class="gps-link" delay {% else %}src{% endif %}="https://d2ls1pfffhvy22.cloudfront.net/assets-v2/gp-product-price.js?v={{ shop.metafields.GEMPAGES.ASSETS_VERSION }}" defer="defer"></script>
   
     </div><div
-      tag="Col" label="Block" type="component"
+      label="Block" tag="Col" type="component"
       style="--jc:start"
       class="gW_IfiIiCd gp-relative gp-flex gp-flex-col"
     >
@@ -2110,7 +2183,7 @@
         gp-data='{"priceType":"compare","uid":"gqv28hV80N","locale":"{{shop.locale}}","currency":"{{shop.currency}}","moneyFormat":"{{ shop.money_format | replace: '"', '\\"' | escape }}"}'
         
         class=" data-[hidden=true]:gp-hidden "
-        style="--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--border:[object Object];--rounded:[object Object];--hasBoxShadow:[object Object];--shadow:none;--boxShadow:[object Object];--op:100%"
+        style="--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--border:[object Object];--shadow:none;--boxShadow:[object Object];--d:block;--d-mobile:block;--d-tablet:block;--hasBoxShadow:[object Object];--op:100%;--rounded:[object Object]"
         data-hidden="{% if variant.compare_at_price > variant.price and variant.compare_at_price >= 0 %}false{% else %}true{% endif %}"
       >
         
@@ -2138,11 +2211,11 @@
       <script {% if section.settings.section_preload == "false" %}class="gps-link" delay {% else %}src{% endif %}="https://d2ls1pfffhvy22.cloudfront.net/assets-v2/gp-product-price.js?v={{ shop.metafields.GEMPAGES.ASSETS_VERSION }}" defer="defer"></script>
   
     </div><div
-      tag="Col" label="Block" type="component"
+      label="Block" tag="Col" type="component"
       style="--jc:start"
       class="glTQBEzaQy gp-relative gp-flex gp-flex-col"
     >
-      <div style="--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--border:[object Object];--rounded:[object Object];--hasBoxShadow:[object Object];--shadow:none;--boxShadow:[object Object];--op:100%" class="gMePJ6Bfd8 ">
+      <div style="--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--border:[object Object];--shadow:none;--boxShadow:[object Object];--d:block;--d-mobile:block;--d-tablet:block;--hasBoxShadow:[object Object];--op:100%;--rounded:[object Object]" class="gMePJ6Bfd8 ">
       
   {% liquid
     assign price = variant.price | times: 1.0
@@ -2203,15 +2276,15 @@
       
     <div
       parentTag="Col" id="gdi1nPsz3I"
-        style="--mb:24px;--d:grid;--d-tablet:grid;--d-mobile:grid;--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--border:[object Object];--rounded:[object Object];--hasBoxShadow:[object Object];--shadow:none;--boxShadow:[object Object];--op:100%;--cg:8px;--pc:start;--gtc:minmax(0, 12fr);--gtc-mobile:minmax(0, 4fr) minmax(0, 8fr);--w:var(--g-ct-w, 1200px);--w-tablet:var(--g-ct-w, 100%);--w-mobile:var(--g-ct-w, 100%);--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        style="--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--border:[object Object];--shadow:none;--boxShadow:[object Object];--d:grid;--d-mobile:grid;--d-tablet:grid;--hasBoxShadow:[object Object];--op:100%;--rounded:[object Object];--mb:24px;--cg:8px;--pc:start;--gtc:minmax(0, 12fr);--gtc-mobile:minmax(0, 4fr) minmax(0, 8fr);--w:var(--g-ct-w, 1200px);--w-tablet:var(--g-ct-w, 100%);--w-mobile:var(--g-ct-w, 100%);--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
         class="gdi1nPsz3I gp-mx-auto gp-mb-0 gp-grid gp-max-w-full gp-gap-y-0 gp-transition-colors gp-duration-200 gp-ease-in-out [&_*]:gp-max-w-full"
     >
     <div
-      tag="Col" label="Block" type="component"
+      label="Block" tag="Col" type="component"
       style="--jc:center"
       class="gIxN9DMfkr gp-relative gp-flex gp-flex-col"
     >
-      <div style="--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--border:[object Object];--rounded:[object Object];--hasBoxShadow:[object Object];--shadow:none;--boxShadow:[object Object];--op:100%" class="gNvnBOG-FL ">
+      <div style="--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--border:[object Object];--shadow:none;--boxShadow:[object Object];--d:block;--d-mobile:block;--d-tablet:block;--hasBoxShadow:[object Object];--op:100%;--rounded:[object Object]" class="gNvnBOG-FL ">
       
     {%- liquid
       assign current_variant = product.selected_or_first_available_variant
@@ -2230,7 +2303,7 @@
             aria-label="decrement"
             {% if available == false %} disabled {% endif %}
             class="gp-border-g-line-2 hover:gp-border-g-line-3 gp-text-g-text-2 gp-bg-g-bg-3 gp-minus gp-flex gp-aspect-square gp-h-full gp-cursor-pointer gp-items-center gp-justify-center gp-outline-none disabled:gp-cursor-not-allowed"
-            style="--w:40px;--bg:var(--g-c-bg-3, bg-3);--hvr-bg:#E7E7E7;--c:var(--g-c-text-2, text-2);--bs:solid;--hvr-bs:solid;--bw:1px 1px 1px 1px;--hvr-bw:1px 1px 1px 1px;--bc:var(--g-c-line-2, line-2);--hvr-bc:var(--g-c-line-3, line-3);--bblr:auto;--bbrr:auto;--btlr:auto;--btrr:auto"
+            style="--w:40px;--hvr-bg:#E7E7E7;--bg:var(--g-c-bg-3, bg-3);--c:var(--g-c-text-2, text-2);--bs:solid;--hvr-bs:solid;--bw:1px 1px 1px 1px;--hvr-bw:1px 1px 1px 1px;--bc:var(--g-c-line-2, line-2);--hvr-bc:var(--g-c-line-3, line-3);--bblr:auto;--bbrr:auto;--btlr:auto;--btrr:auto"
           >
             <span class="gp-inline-flex gp-items-center gp-justify-center" style="--w:20px">
               <svg
@@ -2265,7 +2338,7 @@
             aria-label="increment"
             title="Increment"
             class="gp-border-g-line-2 hover:gp-border-g-line-3 gp-text-g-text-2 gp-bg-g-bg-3 gp-plus gp-flex gp-aspect-square gp-h-full gp-cursor-pointer gp-items-center gp-justify-center gp-outline-none gp-transition-all gp-duration-150 disabled:gp-pointer-events-none"
-            style="--w:40px;--bg:var(--g-c-bg-3, bg-3);--hvr-bg:#E7E7E7;--c:var(--g-c-text-2, text-2);--bs:solid;--hvr-bs:solid;--bw:1px 1px 1px 1px;--hvr-bw:1px 1px 1px 1px;--bc:var(--g-c-line-2, line-2);--hvr-bc:var(--g-c-line-3, line-3);--bblr:auto;--bbrr:auto;--btlr:auto;--btrr:auto"
+            style="--w:40px;--hvr-bg:#E7E7E7;--bg:var(--g-c-bg-3, bg-3);--c:var(--g-c-text-2, text-2);--bs:solid;--hvr-bs:solid;--bw:1px 1px 1px 1px;--hvr-bw:1px 1px 1px 1px;--bc:var(--g-c-line-2, line-2);--hvr-bc:var(--g-c-line-3, line-3);--bblr:auto;--bbrr:auto;--btlr:auto;--btrr:auto"
           >
             <span class="gp-inline-flex gp-items-center gp-justify-center" style="--w:20px">
               <svg
@@ -2296,11 +2369,11 @@
       
     <div
       parentTag="Col" id="gTYQiMDi3X"
-        style="--mb:24px;--d:grid;--d-tablet:grid;--d-mobile:grid;--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--border:[object Object];--rounded:[object Object];--hasBoxShadow:[object Object];--shadow:none;--boxShadow:[object Object];--op:100%;--cg:8px;--pc:start;--gtc:minmax(0, 12fr);--w:var(--g-ct-w, 1200px);--w-tablet:var(--g-ct-w, 100%);--w-mobile:var(--g-ct-w, 100%);--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        style="--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--border:[object Object];--shadow:none;--boxShadow:[object Object];--d:grid;--d-mobile:grid;--d-tablet:grid;--hasBoxShadow:[object Object];--op:100%;--rounded:[object Object];--mb:24px;--cg:8px;--pc:start;--gtc:minmax(0, 12fr);--w:var(--g-ct-w, 1200px);--w-tablet:var(--g-ct-w, 100%);--w-mobile:var(--g-ct-w, 100%);--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
         class="gTYQiMDi3X gp-mx-auto gp-mb-0 gp-grid gp-max-w-full gp-gap-y-0 gp-transition-colors gp-duration-200 gp-ease-in-out [&_*]:gp-max-w-full"
     >
     <div
-      tag="Col" label="Block" type="component"
+      label="Block" tag="Col" type="component"
       style="--jc:start"
       class="gQBvobkzNP gp-relative gp-flex gp-flex-col"
     >
@@ -2310,7 +2383,7 @@
     -%}
     <gp-product-button
       class="gp-product-button"
-      gp-data='{"setting":{"actionEffect":"continue-shopping","errorMessage":"Cannot add product to cart","successMessage":"Add product to cart successfully","enableSuccessMessage":false,"enableErrorMessage":true,"label":"Add to cart 👉","outOfStockLabel":"Out of stock","errorType":"built-in","customURL":{"link":"/cart","target":"_self"}},"styles":{"errorTypo":{"attrs":{"color":"error"},"type":"paragraph-2"},"successTypo":{"attrs":{"color":"success"},"type":"paragraph-2"}},"disabled":"{{variant.available}}","variantID":"{{variant.id}}","totalVariant":"{{product.variants.size}}"}' 
+      gp-data='{"setting":{"actionEffect":"continue-shopping","errorMessage":"Cannot add product to cart","successMessage":"Add product to cart successfully","enableSuccessMessage":true,"enableErrorMessage":true,"label":"Add to cart 👉","outOfStockLabel":"Out of stock","errorType":"built-in","customURL":{"link":"/cart","target":"_self"}},"styles":{"errorTypo":{"attrs":{"color":"error"},"type":"paragraph-2"},"successTypo":{"attrs":{"color":"success"},"type":"paragraph-2"}},"disabled":"{{variant.available}}","variantID":"{{variant.id}}","totalVariant":"{{product.variants.size}}"}' 
        gp-href="{{ request.origin }}{{ routes.root_url | split: '/' | join: '/' }}/cart"
     >
         
@@ -2373,7 +2446,7 @@
   </style>
     <button
       type="submit" data-id="gZ_tVECYfl" aria-label="Add to cart 👉"
-      
+      name="add" gp-data-hidden="{% unless variant.available %}true{% endunless %}"
       data-state="idle"
       class="gZ_tVECYfl gp-button-base gp-rounded-none gp-max-w-full gp-relative gp-group gp-inline-flex gp-items-center gp-justify-center gp-no-underline gp-transition-colors gp-duration-300 disabled:gp-btn-disabled disabled:gp-opacity-30 disabled:gp-pointer-events-none gp-text-g-text-3 gp-button-atc tcustomizer-submit-button"
       style="--hvr-bg:#473FA8;--bg:#473FA8;--bblr:32px;--bbrr:32px;--btlr:32px;--btrr:32px;--shadow:none;--w:100%;--w-tablet:100%;--w-mobile:100%;--h:Auto;--h-tablet:Auto;--h-mobile:Auto;--pl:24px;--pr:24px;--pt:20px;--pb:20px;--pl-mobile:24px;--pr-mobile:24px;--pt-mobile:12px;--pb-mobile:12px;--c:var(--g-c-text-3, text-3);--size:19px;--size-tablet:19px;--size-mobile:14px;--fs:normal;--ff:var(--g-font-body, body);--weight:600;--ls:normal;--lh:130%;--lh-tablet:130%;--lh-mobile:130%;--tt:uppercase"
@@ -2402,7 +2475,8 @@
     class="gp-inline-flex">
     
       <span
-        class="gp-break-words group-data-[state=loading]:gp-invisible [&_p]:gp-whitespace-pre-line gp-z-1 gp-h-full gp-flex gp-items-center gp-overflow-hidden 
+        data-gp-text
+        class="gp-button-text-only gp-break-words group-data-[state=loading]:gp-invisible [&_p]:gp-whitespace-pre-line gp-z-1 gp-h-full gp-flex gp-items-center gp-overflow-hidden 
         "
         style="--size:19px;--size-tablet:19px;--size-mobile:14px"
       >
@@ -2474,7 +2548,7 @@
   </style>
     <button
       type="button" data-id="gZ_tVECYfl-sold-out" aria-label="Out of stock"
-      
+      gp-data-hidden="{% if variant.available %}true{% endif %}"
       data-state="idle"
       class="gZ_tVECYfl-sold-out gp-button-base gp-rounded-none gp-max-w-full gp-relative gp-group gp-inline-flex gp-items-center gp-justify-center gp-no-underline gp-transition-colors gp-duration-300 disabled:gp-btn-disabled disabled:gp-opacity-30 disabled:gp-pointer-events-none gp-text-g-text-3 gp-button-sold-out btn-disabled gp-opacity-30 gp-pointer-events-none"
       style="--hvr-bg:#473FA8;--bg:#473FA8;--bblr:32px;--bbrr:32px;--btlr:32px;--btrr:32px;--shadow:none;--w:100%;--w-tablet:100%;--w-mobile:100%;--h:Auto;--h-tablet:Auto;--h-mobile:Auto;--pl:24px;--pr:24px;--pt:20px;--pb:20px;--pl-mobile:24px;--pr-mobile:24px;--pt-mobile:12px;--pb-mobile:12px;--c:var(--g-c-text-3, text-3);--size:19px;--size-tablet:19px;--size-mobile:14px;--fs:normal;--ff:var(--g-font-body, body);--weight:600;--ls:normal;--lh:130%;--lh-tablet:130%;--lh-mobile:130%;--tt:uppercase"
@@ -2484,7 +2558,8 @@
     class="gp-inline-flex">
     
       <span
-        class="gp-break-words group-data-[state=loading]:gp-invisible [&_p]:gp-whitespace-pre-line gp-z-1 gp-h-full gp-flex gp-items-center gp-overflow-hidden 
+        data-gp-text
+        class="gp-button-text-only gp-break-words group-data-[state=loading]:gp-invisible [&_p]:gp-whitespace-pre-line gp-z-1 gp-h-full gp-flex gp-items-center gp-overflow-hidden 
         "
         style="--size:19px;--size-tablet:19px;--size-mobile:14px"
       >
@@ -2834,7 +2909,7 @@
                 style="--jc:center"
               >
                 
-  <style>
+  <style title="gp-accordion-item-style">
   .gp-accordion-item .gp-accordion-item-gOmmJapKHE-0:hover .gp-collapsible-icon.gp-accordion-item-hover, .gp-accordion-item .gp-accordion-item-gOmmJapKHE-0:hover .gp-icon.gp-accordion-item-hover 
      {
         color: #121212 !important
@@ -2936,7 +3011,7 @@
                 style="--jc:center"
               >
                 
-  <style>
+  <style title="gp-accordion-item-style">
   .gp-accordion-item .gp-accordion-item-gOmmJapKHE-1:hover .gp-collapsible-icon.gp-accordion-item-hover, .gp-accordion-item .gp-accordion-item-gOmmJapKHE-1:hover .gp-icon.gp-accordion-item-hover 
      {
         color: #121212 !important
@@ -3057,6 +3132,7 @@
     {% else %}
       <div class="gp-text-center">{{ "gempages.Product.product_not_found" | t }}</div>
     {%- endif -%}
+     <script {% if section.settings.section_preload == "false" %}class="gps-link" delay {% else %}src{% endif %}="https://d2ls1pfffhvy22.cloudfront.net/assets-v2/gp-product.v2.js?v={{ shop.metafields.GEMPAGES.ASSETS_VERSION }}" defer="defer"></script>
   
     </div>
     </div>
@@ -3097,7 +3173,7 @@
     "name": "Section 2",
     "tag": "section",
     "class": "gps-528781134016807888 gps gpsil",
-    "settings": [{"type":"paragraph","content":"Section design by GemPages. [Click here to start design](https://admin.shopify.com/store/499862-95/apps/gempages-cro/app/shopify/edit?pageType=GP_PRODUCT&editorId=528781133664486352&sectionId=528781134016807888)"},{"type":"select","label":"Section Preload","id":"section_preload","options":[{"label":"On","value":"true"},{"label":"Off","value":"false"},{"label":"Off Lazy Script","value":"off_lazy_script"}],"default":"false"},{"type":"html","id":"ggNsHVocZth_text","label":"ggNsHVocZth_text","default":"<p>Best Seller</p>"},{"type":"html","id":"ggQM-ABuyrr_text","label":"ggQM-ABuyrr_text","default":"<p>2,500+ Verified Reviews!</p>"},{"type":"html","id":"ggoj297rYbM_text","label":"ggoj297rYbM_text","default":"<p>Save money and reduce waste effortlessly —just one click extends your food's freshness 3x to 5x longer.</p>"},{"type":"html","id":"ggAslPpNhbF_childItem_0","label":"ggAslPpNhbF_childItem_0","default":"<p><span style=\"font-size:14px;\">Keeps pantry pests and air out with an airtight vacuum seal</span></p>"},{"type":"html","id":"ggAslPpNhbF_childItem_1","label":"ggAslPpNhbF_childItem_1","default":"<p><span style=\"font-size:14px;\">Compatible with all mason jars &amp; lids, including Ball, Kerr, and Bernardin</span></p>"},{"type":"html","id":"ggAslPpNhbF_childItem_2","label":"ggAslPpNhbF_childItem_2","default":"<p><span style=\"font-size:14px;\">Increase shelf life by 3-5 times instantly</span></p>"},{"type":"html","id":"ggrgDBjvDfh_text","label":"ggrgDBjvDfh_text","default":"<p>Kit Includes</p>"},{"type":"html","id":"ggo3E-eaaAZ_childItem_0","label":"ggo3E-eaaAZ_childItem_0","default":"<p>5 x Regular Chalktop Lids FREE!</p>"},{"type":"html","id":"ggo3E-eaaAZ_childItem_1","label":"ggo3E-eaaAZ_childItem_1","default":"<p>5 x Wide Chalktop Lids FREE!</p>"},{"type":"html","id":"ggMePJ6Bfd8_customContent_prefix","label":"ggMePJ6Bfd8_customContent_prefix","default":"SALE"},{"type":"html","id":"ggMePJ6Bfd8_customContent_suffix","label":"ggMePJ6Bfd8_customContent_suffix","default":"OFF"},{"type":"html","id":"ggZ_tVECYfl_label","label":"ggZ_tVECYfl_label","default":"Add to cart 👉"},{"type":"html","id":"ggZ_tVECYfl_outOfStockLabel","label":"ggZ_tVECYfl_outOfStockLabel","default":"Out of stock"},{"type":"html","id":"ggf5XfNwbWp_text","label":"ggf5XfNwbWp_text","default":"<p>Briana M. <strong>Verified Buyer</strong></p>"},{"type":"html","id":"ggzli-QEYt0_text","label":"ggzli-QEYt0_text","default":"<p><span style=\"background-color:rgb(255,255,255);color:rgb(0,0,0);font-size:16px;\"><i>“It’s small but does the job perfectly. Sealed my spices and they're as fresh as day one!”</i></span></p>"},{"type":"html","id":"ggOmmJapKHE_childItem_0","label":"ggOmmJapKHE_childItem_0","default":"<p><span style=\"background-color:#F4F4F4;color:rgb(22,40,59);font-size:20px;\"><strong>30 Day Money Back Guarantee</strong></span></p>"},{"type":"html","id":"ggOmmJapKHE_childItem_1","label":"ggOmmJapKHE_childItem_1","default":"<p><span style=\"background-color:#F4F4F4;color:rgb(22,40,59);font-size:20px;\"><strong>Shipping &amp; Delivery</strong></span></p>"},{"type":"html","id":"ggQx1OAbJxt_text","label":"ggQx1OAbJxt_text","default":"<p>We're dedicated to your satisfaction and confident that you'll love your kit. That’s why we back your purchase with a 100% satisfaction guarantee.</p><p>If you’re not completely happy with your order, we’ll provide a full refund, minus the return shipping cost. Just contact our customer success team at support@zasown.com</p>"},{"type":"html","id":"ggCgCBLyK9P_text","label":"ggCgCBLyK9P_text","default":"<p>Your order will be packed and shipped within 1-3 days. After it ships, you'll receive an email with your tracking number. Delivery typically takes 5-12 days, depending on your location.</p><p>We ship to the United States, Australia, New Zealand, Canada, and the United Kingdom, as well as to all countries in the European Union.</p><p><strong>Shipping Fees:</strong> Enjoy free shipping on all orders over $50. For orders under $50, a flat rate of $4.99 applies.</p><p><strong>Custom Fees (for international customers):</strong> Great news! You won't need to pay any customs duties or fees. All customs duties and import fees are prepaid by us!</p>"}],
+    "settings": [{"type":"paragraph","content":"Section design by GemPages. [Click here to start design](https://admin.shopify.com/store/499862-95/apps/gempages-cro/app/shopify/edit?pageType=GP_PRODUCT&editorId=528781133664486352&sectionId=528781134016807888)"},{"type":"select","label":"Section Preload","id":"section_preload","options":[{"label":"On","value":"true"},{"label":"Off","value":"false"},{"label":"Off Lazy Script","value":"off_lazy_script"}],"default":"false"},{"type":"html","id":"ggNsHVocZth_text","label":"ggNsHVocZth_text","default":"<p>Best Seller</p>"},{"type":"html","id":"ggQM-ABuyrr_text","label":"ggQM-ABuyrr_text","default":"<p>2,500+ Verified Reviews!</p>"},{"type":"html","id":"ggoj297rYbM_text","label":"ggoj297rYbM_text","default":"<p>Save money and reduce waste effortlessly —just one click extends your food's freshness 3x to 5x longer.</p>"},{"type":"html","id":"ggAslPpNhbF_childItem_0","label":"ggAslPpNhbF_childItem_0","default":"<p><span style=\"font-size:14px;\">Keeps pantry pests and air out with an airtight vacuum seal</span></p>"},{"type":"html","id":"ggAslPpNhbF_childItem_1","label":"ggAslPpNhbF_childItem_1","default":"<p><span style=\"font-size:14px;\">Compatible with all mason jars &amp; lids, including Ball, Kerr, and Bernardin</span></p>"},{"type":"html","id":"ggAslPpNhbF_childItem_2","label":"ggAslPpNhbF_childItem_2","default":"<p><span style=\"font-size:14px;\">Increase shelf life by 3-5 times instantly</span></p>"},{"type":"html","id":"ggrgDBjvDfh_text","label":"ggrgDBjvDfh_text","default":"<p><strong>Kit Includes</strong></p>"},{"type":"html","id":"ggo3E-eaaAZ_childItem_0","label":"ggo3E-eaaAZ_childItem_0","default":"<p>Vacuum Sealer Kit</p>"},{"type":"html","id":"ggo3E-eaaAZ_childItem_1","label":"ggo3E-eaaAZ_childItem_1","default":"<p>Lid Adapter</p>"},{"type":"html","id":"ggo3E-eaaAZ_childItem_2","label":"ggo3E-eaaAZ_childItem_2","default":"<p>USB Charging Cable</p>"},{"type":"html","id":"ggo3E-eaaAZ_childItem_3","label":"ggo3E-eaaAZ_childItem_3","default":"<p>Mason Jar Lid Opener</p>"},{"type":"html","id":"ggo3E-eaaAZ_childItem_4","label":"ggo3E-eaaAZ_childItem_4","default":"<p>Set of 5 Regular Mouth Lids</p>"},{"type":"html","id":"ggo3E-eaaAZ_childItem_5","label":"ggo3E-eaaAZ_childItem_5","default":"<p>Set of 5 Wide Mouth Lids</p>"},{"type":"html","id":"ggMePJ6Bfd8_customContent_prefix","label":"ggMePJ6Bfd8_customContent_prefix","default":"SALE"},{"type":"html","id":"ggMePJ6Bfd8_customContent_suffix","label":"ggMePJ6Bfd8_customContent_suffix","default":"OFF"},{"type":"html","id":"ggZ_tVECYfl_label","label":"ggZ_tVECYfl_label","default":"Add to cart 👉"},{"type":"html","id":"ggZ_tVECYfl_outOfStockLabel","label":"ggZ_tVECYfl_outOfStockLabel","default":"Out of stock"},{"type":"html","id":"ggZ_tVECYfl_unavailableLabel","label":"ggZ_tVECYfl_unavailableLabel","default":"Unavailable"},{"type":"html","id":"ggf5XfNwbWp_text","label":"ggf5XfNwbWp_text","default":"<p>Briana M. <strong>Verified Buyer</strong></p>"},{"type":"html","id":"ggzli-QEYt0_text","label":"ggzli-QEYt0_text","default":"<p><span style=\"background-color:rgb(255,255,255);color:rgb(0,0,0);font-size:16px;\"><i>“It’s small but does the job perfectly. Sealed my spices and they're as fresh as day one!”</i></span></p>"},{"type":"html","id":"ggOmmJapKHE_childItem_0","label":"ggOmmJapKHE_childItem_0","default":"<p><span style=\"background-color:#F4F4F4;color:rgb(22,40,59);font-size:20px;\"><strong>30 Day Money Back Guarantee</strong></span></p>"},{"type":"html","id":"ggOmmJapKHE_childItem_1","label":"ggOmmJapKHE_childItem_1","default":"<p><span style=\"background-color:#F4F4F4;color:rgb(22,40,59);font-size:20px;\"><strong>Shipping &amp; Delivery</strong></span></p>"},{"type":"html","id":"ggQx1OAbJxt_text","label":"ggQx1OAbJxt_text","default":"<p>We're dedicated to your satisfaction and confident that you'll love your kit. That’s why we back your purchase with a 100% satisfaction guarantee.</p><p>If you’re not completely happy with your order, we’ll provide a full refund, minus the return shipping cost. Just contact our customer success team at support@zasown.com</p>"},{"type":"html","id":"ggCgCBLyK9P_text","label":"ggCgCBLyK9P_text","default":"<p>Your order will be packed and shipped within 1-3 days. After it ships, you'll receive an email with your tracking number. Delivery typically takes 5-12 days, depending on your location.</p><p>We ship to the United States, Australia, New Zealand, Canada, and the United Kingdom, as well as to all countries in the European Union.</p><p><strong>Shipping Fees:</strong> Enjoy free shipping on all orders over $50. For orders under $50, a flat rate of $4.99 applies.</p><p><strong>Custom Fees (for international customers):</strong> Great news! You won't need to pay any customs duties or fees. All customs duties and import fees are prepaid by us!</p>"}],
     "blocks": [{"type": "@app"}],
     "locales": {}
   }
