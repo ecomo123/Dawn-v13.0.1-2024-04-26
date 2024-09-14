@@ -26,10 +26,11 @@
         {%- liquid
           if request.page_type != 'product'
             assign product = all_products['vacuum-sealer-kit']
+            assign productId = '8711754547414' | times: 1
             if product == empty or product == null
               paginate collections.all.products by 100000
                 for item in collections.all.products
-                  if item.id == '8711754547414'
+                  if item.id == productId
                     assign product = item
                   endif
                 endfor
@@ -1603,7 +1604,7 @@
       >
       <div class="gp-flex" style="--jc:left">
         <div
-         
+          
           data-gp-text
           class="[&_p]:gp-inline [&_p]:after:gp-whitespace-pre-wrap [&_p]:after:gp-content-['\A'] gp-text"
           style="--w:Auto;--w-tablet:Auto;--w-mobile:Auto;--ts:none;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--fs:normal;--ff:var(--g-font-body, body);--weight:600;--ls:normal;--size:13px;--size-tablet:13px;--size-mobile:12px;--lh:130%;--lh-tablet:130%;--lh-mobile:130%;--c:#ffffff;--tt:none;word-break:break-word;--bgc:#111111;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;--pl:32px;--pr:32px;--pt:4px;--pb:4px;overflow:hidden"
@@ -1632,7 +1633,7 @@
       >
       <div  >
         <h1
-         
+          
           data-gp-text
           class="[&_p]:gp-inline [&_p]:after:gp-whitespace-pre-wrap [&_p]:after:gp-content-['\A'] gp-product-title"
           style="--w:100%;--ts:none;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--c:#242424;--fs:normal;--ff:var(--g-font-heading, heading);--weight:600;--ls:normal;--size:33px;--size-tablet:33px;--size-mobile:20px;--lh:130%;--lh-tablet:130%;--lh-mobile:130%;word-break:break-word;overflow:hidden"
@@ -1816,7 +1817,7 @@
       >
       <div class="gp-flex" style="--jc:left">
         <div
-         
+          
           data-gp-text
           class="[&_p]:gp-inline [&_p]:after:gp-whitespace-pre-wrap [&_p]:after:gp-content-['\A'] gp-text"
           style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:center;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--fs:normal;--ff:var(--g-font-body, body);--weight:400;--ls:normal;--size:15px;--size-tablet:13px;--size-mobile:12px;--lh:130%;--lh-tablet:130%;--lh-mobile:130%;--c:#242424;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden"
@@ -1856,7 +1857,7 @@
       >
       <div class="gp-flex" style="--jc:left">
         <div
-         
+          
           data-gp-text
           class="[&_p]:gp-inline [&_p]:after:gp-whitespace-pre-wrap [&_p]:after:gp-content-['\A'] gp-text"
           style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--fs:normal;--ff:var(--g-font-body, body);--weight:600;--ls:normal;--size:16px;--size-tablet:16px;--size-mobile:14px;--lh:130%;--lh-tablet:130%;--lh-mobile:130%;--c:#242424;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden"
@@ -1961,7 +1962,7 @@
       >
       <div class="gp-flex" style="--jc:left">
         <div
-         
+          
           data-gp-text
           class="[&_p]:gp-inline [&_p]:after:gp-whitespace-pre-wrap [&_p]:after:gp-content-['\A'] gp-g-paragraph-1 gp-text"
           style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--c:var(--g-c-text-1, text-1);word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden"
@@ -2158,7 +2159,7 @@
       >
       <div  >
         <div
-         type="regular"
+          type="regular"
           data-gp-text
           class="[&_p]:gp-inline [&_p]:after:gp-whitespace-pre-wrap [&_p]:after:gp-content-['\A'] gp-price gp-money gp-decoration-g-text-1 gp-text-g-text-2 gp-g-subheading-2"
           style="--w:100%;--tdc:text-1;--tdt:1;--ta:left;--c:var(--g-c-text-2, text-2);--size:23px;--size-tablet:18px;--size-mobile:16px;--weight:bold;word-break:break-word;overflow:hidden"
@@ -2194,7 +2195,7 @@
       >
       <div  >
         <div
-         type="compare"
+          type="compare"
           data-gp-text
           class="[&_p]:gp-inline [&_p]:after:gp-whitespace-pre-wrap [&_p]:after:gp-content-['\A'] gp-price gp-product-compare-price gp-line-through gp-decoration-g-text-1 gp-text-g-text-1 gp-g-subheading-2"
           style="--w:100%;--tdc:text-1;--tdt:1;--ta:left;--c:var(--g-c-text-1, text-1);--size:23px;--size-tablet:18px;--size-mobile:16px;word-break:break-word;overflow:hidden"
@@ -2254,7 +2255,7 @@
       >
       <div  >
         <div
-         
+          
           data-gp-text
           class="[&_p]:gp-inline [&_p]:after:gp-whitespace-pre-wrap [&_p]:after:gp-content-['\A'] gp-g-subheading-2"
           style="--w:100%;--ta:left;--c:#FFFFFF;word-break:break-word;overflow:hidden"
@@ -2834,7 +2835,7 @@
       >
       <div class="gp-flex" style="--jc:left">
         <div
-         
+          
           data-gp-text
           class="[&_p]:gp-inline [&_p]:after:gp-whitespace-pre-wrap [&_p]:after:gp-content-['\A'] gp-text"
           style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:center;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--fs:normal;--ff:var(--g-font-body, body);--weight:400;--ls:normal;--size:16px;--size-tablet:16px;--size-mobile:14px;--lh:130%;--lh-tablet:130%;--lh-mobile:130%;--c:#242424;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden"
@@ -2861,7 +2862,7 @@
       >
       <div class="gp-flex" style="--jc:left">
         <div
-         
+          
           data-gp-text
           class="[&_p]:gp-inline [&_p]:after:gp-whitespace-pre-wrap [&_p]:after:gp-content-['\A'] gp-text"
           style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--fs:normal;--ff:var(--g-font-body, body);--weight:400;--ls:normal;--size:16px;--size-tablet:16px;--size-mobile:14px;--lh:130%;--lh-tablet:130%;--lh-mobile:130%;--c:#242424;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden"
@@ -2958,7 +2959,7 @@
       >
       <div  >
         <span
-         
+          
           data-gp-text
           class="[&_p]:gp-inline [&_p]:after:gp-whitespace-pre-wrap [&_p]:after:gp-content-['\A'] gp-overflow-hidden gp-g-paragraph-1"
           style="--w:100%;word-break:break-word;overflow:hidden"
@@ -2992,7 +2993,7 @@
       >
       <div class="gp-flex" style="--jc:left">
         <div
-         
+          
           data-gp-text
           class="[&_p]:gp-inline [&_p]:after:gp-whitespace-pre-wrap [&_p]:after:gp-content-['\A'] gp-g-paragraph-1 gp-text"
           style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--c:var(--g-c-text-1, text-1);word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden"
@@ -3060,7 +3061,7 @@
       >
       <div  >
         <span
-         
+          
           data-gp-text
           class="[&_p]:gp-inline [&_p]:after:gp-whitespace-pre-wrap [&_p]:after:gp-content-['\A'] gp-overflow-hidden gp-g-paragraph-1"
           style="--w:100%;word-break:break-word;overflow:hidden"
@@ -3094,7 +3095,7 @@
       >
       <div class="gp-flex" style="--jc:left">
         <div
-         
+          
           data-gp-text
           class="[&_p]:gp-inline [&_p]:after:gp-whitespace-pre-wrap [&_p]:after:gp-content-['\A'] gp-g-paragraph-1 gp-text"
           style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--c:var(--g-c-text-1, text-1);word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden"

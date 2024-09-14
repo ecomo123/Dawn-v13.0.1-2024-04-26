@@ -32,10 +32,11 @@
                 endpaginate
               else
                 assign product = all_products['vacuum-sealer-kit']
+                assign productId = '8711754547414' | times: 1
                 if product == empty or product == null
                   paginate collections.all.products by 100000
                     for item in collections.all.products
-                      if item.id == '8711754547414'
+                      if item.id == productId
                         assign product = item
                       endif
                     endfor
@@ -50,10 +51,11 @@
               endpaginate
             else
               assign product = all_products['vacuum-sealer-kit']
+              assign productId = '8711754547414' | times: 1
               if product == empty or product == null
                 paginate collections.all.products by 100000
                   for item in collections.all.products
-                    if item.id == '8711754547414'
+                    if item.id == productId
                       assign product = item
                     endif
                   endfor
@@ -116,7 +118,7 @@
       >
       <div class="gp-flex" style="--jc:center">
         <h2
-         
+          
           data-gp-text
           class="[&_p]:gp-inline [&_p]:after:gp-whitespace-pre-wrap [&_p]:after:gp-content-['\A'] gp-text-g-text-2 gp-text"
           style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:center;--c:#242424;--fs:normal;--ff:var(--g-font-heading, heading);--weight:700;--ls:normal;--size:40px;--size-tablet:40px;--size-mobile:35px;--lh:130%;--lh-tablet:130%;--lh-mobile:130%;word-break:break-word;overflow:hidden"
@@ -130,7 +132,7 @@
       >
       <div class="gp-flex" style="--jc:center">
         <div
-         
+          
           data-gp-text
           class="[&_p]:gp-inline [&_p]:after:gp-whitespace-pre-wrap [&_p]:after:gp-content-['\A'] gp-text"
           style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:center;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--c:#424242;--fs:normal;--ff:var(--g-font-body, body);--weight:400;--ls:normal;--size:19px;--size-tablet:19px;--size-mobile:17px;--lh:150%;--lh-tablet:150%;--lh-mobile:150%;word-break:break-word;overflow:hidden"
@@ -274,7 +276,7 @@
       >
       <div class="gp-flex" style="--jc:left;--jc-mobile:center">
         <h3
-         
+          
           data-gp-text
           class="[&_p]:gp-inline [&_p]:after:gp-whitespace-pre-wrap [&_p]:after:gp-content-['\A'] gp-text-g-text-2 gp-text"
           style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--ta-mobile:center;--c:#242424;--fs:normal;--ff:var(--g-font-heading, heading);--weight:700;--ls:normal;--size:19px;--size-tablet:19px;--size-mobile:17px;--lh:130%;--lh-tablet:130%;--lh-mobile:130%;word-break:break-word;overflow:hidden"
@@ -288,7 +290,7 @@
       >
       <div class="gp-flex" style="--jc:left;--jc-mobile:center">
         <div
-         
+          
           data-gp-text
           class="[&_p]:gp-inline [&_p]:after:gp-whitespace-pre-wrap [&_p]:after:gp-content-['\A'] gp-g-paragraph-1 gp-text"
           style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--ta-mobile:center;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--c:#575757;word-break:break-word;overflow:hidden"
@@ -369,7 +371,7 @@
       >
       <div class="gp-flex" style="--jc:left;--jc-mobile:center">
         <h3
-         
+          
           data-gp-text
           class="[&_p]:gp-inline [&_p]:after:gp-whitespace-pre-wrap [&_p]:after:gp-content-['\A'] gp-text-g-text-2 gp-text"
           style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--ta-mobile:center;--c:#242424;--fs:normal;--ff:var(--g-font-heading, heading);--weight:700;--ls:normal;--size:19px;--size-tablet:19px;--size-mobile:17px;--lh:130%;--lh-tablet:130%;--lh-mobile:130%;word-break:break-word;overflow:hidden"
@@ -383,7 +385,7 @@
       >
       <div class="gp-flex" style="--jc:left;--jc-mobile:center">
         <div
-         
+          
           data-gp-text
           class="[&_p]:gp-inline [&_p]:after:gp-whitespace-pre-wrap [&_p]:after:gp-content-['\A'] gp-g-paragraph-1 gp-text"
           style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--ta-mobile:center;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--c:#575757;word-break:break-word;overflow:hidden"
@@ -464,7 +466,7 @@
       >
       <div class="gp-flex" style="--jc:left;--jc-mobile:center">
         <h3
-         
+          
           data-gp-text
           class="[&_p]:gp-inline [&_p]:after:gp-whitespace-pre-wrap [&_p]:after:gp-content-['\A'] gp-text-g-text-2 gp-text"
           style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--ta-mobile:center;--c:#242424;--fs:normal;--ff:var(--g-font-heading, heading);--weight:700;--ls:normal;--size:19px;--size-tablet:19px;--size-mobile:17px;--lh:130%;--lh-tablet:130%;--lh-mobile:130%;word-break:break-word;overflow:hidden"
@@ -478,7 +480,7 @@
       >
       <div class="gp-flex" style="--jc:left;--jc-mobile:center">
         <div
-         
+          
           data-gp-text
           class="[&_p]:gp-inline [&_p]:after:gp-whitespace-pre-wrap [&_p]:after:gp-content-['\A'] gp-g-paragraph-1 gp-text"
           style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--ta-mobile:center;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--c:#575757;word-break:break-word;overflow:hidden"
@@ -608,7 +610,7 @@
       >
       <div class="gp-flex" style="--jc:left">
         <div
-         
+          
           data-gp-text
           class="[&_p]:gp-inline [&_p]:after:gp-whitespace-pre-wrap [&_p]:after:gp-content-['\A'] gp-text"
           style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:center;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--fs:normal;--ff:var(--g-font-body, body);--weight:400;--ls:normal;--size:13px;--size-tablet:13px;--size-mobile:12px;--lh:130%;--lh-tablet:130%;--lh-mobile:130%;--c:#575757;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden"
@@ -665,7 +667,7 @@
       >
       <div class="gp-flex" style="--jc:left">
         <div
-         
+          
           data-gp-text
           class="[&_p]:gp-inline [&_p]:after:gp-whitespace-pre-wrap [&_p]:after:gp-content-['\A'] gp-text"
           style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:center;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--fs:normal;--ff:var(--g-font-body, body);--weight:400;--ls:normal;--size:13px;--size-tablet:13px;--size-mobile:12px;--lh:130%;--lh-tablet:130%;--lh-mobile:130%;--c:#575757;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden"
@@ -721,7 +723,7 @@
       >
       <div class="gp-flex" style="--jc:left">
         <div
-         
+          
           data-gp-text
           class="[&_p]:gp-inline [&_p]:after:gp-whitespace-pre-wrap [&_p]:after:gp-content-['\A'] gp-text"
           style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:center;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--fs:normal;--ff:var(--g-font-body, body);--weight:400;--ls:normal;--size:13px;--size-tablet:13px;--size-mobile:12px;--lh:130%;--lh-tablet:130%;--lh-mobile:130%;--c:#575757;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden"
