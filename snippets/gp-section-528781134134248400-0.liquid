@@ -1,4 +1,4 @@
-<div style="--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--border:[object Object];--rounded:[object Object];--hasBoxShadow:[object Object];--shadow:none;--boxShadow:[object Object];--op:100%;--animation:[object Object]" class="g03uF5qEUz ">
+<div style="--mt:var(--g-s-2xl);--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--border:[object Object];--rounded:[object Object];--hasBoxShadow:[object Object];--shadow:none;--boxShadow:[object Object];--op:100%;--animation:[object Object]" class="g03uF5qEUz ">
       
 
     <script {% if section.settings.section_preload == "false" %}class="gps-link" delay {% else %}src{% endif %}="https://d2ls1pfffhvy22.cloudfront.net/assets-v2/gp-product.v2.js?v={{ shop.metafields.GEMPAGES.ASSETS_VERSION }}" defer="defer"></script>
@@ -12,7 +12,7 @@
       assign target_collection = null
       assign productSrc = 'RelatedProduct'
       assign c = 0
-      assign limit = 4
+      assign limit = 3
       if request.page_type == 'collection' or preview_page_type == 'collection'
         assign target_collection = collection
         if target_collection == empty or target_collection == null
@@ -27,7 +27,7 @@
             endfor
           endif
         endif
-        paginate target_collection.products by 4
+        paginate target_collection.products by 3
           assign products = target_collection.products  
         endpaginate
       else
@@ -60,7 +60,7 @@
                   if item.id == collectionId 
                   for product in collection.products
                     assign product_ids_array = idSelectedList | split: ","
-                    if product_ids_array.size > 4
+                    if product_ids_array.size > 3
                       break
                     elsif product_ids_array contains product.id
                     else
@@ -129,7 +129,7 @@
               endfor 
             assign products = products | uniq
         endcase
-        paginate products by 4
+        paginate products by 3
           assign products = products
         endpaginate 
       
@@ -160,7 +160,7 @@
               endif
             endfor
           endif
-          paginate target_collection.products by 4
+          paginate target_collection.products by 3
             assign products = target_collection.products  
           endpaginate
         endif
