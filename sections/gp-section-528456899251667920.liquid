@@ -40,7 +40,7 @@
       >
       <div class="gp-flex" style="--jc:center">
         <h2
-         
+          
           data-gp-text
           class="[&_p]:gp-inline [&_p]:after:gp-whitespace-pre-wrap [&_p]:after:gp-content-['\A'] gp-text"
           style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:center;--c:#242424;--fs:normal;--ff:var(--g-font-heading, heading);--weight:700;--ls:normal;--size:38px;--size-tablet:38px;--size-mobile:33px;--lh:130%;--lh-tablet:130%;--lh-mobile:130%;word-break:break-word;overflow:hidden"
@@ -54,7 +54,7 @@
       >
       <div class="gp-flex" style="--jc:center">
         <div
-         
+          
           data-gp-text
           class="[&_p]:gp-inline [&_p]:after:gp-whitespace-pre-wrap [&_p]:after:gp-content-['\A'] gp-text"
           style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:center;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--c:var(--g-c-text-1, text-1);--fs:normal;--ff:var(--g-font-body, body);--weight:400;--ls:normal;--size:16px;--size-tablet:16px;--size-mobile:14px;--lh:150%;--lh-tablet:150%;--lh-mobile:150%;word-break:break-word;overflow:hidden"
@@ -86,7 +86,7 @@
 {%- assign gpBkProduct = product -%}
 {%- assign gpBkProducts = products -%}
 {%- liquid
-      assign productHandles = ''| split: ','
+      assign productHandles = 'anti-cellulite-massager,ems-foot-massager,electric-callus-remover,magnetic-car-sets'| split: ','
       assign products = null
       assign target_collection = null
       assign productSrc = 'PickProduct'
@@ -115,7 +115,7 @@
     
     
         elsif productSrc == 'PickProduct'
-          unless true 
+          unless false 
             assign products = null | sort
             for handle in productHandles
               assign productH = all_products[handle] | sort
@@ -123,7 +123,7 @@
             endfor
             assign limit = products.length
           else
-            if 0 == 0
+            if 4 == 0
               paginate collections.all.products by 100000
                 assign products = collections.all.products  | sort : "created_at"  | reverse
               endpaginate
@@ -148,7 +148,7 @@
       -%}
         
     {%- if products == null -%}
-    {%- if count == 0 and 0 == 0 -%}
+    {%- if count == 0 and 4 == 0 -%}
       {% if 'PickProduct' == 'RelatedProduct' -%}
           <div>{{ "gempages.ProductList.no_related_products" | t }}</div>
         {% else %}
@@ -246,8 +246,8 @@
       style="--minw:calc(100% / 4 - 22.5px);--minw-tablet:calc(100% / 4 - 22.5px);--minw-mobile:calc(100% / 2 - 15px);--maxw:calc(100% / 4 - 22.5px);--maxw-tablet:calc(100% / 4 - 22.5px);--maxw-mobile:calc(100% / 2 - 15px);--ml:0px;--ml-tablet:0px;--ml-mobile:0px"
       class="gem-slider-item gp-w-full gem-slider-item-product-list-carousel-gM4tR3MyYG gM4tR3MyYG"
     >
-      <gp-product gp-context='{"variantSelected": {{ variant | json | escape }}, "quantity": 1 ,  "formId": "{{ product_form_id }}"}' gp-data='{"variantSelected": {{ variant | json | escape }}, "quantity": 1}'>
-                      {%- form 'product', product, id: product_form_id, class: 'form contents',  data-type: 'add-to-cart-form',autocomplete: 'off' -%}
+      <gp-product gp-context='{"variantSelected": {{ variant | json | escape }}, "quantity": 1 ,  "formId": "{{ product_form_id }}"}' gp-data='{"variantSelected": {{ variant | json | escape }}, "quantity": 1, "productUrl":{{ product.url | json | escape }}, "productHandle":{{ product.handle | json | escape }}, "collectionUrl": {{ collection.url | json | escape }}, "collectionHandle": {{ collection.handle | json | escape }}}'>
+                      {%- form 'product', product, id: product_form_id, class: 'form contents AddToCartForm',  data-type: 'add-to-cart-form',autocomplete: 'off' -%}
                       <input type="hidden" name="id" value="{{ variant.id }}" />
                       <input type="hidden" min="1" name="quantity"  value="{{ quantity }}" />
                         <button type="submit" onclick="return false;" style="display:none;"></button>
@@ -274,7 +274,7 @@
     {
       "id":"g9Bb0ugDyb",
       "setting":{"arrowIcon":"<svg width=\"100%\" height=\"100%\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n    <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M12 0C18.6274 0 24 5.37258 24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12C0 5.37258 5.37258 0 12 0ZM10.6828 8.13017C10.5266 7.95661 10.2734 7.95661 10.1172 8.13017C9.96095 8.30374 9.96095 8.58515 10.1172 8.75871L13.0343 12L10.1172 15.2413C9.96095 15.4149 9.96095 15.6963 10.1172 15.8698C10.2734 16.0434 10.5266 16.0434 10.6828 15.8698L13.8828 12.3143C14.0391 12.1407 14.0391 11.8593 13.8828 11.6857L10.6828 8.13017Z\" fill=\"currentColor\"/>\n    </svg>","arrowIconColor":"#000000","borderActive":{"borderType":"none","borderWidth":"1px","color":"#000000","isCustom":"false","width":"1px 1px 1px 1px"},"clickOpenLightBox":{"desktop":false},"dragToScroll":true,"ftArrowIcon":"<svg width=\"100%\" height=\"100%\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n    <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M12 0C18.6274 0 24 5.37258 24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12C0 5.37258 5.37258 0 12 0ZM10.6828 8.13017C10.5266 7.95661 10.2734 7.95661 10.1172 8.13017C9.96095 8.30374 9.96095 8.58515 10.1172 8.75871L13.0343 12L10.1172 15.2413C9.96095 15.4149 9.96095 15.6963 10.1172 15.8698C10.2734 16.0434 10.5266 16.0434 10.6828 15.8698L13.8828 12.3143C14.0391 12.1407 14.0391 11.8593 13.8828 11.6857L10.6828 8.13017Z\" fill=\"currentColor\"/>\n    </svg>","ftArrowIconColor":"#000000","ftClickOpenLightBox":{"desktop":"product-link"},"ftDotActiveColor":{"desktop":"line-3"},"ftDotColor":{"desktop":"bg-1"},"ftDotGapToCarousel":{"desktop":16},"ftDotSize":{"desktop":12},"ftDotStyle":{"desktop":"none"},"ftDragToScroll":false,"ftLoop":{"desktop":false},"ftNavigationPosition":{"desktop":"none"},"ftPauseOnHover":true,"ftSpeed":1,"galleryHoverEffect":"none","galleryZoom":150,"galleryZoomType":"default","hoverEffect":"none","loop":{"desktop":true},"navigationPosition":{"desktop":"inside"},"otherImage":0,"pauseOnHover":true,"speed":1,"type":{"desktop":"slider"},"typeDisplay":"all-images","zoom":150,"zoomType":"default"},
-      "styles":{"align":{"desktop":"flex-start"},"corner":{"bblr":"0px","bbrr":"0px","btlr":"0px","btrr":"0px","radiusType":"none"},"ftCorner":{"bblr":"0px","bbrr":"0px","btlr":"0px","btrr":"0px","radiusType":"none"},"ftLayout":{"desktop":"cover"},"ftShape":{"desktop":{"shape":"square","shapeLinked":true,"shapeValue":"1/1","width":"100%"}},"itemSpacing":{"desktop":"var(--g-s-s)","mobile":"var(--g-s-s)"},"layout":{"desktop":"cover"},"position":{"desktop":"only-feature","mobile":"only-feature"},"ratioLayout":{"desktop":[2,10]},"ratioLayoutRight":{"desktop":[10,2]},"shape":{"desktop":{"shape":"square","shapeLinked":true,"shapeValue":"1/1","width":"100%"}},"shapeFor1Col":{"desktop":{"shape":"square","shapeLinked":true,"shapeValue":"1/1","width":"100%"}},"shapeFor2Col":{"desktop":{"shape":"square","shapeLinked":true,"shapeValue":"1/1","width":"50%"}},"shapeForBottom":{"desktop":{"shape":"square","shapeLinked":true,"shapeValue":"1/1","width":"20%"}},"shapeForFtOnly":{"desktop":{"shape":"square","shapeLinked":true,"shapeValue":"1/1","width":"100%"}},"spacing":{"desktop":"var(--g-s-s)","mobile":"var(--g-s-s)"}}, "productUrl":{{product.url | json | escape}}, "product":{{product | json | escape}}
+      "styles":{"align":{"desktop":"flex-start"},"corner":{"bblr":"0px","bbrr":"0px","btlr":"0px","btrr":"0px","radiusType":"none"},"ftCorner":{"bblr":"0px","bbrr":"0px","btlr":"0px","btrr":"0px","radiusType":"none"},"ftLayout":{"desktop":"cover"},"ftShape":{"desktop":{"shape":"square","shapeLinked":true,"shapeValue":"1/1","width":"100%"}},"itemSpacing":{"desktop":"var(--g-s-s)","mobile":"var(--g-s-s)"},"layout":{"desktop":"cover"},"position":{"desktop":"only-feature","mobile":"only-feature"},"ratioLayout":{"desktop":[2,10]},"ratioLayoutRight":{"desktop":[10,2]},"shape":{"desktop":{"shape":"square","shapeLinked":true,"shapeValue":"1/1","width":"100%"}},"shapeFor1Col":{"desktop":{"shape":"square","shapeLinked":true,"shapeValue":"1/1","width":"100%"}},"shapeFor2Col":{"desktop":{"shape":"square","shapeLinked":true,"shapeValue":"1/1","width":"50%"}},"shapeForBottom":{"desktop":{"shape":"square","shapeLinked":true,"shapeValue":"1/1","width":"20%"}},"shapeForFtOnly":{"desktop":{"shape":"square","shapeLinked":true,"shapeValue":"1/1","width":"100%"}},"spacing":{"desktop":"var(--g-s-s)","mobile":"var(--g-s-s)"}}, "productUrl":{{product.url | json | escape}}, "product":{{product | json | escape}}, "collectionUrl": {{ collection.url | json | escape }}, "collection": {{ collection | json | escape}}
     }
   '
       section-id="{{section.id}}"
@@ -367,7 +367,8 @@
       quality-type={}
       quality-percent={}
       data-sizes="auto"
-      sizes="100vw"
+      srcset="{{src | img_url: '480x480'}} 480w, {{src | img_url: '768x768'}} 768w,{{src | img_url: '1024x1024'}} 1024w,{{src | img_url: '1440x1440'}} 1440w"
+      sizes="(max-width: 768px) 50vw, 100vw"
       style="--aspect:1/1;--aspect-tablet:1/1;--aspect-mobile:1/1;--objf:cover"
     />
   {%- else -%}
@@ -379,7 +380,7 @@
       draggable="false"
       class="gp-w-full gp-h-full gp-absolute gp-top-0 gp-left-0 featured-image-only gp-cursor-pointer !gp-rounded-none gp-w-full gp-transition-opacity {{shouldHidden}} gp_lazyload"
       data-src="{{src | image_url}}" data-srcset="{%- if src != null -%}
-              {{src | img_url: '768x768'}} 768w,{{src | img_url: '1024x1024'}} 1024w,{{src | img_url: '1440x1440'}} 1440w
+              {{src | img_url: '480x480'}} 480w, {{src | img_url: '768x768'}} 768w,{{src | img_url: '1024x1024'}} 1024w,{{src | img_url: '1440x1440'}} 1440w
             {%- else -%}
               {{ 'https://cdn.shopify.com/s/assets/no-image-2048-5e88c1b20e087fb7bbe9a3771824e743c244f437e4f8ba93bbf7b11b53f7824c_large.gif' }}
             {%- endif -%}" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAA1JREFUGFdj+Pr1638ACaED3/nOThIAAAAASUVORK5CYII=" width="{{featureMedia.width}}" height="{{featureMedia.height}}" alt="{{featureMedia.alt}}" base-src="{{src | image_url}}"
@@ -515,7 +516,7 @@
       >
       <div  >
         <div
-         
+          
           data-gp-text
           class="[&_p]:gp-inline [&_p]:after:gp-whitespace-pre-wrap [&_p]:after:gp-content-['\A'] gp-text-g-bg-3"
           style="--w:100%;--ta:left;--c:#FFFFFF;--fs:normal;--ff:var(--g-font-body, body);--weight:400;--ls:normal;--size:16px;--size-tablet:16px;--size-mobile:14px;--lh:150%;--lh-tablet:150%;--lh-mobile:150%;word-break:break-word;overflow:hidden"
@@ -562,7 +563,7 @@
       >
       <div  >
         <div
-         type="regular"
+          type="regular"
           data-gp-text
           class="[&_p]:gp-inline [&_p]:after:gp-whitespace-pre-wrap [&_p]:after:gp-content-['\A'] gp-price gp-money gp-decoration-g-highlight"
           style="--w:100%;--tdc:highlight;--tdt:1;--ta:left;--c:#242424;--fs:normal;--ff:var(--g-font-body, body);--weight:700;--ls:normal;--size:16px;--size-tablet:16px;--size-mobile:14px;--lh:150%;--lh-tablet:150%;--lh-mobile:150%;word-break:break-word;overflow:hidden"
@@ -598,7 +599,7 @@
       >
       <div  >
         <div
-         type="compare"
+          type="compare"
           data-gp-text
           class="[&_p]:gp-inline [&_p]:after:gp-whitespace-pre-wrap [&_p]:after:gp-content-['\A'] gp-price gp-product-compare-price gp-line-through"
           style="--w:100%;--tdc:#B4B4B4;--tdt:1;--ta:left;--c:#B4B4B4;--fs:normal;--ff:var(--g-font-body, body);--weight:400;--ls:normal;--size:16px;--size-tablet:16px;--size-mobile:14px;--lh:150%;--lh-tablet:150%;--lh-mobile:150%;word-break:break-word;overflow:hidden"
@@ -623,7 +624,7 @@
       <p>{{ "gempages.ProductTitle.product_not_found" | t }}</p>
     {%- else -%}
       
-        <a href="{{ product.url }}" title="{{ product.title }}">
+        <a href="{{ product.url }}" title="{{ product.title }}" class="gp-product-title-link-wrapper">
         
     <div
       
@@ -632,7 +633,7 @@
       >
       <div  >
         <h2
-         
+          
           data-gp-text
           class="[&_p]:gp-inline [&_p]:after:gp-whitespace-pre-wrap [&_p]:after:gp-content-['\A']"
           style="--w:100%;--ta:center;--line-clamp:2;--line-clamp-tablet:2;--line-clamp-mobile:0;--c:#424242;--fs:normal;--ff:var(--g-font-body, body);--weight:400;--ls:normal;--size:16px;--size-tablet:16px;--size-mobile:14px;--lh:150%;--lh-tablet:150%;--lh-mobile:150%;word-break:break-word;overflow:hidden"
@@ -652,7 +653,7 @@
     <div
             class="gp-flex gp-flex-wrap"
             style="--cg:var(--g-s-xxs);--jc:center">
-            <div style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none)" class="gmerRCvDjt ">
+            <div style="--bs:none;--bw:0px;--bc:transparent;--border:[object Object];--shadow:none;--boxShadow:[object Object];--d:block;--d-mobile:block;--d-tablet:block;--hasBoxShadow:[object Object];--op:100%;--rounded:[object Object]" class="gmerRCvDjt ">
       
     <div 
       
@@ -679,7 +680,7 @@
     
     </div>
   
-      </div><div style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none)" class="gZoOg9GCnm ">
+      </div><div style="--bs:none;--bw:0px;--bc:transparent;--border:[object Object];--shadow:none;--boxShadow:[object Object];--d:block;--d-mobile:block;--d-tablet:block;--hasBoxShadow:[object Object];--op:100%;--rounded:[object Object]" class="gZoOg9GCnm ">
       
     <div 
       
@@ -706,7 +707,7 @@
     
     </div>
   
-      </div><div style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none)" class="gQXSke7Dd5 ">
+      </div><div style="--bs:none;--bw:0px;--bc:transparent;--border:[object Object];--shadow:none;--boxShadow:[object Object];--d:block;--d-mobile:block;--d-tablet:block;--hasBoxShadow:[object Object];--op:100%;--rounded:[object Object]" class="gQXSke7Dd5 ">
       
     <div 
       
@@ -733,7 +734,7 @@
     
     </div>
   
-      </div><div style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none)" class="gbfQ8So2S3 ">
+      </div><div style="--bs:none;--bw:0px;--bc:transparent;--border:[object Object];--shadow:none;--boxShadow:[object Object];--d:block;--d-mobile:block;--d-tablet:block;--hasBoxShadow:[object Object];--op:100%;--rounded:[object Object]" class="gbfQ8So2S3 ">
       
     <div 
       
@@ -760,7 +761,7 @@
     
     </div>
   
-      </div><div style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none)" class="grjAtyAF77 ">
+      </div><div style="--bs:none;--bw:0px;--bc:transparent;--border:[object Object];--shadow:none;--boxShadow:[object Object];--d:block;--d-mobile:block;--d-tablet:block;--hasBoxShadow:[object Object];--op:100%;--rounded:[object Object]" class="grjAtyAF77 ">
       
     <div 
       
@@ -797,7 +798,7 @@
   
       {%- endif -%}           
       {%- endfor -%}
-      {%- if count == 0 and 0 == 0 -%}
+      {%- if count == 0 and 4 == 0 -%}
           {% if 'PickProduct' == 'RelatedProduct' -%}
               <div>{{ "gempages.ProductList.no_related_products" | t }}</div>
             {% else %}
@@ -867,6 +868,7 @@
       </div>
     </gp-carousel>
     <script {% if section.settings.section_preload == "false" %}class="gps-link" delay {% else %}src{% endif %}="https://d2ls1pfffhvy22.cloudfront.net/assets-v2/gp-carousel-v2.js?v={{ shop.metafields.GEMPAGES.ASSETS_VERSION }}" defer="defer"></script>
+
   
     
     
