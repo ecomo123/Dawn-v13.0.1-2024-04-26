@@ -22,12 +22,6 @@
         "checksum": "388ebf4860ff3a71ef54416577b970e8b26495c855de7f165fa8b97992e43356_1_1"
       }
     },
-    "gp_section_541186266935329968": {
-      "type": "gp-section-541186266935329968",
-      "settings": {
-        "checksum": "515484fd5b7d6538dc5fdf76932336c61da9e82634bded24f98f6e902c6cafe5_1_1"
-      }
-    },
     "gp_section_541186268294284464": {
       "type": "gp-section-541186268294284464",
       "settings": {
@@ -50,7 +44,6 @@
   "order": [
     "gp_section_541186268596274352",
     "gp_section_541485911234315194",
-    "gp_section_541186266935329968",
     "gp_section_541186268294284464",
     "gp_section_541186267807744954",
     "gp_section_541186267774190704"
