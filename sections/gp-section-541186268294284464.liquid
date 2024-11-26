@@ -131,13 +131,13 @@
         {%- liquid
           if request.page_type == 'product'
             if 'static' == 'static'
-              if '8792977342678' == 'latest'
+              if '8798391206102' == 'latest'
                 paginate collections.all.products by 100000
                   assign product = collections.all.products | sort: 'created_at' | reverse | first
                 endpaginate
               else
-                assign product = all_products['belt-bag-1l']
-                assign productId = '8792977342678' | times: 1
+                assign product = all_products['belt-bag-tiger-1l']
+                assign productId = '8798391206102' | times: 1
                 if product == empty or product == null
                   paginate collections.all.products by 100000
                     for item in collections.all.products
@@ -150,13 +150,13 @@
               endif
             endif
           else
-            if '8792977342678' == 'latest'
+            if '8798391206102' == 'latest'
               paginate collections.all.products by 100000
                 assign product = collections.all.products | sort: 'created_at'| reverse | first
               endpaginate
             else
-              assign product = all_products['belt-bag-1l']
-              assign productId = '8792977342678' | times: 1
+              assign product = all_products['belt-bag-tiger-1l']
+              assign productId = '8798391206102' | times: 1
               if product == empty or product == null
                 paginate collections.all.products by 100000
                   for item in collections.all.products
@@ -847,7 +847,7 @@
     <gp-product-button
       class="gp-product-button"
       gp-data-wrapper="true"
-      gp-data='{"setting":{"actionEffect":"continue-shopping","errorMessage":"Cannot add product to cart","successMessage":"Add product to cart successfully","enableSuccessMessage":true,"enableErrorMessage":true,"label":"Add to cart","outOfStockLabel":"Out of stock","errorType":"built-in","customURL":{"link":"/cart","target":"_self"}},"styles":{"errorTypo":{"attrs":{"color":"error"},"type":"paragraph-2"},"successTypo":{"attrs":{"color":"success"},"type":"paragraph-2"}},"disabled":"{{variant.available}}","variantID":"{{variant.id}}","totalVariant":"{{product.variants.size}}"}' 
+      gp-data='{"setting":{"actionEffect":"continue-shopping","errorMessage":"Cannot add product to cart","successMessage":"Add product to cart successfully","enableSuccessMessage":true,"enableErrorMessage":true,"label":"ADD TO BAG","outOfStockLabel":"Out of stock","errorType":"built-in","customURL":{"link":"/cart","target":"_self"}},"styles":{"errorTypo":{"attrs":{"color":"error"},"type":"paragraph-2"},"successTypo":{"attrs":{"color":"success"},"type":"paragraph-2"}},"disabled":"{{variant.available}}","variantID":"{{variant.id}}","totalVariant":"{{product.variants.size}}"}' 
        gp-href="{{ request.origin }}{{ routes.root_url | split: '/' | join: '/' }}/cart"
        data-variant-selection-required-message="{{}}"
     >
@@ -909,11 +909,11 @@
     }
   </style>
     <button
-      type="submit" data-id="gsSafwrfwe" aria-label="Add to cart"
+      type="submit" data-id="gsSafwrfwe" aria-label="ADD TO BAG"
       name="add" gp-data-hidden="{% unless variant.available %}true{% endunless %}"
       data-state="idle"
       class="gsSafwrfwe gp-button-base gp-rounded-none gp-max-w-full gp-relative gp-group gp-inline-flex gp-items-center gp-justify-center gp-no-underline gp-transition-colors gp-duration-300 disabled:gp-btn-disabled disabled:gp-opacity-30 disabled:gp-pointer-events-none gp-text-g-text-3 gp-button-atc tcustomizer-submit-button"
-      style="--hvr-bg:#3B3B3B;--bg:#151515;--shadow:none;--pl:24px;--pr:24px;--pt:6px;--pb:6px;--pl-tablet:24px;--pr-tablet:24px;--pt-tablet:6px;--pb-tablet:6px;--pl-mobile:24px;--pr-mobile:24px;--pt-mobile:6px;--pb-mobile:6px;--w:100%;--w-tablet:100%;--w-mobile:100%;--h:Auto;--h-tablet:Auto;--h-mobile:Auto;--c:var(--g-c-text-3, text-3);--size:16px;--size-tablet:16px;--size-mobile:14px;--fs:normal;--ff:var(--g-font-body, body);--weight:500;--ls:0px;--lh:150%;--lh-tablet:150%;--lh-mobile:150%;--tt:capitalize"
+      style="--hvr-bg:#3B3B3B;--bg:#151515;--shadow:none;--pl:24px;--pr:24px;--pt:6px;--pb:6px;--pl-tablet:24px;--pr-tablet:24px;--pt-tablet:6px;--pb-tablet:6px;--pl-mobile:24px;--pr-mobile:24px;--pt-mobile:6px;--pb-mobile:6px;--w:100%;--w-tablet:100%;--w-mobile:100%;--h:Auto;--h-tablet:Auto;--h-mobile:Auto;--c:var(--g-c-text-3, text-3);--size:16px;--size-tablet:16px;--size-mobile:14px;--fs:normal;--ff:var(--g-font-body, body);--weight:500;--ls:0px;--lh:150%;--lh-tablet:150%;--lh-mobile:150%;--tt:uppercase"
     >
         <svg
           class="gp-invisible gp-absolute gp-h-5 gp-w-5 group-data-[state=loading]:gp-animate-spin group-data-[state=loading]:gp-visible"
@@ -944,7 +944,7 @@
         "
         style="--size:16px;--size-tablet:16px;--size-mobile:14px"
       >
-        {{ section.settings.ggsSafwrfwe_label | downcase }}
+        {{ section.settings.ggsSafwrfwe_label }}
       </span>
       </div>
     
@@ -1014,7 +1014,7 @@
       gp-data-hidden="{% if variant.available %}true{% endif %}"
       data-state="idle"
       class="gsSafwrfwe-sold-out gp-button-base gp-rounded-none gp-max-w-full gp-relative gp-group gp-inline-flex gp-items-center gp-justify-center gp-no-underline gp-transition-colors gp-duration-300 disabled:gp-btn-disabled disabled:gp-opacity-30 disabled:gp-pointer-events-none gp-text-g-text-3 gp-button-sold-out btn-disabled gp-opacity-30 gp-cursor-default"
-      style="--hvr-bg:#3B3B3B;--bg:#151515;--shadow:none;--pl:24px;--pr:24px;--pt:6px;--pb:6px;--pl-tablet:24px;--pr-tablet:24px;--pt-tablet:6px;--pb-tablet:6px;--pl-mobile:24px;--pr-mobile:24px;--pt-mobile:6px;--pb-mobile:6px;--w:100%;--w-tablet:100%;--w-mobile:100%;--h:Auto;--h-tablet:Auto;--h-mobile:Auto;--c:var(--g-c-text-3, text-3);--size:16px;--size-tablet:16px;--size-mobile:14px;--fs:normal;--ff:var(--g-font-body, body);--weight:500;--ls:0px;--lh:150%;--lh-tablet:150%;--lh-mobile:150%;--tt:capitalize"
+      style="--hvr-bg:#3B3B3B;--bg:#151515;--shadow:none;--pl:24px;--pr:24px;--pt:6px;--pb:6px;--pl-tablet:24px;--pr-tablet:24px;--pt-tablet:6px;--pb-tablet:6px;--pl-mobile:24px;--pr-mobile:24px;--pt-mobile:6px;--pb-mobile:6px;--w:100%;--w-tablet:100%;--w-mobile:100%;--h:Auto;--h-tablet:Auto;--h-mobile:Auto;--c:var(--g-c-text-3, text-3);--size:16px;--size-tablet:16px;--size-mobile:14px;--fs:normal;--ff:var(--g-font-body, body);--weight:500;--ls:0px;--lh:150%;--lh-tablet:150%;--lh-mobile:150%;--tt:uppercase"
     >
       
     <div
@@ -1026,7 +1026,7 @@
         "
         style="--size:16px;--size-tablet:16px;--size-mobile:14px"
       >
-        {{ section.settings.ggsSafwrfwe_outOfStockLabel | downcase }}
+        {{ section.settings.ggsSafwrfwe_outOfStockLabel }}
       </span>
       </div>
     
@@ -1776,7 +1776,7 @@
     <gp-product-button
       class="gp-product-button"
       gp-data-wrapper="true"
-      gp-data='{"setting":{"actionEffect":"continue-shopping","errorMessage":"Cannot add product to cart","successMessage":"Add product to cart successfully","enableSuccessMessage":true,"enableErrorMessage":true,"label":"Add to cart","outOfStockLabel":"Out of stock","errorType":"built-in","customURL":{"link":"/cart","target":"_self"}},"styles":{"errorTypo":{"attrs":{"color":"error"},"type":"paragraph-2"},"successTypo":{"attrs":{"color":"success"},"type":"paragraph-2"}},"disabled":"{{variant.available}}","variantID":"{{variant.id}}","totalVariant":"{{product.variants.size}}"}' 
+      gp-data='{"setting":{"actionEffect":"continue-shopping","errorMessage":"Cannot add product to cart","successMessage":"Add product to cart successfully","enableSuccessMessage":true,"enableErrorMessage":true,"label":"ADD TO BAG","outOfStockLabel":"Out of stock","errorType":"built-in","customURL":{"link":"/cart","target":"_self"}},"styles":{"errorTypo":{"attrs":{"color":"error"},"type":"paragraph-2"},"successTypo":{"attrs":{"color":"success"},"type":"paragraph-2"}},"disabled":"{{variant.available}}","variantID":"{{variant.id}}","totalVariant":"{{product.variants.size}}"}' 
        gp-href="{{ request.origin }}{{ routes.root_url | split: '/' | join: '/' }}/cart"
        data-variant-selection-required-message="{{}}"
     >
@@ -1838,7 +1838,7 @@
     }
   </style>
     <button
-      type="submit" data-id="gGRZMxt8nS" aria-label="Add to cart"
+      type="submit" data-id="gGRZMxt8nS" aria-label="ADD TO BAG"
       name="add" gp-data-hidden="{% unless variant.available %}true{% endunless %}"
       data-state="idle"
       class="gGRZMxt8nS gp-button-base gp-rounded-none gp-max-w-full gp-relative gp-group gp-inline-flex gp-items-center gp-justify-center gp-no-underline gp-transition-colors gp-duration-300 disabled:gp-btn-disabled disabled:gp-opacity-30 disabled:gp-pointer-events-none gp-text-g-text-3 gp-button-atc tcustomizer-submit-button"
@@ -2001,7 +2001,7 @@
     "name": "Section 3",
     "tag": "section",
     "class": "gps-541186268294284464 gps gpsil",
-    "settings": [{"type":"paragraph","content":"Section design by GemPages. [Click here to start design](https://admin.shopify.com/store/499862-95/apps/gempages-cro/app/shopify/edit?pageType=GP_PRODUCT&editorId=541186239605244789&sectionId=541186268294284464)"},{"type":"select","label":"Section Preload","id":"section_preload","options":[{"label":"On","value":"true"},{"label":"Off","value":"false"},{"label":"Off Lazy Script","value":"off_lazy_script"}],"default":"false"},{"type":"text","label":"Checksum","id":"checksum"},{"type":"html","id":"ggzhRPRO1uo_text","label":"ggzhRPRO1uo_text","default":"<strong>You may also like</strong>"},{"type":"html","id":"gg7jnOjjbaJ_customContent_prefix","label":"gg7jnOjjbaJ_customContent_prefix","default":"-"},{"type":"html","id":"ggkOyk1vYCG_text","label":"ggkOyk1vYCG_text","default":"<p>(<u>343 Ratings</u>)</p>"},{"type":"html","id":"ggsSafwrfwe_label","label":"ggsSafwrfwe_label","default":"Add to cart"},{"type":"html","id":"ggsSafwrfwe_outOfStockLabel","label":"ggsSafwrfwe_outOfStockLabel","default":"Out of stock"},{"type":"html","id":"ggsSafwrfwe_unavailableLabel","label":"ggsSafwrfwe_unavailableLabel","default":"Unavailable"},{"type":"html","id":"ggderwCR5OS_customContent_prefix","label":"ggderwCR5OS_customContent_prefix","default":"-"},{"type":"html","id":"ggUQVNZYFxY_text","label":"ggUQVNZYFxY_text","default":"<p>(<u>343 Ratings</u>)</p>"},{"type":"html","id":"ggGRZMxt8nS_label","label":"ggGRZMxt8nS_label","default":"Add to cart"},{"type":"html","id":"ggGRZMxt8nS_outOfStockLabel","label":"ggGRZMxt8nS_outOfStockLabel","default":"Out of stock"},{"type":"html","id":"ggGRZMxt8nS_unavailableLabel","label":"ggGRZMxt8nS_unavailableLabel","default":"Unavailable"},{"type":"html","id":"gg1FwvEreY2_customContent_prefix","label":"gg1FwvEreY2_customContent_prefix","default":"-"},{"type":"html","id":"ggItikjhbWt_text","label":"ggItikjhbWt_text","default":"<p>(<u>343 Ratings</u>)</p>"},{"type":"html","id":"ggD-YJUb4DZ_label","label":"ggD-YJUb4DZ_label","default":"Add to cart"},{"type":"html","id":"ggD-YJUb4DZ_outOfStockLabel","label":"ggD-YJUb4DZ_outOfStockLabel","default":"Out of stock"},{"type":"html","id":"ggD-YJUb4DZ_unavailableLabel","label":"ggD-YJUb4DZ_unavailableLabel","default":"Unavailable"},{"type":"html","id":"ggkkhipsKrm_customContent_prefix","label":"ggkkhipsKrm_customContent_prefix","default":"-"},{"type":"html","id":"gg8wH8vEozx_text","label":"gg8wH8vEozx_text","default":"<p>(<u>343 Ratings</u>)</p>"},{"type":"html","id":"ggGov4yQLR6_label","label":"ggGov4yQLR6_label","default":"Add to cart"},{"type":"html","id":"ggGov4yQLR6_outOfStockLabel","label":"ggGov4yQLR6_outOfStockLabel","default":"Out of stock"},{"type":"html","id":"ggGov4yQLR6_unavailableLabel","label":"ggGov4yQLR6_unavailableLabel","default":"Unavailable"}],
+    "settings": [{"type":"paragraph","content":"Section design by GemPages. [Click here to start design](https://admin.shopify.com/store/499862-95/apps/gempages-cro/app/shopify/edit?pageType=GP_PRODUCT&editorId=541186239605244789&sectionId=541186268294284464)"},{"type":"select","label":"Section Preload","id":"section_preload","options":[{"label":"On","value":"true"},{"label":"Off","value":"false"},{"label":"Off Lazy Script","value":"off_lazy_script"}],"default":"false"},{"type":"text","label":"Checksum","id":"checksum"},{"type":"html","id":"ggzhRPRO1uo_text","label":"ggzhRPRO1uo_text","default":"<strong>You may also like</strong>"},{"type":"html","id":"gg7jnOjjbaJ_customContent_prefix","label":"gg7jnOjjbaJ_customContent_prefix","default":"-"},{"type":"html","id":"ggkOyk1vYCG_text","label":"ggkOyk1vYCG_text","default":"<p>(<u>343 Ratings</u>)</p>"},{"type":"html","id":"ggsSafwrfwe_label","label":"ggsSafwrfwe_label","default":"ADD TO BAG"},{"type":"html","id":"ggsSafwrfwe_outOfStockLabel","label":"ggsSafwrfwe_outOfStockLabel","default":"Out of stock"},{"type":"html","id":"ggsSafwrfwe_unavailableLabel","label":"ggsSafwrfwe_unavailableLabel","default":"Unavailable"},{"type":"html","id":"ggderwCR5OS_customContent_prefix","label":"ggderwCR5OS_customContent_prefix","default":"-"},{"type":"html","id":"ggUQVNZYFxY_text","label":"ggUQVNZYFxY_text","default":"<p>(<u>343 Ratings</u>)</p>"},{"type":"html","id":"ggGRZMxt8nS_label","label":"ggGRZMxt8nS_label","default":"ADD TO BAG"},{"type":"html","id":"ggGRZMxt8nS_outOfStockLabel","label":"ggGRZMxt8nS_outOfStockLabel","default":"Out of stock"},{"type":"html","id":"ggGRZMxt8nS_unavailableLabel","label":"ggGRZMxt8nS_unavailableLabel","default":"Unavailable"},{"type":"html","id":"gg1FwvEreY2_customContent_prefix","label":"gg1FwvEreY2_customContent_prefix","default":"-"},{"type":"html","id":"ggItikjhbWt_text","label":"ggItikjhbWt_text","default":"<p>(<u>343 Ratings</u>)</p>"},{"type":"html","id":"ggD-YJUb4DZ_label","label":"ggD-YJUb4DZ_label","default":"ADD TO BAG"},{"type":"html","id":"ggD-YJUb4DZ_outOfStockLabel","label":"ggD-YJUb4DZ_outOfStockLabel","default":"Out of stock"},{"type":"html","id":"ggD-YJUb4DZ_unavailableLabel","label":"ggD-YJUb4DZ_unavailableLabel","default":"Unavailable"},{"type":"html","id":"ggkkhipsKrm_customContent_prefix","label":"ggkkhipsKrm_customContent_prefix","default":"-"},{"type":"html","id":"gg8wH8vEozx_text","label":"gg8wH8vEozx_text","default":"<p>(<u>343 Ratings</u>)</p>"},{"type":"html","id":"ggGov4yQLR6_label","label":"ggGov4yQLR6_label","default":"ADD TO BAG"},{"type":"html","id":"ggGov4yQLR6_outOfStockLabel","label":"ggGov4yQLR6_outOfStockLabel","default":"Out of stock"},{"type":"html","id":"ggGov4yQLR6_unavailableLabel","label":"ggGov4yQLR6_unavailableLabel","default":"Unavailable"}],
     "blocks": [{"type": "@app"}],
     "locales": {}
   }
