@@ -23,13 +23,13 @@
         {%- liquid
           if request.page_type == 'product'
             if 'static' == 'static'
-              if '8798393630934' == 'latest'
+              if '8798391206102' == 'latest'
                 paginate collections.all.products by 100000
                   assign product = collections.all.products | sort: 'created_at' | reverse | first
                 endpaginate
               else
-                assign product = all_products['belt-bag-tiger-1l-copy']
-                assign productId = '8798393630934' | times: 1
+                assign product = all_products['belt-bag-tiger-1l']
+                assign productId = '8798391206102' | times: 1
                 if product == empty or product == null
                   paginate collections.all.products by 100000
                     for item in collections.all.products
@@ -42,13 +42,13 @@
               endif
             endif
           else
-            if '8798393630934' == 'latest'
+            if '8798391206102' == 'latest'
               paginate collections.all.products by 100000
                 assign product = collections.all.products | sort: 'created_at'| reverse | first
               endpaginate
             else
-              assign product = all_products['belt-bag-tiger-1l-copy']
-              assign productId = '8798393630934' | times: 1
+              assign product = all_products['belt-bag-tiger-1l']
+              assign productId = '8798391206102' | times: 1
               if product == empty or product == null
                 paginate collections.all.products by 100000
                   for item in collections.all.products
