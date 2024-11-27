@@ -165,7 +165,7 @@
           "hide_when_opened": "",
           "show_item_properties": true,
           "show_private_properties": false,
-          "stop_shopify_rate": false,
+          "stop_shopify_rate": true,
           "dev_mode": false,
           "beta_version": false,
           "custom_code": "<script>\n    // custom code here\n</script>"
