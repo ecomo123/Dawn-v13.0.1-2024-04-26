@@ -14,7 +14,8 @@
       "variantInventoryPolicy": {{product.variants | map: 'inventory_policy' | json | escape}},
       "moneyFormat": {{shop.money_format | json | escape}},
       "productId": {{product.id | json | escape}},
-      "productUrl": {{product.url | json | escape}}
+      "productUrl": {{product.url | json | escape}},
+      "displayState":{"desktop":true,"mobile":true,"tablet":true}
     }
   '>
     {%- assign options = product.options_with_values -%}
@@ -30,10 +31,11 @@
     >
       
       {% assign presets = "base($2)dropdown($1)SELECT YOUR COLOR($2)color($1)Size($2)dropdown($1)Color($2)color($1)Size 2($2)rectangle_list($1)Select Color($2)image_shopify($1)SELECT YOUR SIZE($2)dropdown($1)SELECT COLOR($2)color($1)SELECT SIZE($2)rectangle_list($1)Select Size($2)rectangle_list($1)GemSleep Pack($2)rectangle_list($1)Option($2)rectangle_list($1)Camera Style($2)rectangle_list($1)Style($2)dropdown($1)Serving Size($2)rectangle_list($1)Color Option($2)dropdown($1)Colors($2)color($1)COLOR($2)rectangle_list($1)Size 3($2)dropdown($1)Storage($2)rectangle_list" | split: '($1)' %}
+      {% assign hiddenPresetOptions = "" | split: ',' %}
       {%- for option in options -%}
         <div
         option-name="{{option.name | escape}}"
-        class="gp-flex variant-inside gp-flex-col gp-items-start"
+        class="gp-flex variant-inside gp-flex-col gp-items-start {% if hiddenPresetOptions contains option.name %} gp-hidden {% endif %}"
 
         >
           {% assign showVariantClass = 'variant-display' %}
@@ -47,6 +49,7 @@
           {% endfor %}
 
           
+  {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
   <gp-text data-id="">
     <div
       
