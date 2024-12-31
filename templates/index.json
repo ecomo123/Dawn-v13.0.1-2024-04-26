@@ -9,16 +9,10 @@
  */
 {
   "sections": {
-    "gp_section_542644217273386230": {
-      "type": "gp-section-542644217273386230",
-      "settings": {
-        "section_preload": "true",
-        "checksum": "7035dd72e06163240204c341d69537b3328f1d98b0ec394c5f7dd2b390838ca8_1_1"
-      }
-    },
     "gp_section_542347679712150387": {
       "type": "gp-section-542347679712150387",
       "settings": {
+        "section_preload": "true",
         "checksum": "7405f7bfdfcb481e14a8f81b9df637297c781a55681d0b09743482d81f56fe10_1_1"
       }
     },
@@ -36,7 +30,6 @@
     }
   },
   "order": [
-    "gp_section_542644217273386230",
     "gp_section_542347679712150387",
     "gp_section_542347680064472310",
     "gp_section_542347680567788790"
