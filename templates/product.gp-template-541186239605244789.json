@@ -55,19 +55,13 @@
     "gp_section_541186268294284464": {
       "type": "gp-section-541186268294284464",
       "settings": {
-        "checksum": "97d56ac124d2210d42fe466282f9fa093a34a44b0ccdb06fbe2244be8207c9f5_1_1"
+        "checksum": "c3c6147b4b035145ed4117ba908c8897ddca9bd54e27e94c50623daaa610f2a8_1_1"
       }
     },
     "gp_section_541186267774190704": {
       "type": "gp-section-541186267774190704",
       "settings": {
-        "checksum": "fe83bfa0155f800646edd9950b273bbe5c53d2b3f0e236a6ca0ebed3f0a752be_1_1"
-      }
-    },
-    "gp_section_547138866725782486": {
-      "type": "gp-section-547138866725782486",
-      "settings": {
-        "checksum": "998558c1e4ee7bf43f3fda2e02db837ec7879c8a271681258c5db2d10090070a_1_1"
+        "checksum": "1f4618aafe3c684a896b3c194083769f67adb7408711d12926498e3b5f1835a1_1_1"
       }
     }
   },
@@ -80,7 +74,6 @@
     "gp_section_547142957967344808",
     "gp_section_547140676601512918",
     "gp_section_541186268294284464",
-    "gp_section_541186267774190704",
-    "gp_section_547138866725782486"
+    "gp_section_541186267774190704"
   ]
 }
