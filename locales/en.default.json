@@ -537,6 +537,11 @@
   "shopify": {
     "links": {
       "powered_by_shopify": "Powered by zasown"
+    },
+    "checkout": {
+      "payment": {
+        "alternative_payment_currency_total_manual_payment_notice": " "
+      }
     }
   },
   "pagefly": {
