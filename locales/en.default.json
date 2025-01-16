@@ -541,6 +541,9 @@
     "checkout": {
       "payment": {
         "alternative_payment_currency_total_manual_payment_notice": " "
+      },
+      "order_summary": {
+        "alternative_payment_currency_total": " "
       }
     }
   },
