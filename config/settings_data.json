@@ -168,7 +168,7 @@
           "stop_shopify_rate": true,
           "dev_mode": false,
           "beta_version": false,
-          "custom_code": "<script>\n  window.mu_fbt_use_fetched_product = true;\n</script>"
+          "custom_code": "<script>\n  window.mu_fbt_use_fetched_product = true;\n</script>\n<script>\n  window.mu_sticky_atc_selector = `#g7DwPNQkme > div > gp-product-button > gp-button:nth-child(1) > div > button`;\n\n</script>"
         }
       }
     },
