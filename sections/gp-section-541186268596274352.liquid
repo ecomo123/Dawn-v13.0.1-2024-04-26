@@ -77,7 +77,7 @@
       {%-if variant == empty or variant == null -%}
         {%- assign variant = product.selected_or_first_available_variant -%}
       {%- endif -%}
-      <gp-product data-uid="gihJPhidsY" data-id="gihJPhidsY"   gp-context='{"productId": {{ product.id }}, "isSyncProduct": "", "variantSelected": {{ variant | json | escape }}, "quantity": 1, "formId": "{{ product_form_id }}" }'
+      <gp-product data-uid="gihJPhidsY" data-id="gihJPhidsY"   gp-context='{"productId": {{ product.id }}, "isSyncProduct": "", "variantSelected": {{ variant | json | escape }}, "inventoryQuantity": {{ variant.inventory_quantity }}, "quantity": 1, "formId": "{{ product_form_id }}" }'
         gp-data='{"variantSelected": {{ variant | json | escape }}, "quantity": 1, "productUrl":{{ product.url | json | escape }}, "productHandle":{{ product.handle | json | escape }}, "collectionUrl": {{ collection.url | json | escape }}, "collectionHandle": {{ collection.handle | json | escape }}}'>
         <product-form class="product-form">
           {%- form 'product', product, id: product_form_id, class: 'form contents', data-type: 'add-to-cart-form', autocomplete: 'off'  -%}
@@ -1717,6 +1717,53 @@
        
       
     <div
+      enableLazyloadImage="true" parentTag="Col" id="giWM_cO5ps" data-id="giWM_cO5ps"
+        style="--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--mb:var(--g-s-s);--cg:8px;--pc:start;--gtc:minmax(0, 12fr);--gtc-mobile:minmax(0, 12fr);--w:var(--g-ct-w, 1200px);--w-tablet:var(--g-ct-w, 100%);--w-mobile:var(--g-ct-w, 100%);--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="giWM_cO5ps gp-mx-auto gp-mb-0 gp-grid gp-max-w-full gp-gap-y-0 gp-transition-colors gp-duration-200 gp-ease-in-out [&_*]:gp-max-w-full"
+    >
+    <div
+      enableLazyloadImage="true" label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="g2S2nL6m4N gp-relative gp-flex gp-flex-col"
+    >
+      <div
+    
+     data-id="gWKVfoijuS"
+    role="presentation"
+    class="gp-group/image gWKVfoijuS"
+    style="--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--ta:center"
+    >
+      <div
+        class="pointer-events-auto h-full gp-flex"
+        
+        class="gp-h-full gp-w-full"
+        style="--shadow:none;border-radius:inherit;--jc:center"
+      >
+        
+  <picture style="border-radius: inherit" class="gp-contents">
+  
+      <source media="(max-width: 767px)" data-srcSet="{{ "gempages_527026070508012437-e18237c5-4fce-4e1f-aeae-425509dffc90_768x.jpg" | file_url }}" srcset="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODIwIiBoZWlnaHQ9Ijg1IiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPgogICAgPGRlZnM+CiAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iZy04MjAtODUiPgogICAgICAgIDxzdG9wIHN0b3AtY29sb3I9InJnYmEoNTEsIDUxLCA1MSwgMCkiIG9mZnNldD0iMjAlIiAvPgogICAgICAgIDxzdG9wIHN0b3AtY29sb3I9InJnYmEoNTEsIDUxLCA1MSwgMCkiIG9mZnNldD0iNTAlIiAvPgogICAgICAgIDxzdG9wIHN0b3AtY29sb3I9InJnYmEoNTEsIDUxLCA1MSwgMCkiIG9mZnNldD0iNzAlIiAvPgogICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgPC9kZWZzPgogICAgPHJlY3Qgd2lkdGg9IjgyMCIgaGVpZ2h0PSI4NSIgZmlsbD0icmdiYSg1MSwgNTEsIDUxLCAwKSIgLz4KICAgIDxyZWN0IGlkPSJyIiB3aWR0aD0iODIwIiBoZWlnaHQ9Ijg1IiBmaWxsPSJ1cmwoI2ctODIwLTg1KSIgLz4KICAgIDxhbmltYXRlIHhsaW5rOmhyZWY9IiNyIiBhdHRyaWJ1dGVOYW1lPSJ4IiBmcm9tPSItODIwIiB0bz0iODIwIiBkdXI9IjFzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgIC8+CiAgPC9zdmc+" />
+      <source media="(max-width: 1024px)" data-srcSet="{{ "gempages_527026070508012437-e18237c5-4fce-4e1f-aeae-425509dffc90_1024x.jpg" | file_url }}" srcset="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODIwIiBoZWlnaHQ9Ijg1IiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPgogICAgPGRlZnM+CiAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iZy04MjAtODUiPgogICAgICAgIDxzdG9wIHN0b3AtY29sb3I9InJnYmEoNTEsIDUxLCA1MSwgMCkiIG9mZnNldD0iMjAlIiAvPgogICAgICAgIDxzdG9wIHN0b3AtY29sb3I9InJnYmEoNTEsIDUxLCA1MSwgMCkiIG9mZnNldD0iNTAlIiAvPgogICAgICAgIDxzdG9wIHN0b3AtY29sb3I9InJnYmEoNTEsIDUxLCA1MSwgMCkiIG9mZnNldD0iNzAlIiAvPgogICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgPC9kZWZzPgogICAgPHJlY3Qgd2lkdGg9IjgyMCIgaGVpZ2h0PSI4NSIgZmlsbD0icmdiYSg1MSwgNTEsIDUxLCAwKSIgLz4KICAgIDxyZWN0IGlkPSJyIiB3aWR0aD0iODIwIiBoZWlnaHQ9Ijg1IiBmaWxsPSJ1cmwoI2ctODIwLTg1KSIgLz4KICAgIDxhbmltYXRlIHhsaW5rOmhyZWY9IiNyIiBhdHRyaWJ1dGVOYW1lPSJ4IiBmcm9tPSItODIwIiB0bz0iODIwIiBkdXI9IjFzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgIC8+CiAgPC9zdmc+" />
+      <img
+        
+        class="gp-h-full gp-max-w-full gp-flex gp_lazyload"
+        src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODIwIiBoZWlnaHQ9Ijg1IiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPgogICAgPGRlZnM+CiAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iZy04MjAtODUiPgogICAgICAgIDxzdG9wIHN0b3AtY29sb3I9InJnYmEoNTEsIDUxLCA1MSwgMCkiIG9mZnNldD0iMjAlIiAvPgogICAgICAgIDxzdG9wIHN0b3AtY29sb3I9InJnYmEoNTEsIDUxLCA1MSwgMCkiIG9mZnNldD0iNTAlIiAvPgogICAgICAgIDxzdG9wIHN0b3AtY29sb3I9InJnYmEoNTEsIDUxLCA1MSwgMCkiIG9mZnNldD0iNzAlIiAvPgogICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgPC9kZWZzPgogICAgPHJlY3Qgd2lkdGg9IjgyMCIgaGVpZ2h0PSI4NSIgZmlsbD0icmdiYSg1MSwgNTEsIDUxLCAwKSIgLz4KICAgIDxyZWN0IGlkPSJyIiB3aWR0aD0iODIwIiBoZWlnaHQ9Ijg1IiBmaWxsPSJ1cmwoI2ctODIwLTg1KSIgLz4KICAgIDxhbmltYXRlIHhsaW5rOmhyZWY9IiNyIiBhdHRyaWJ1dGVOYW1lPSJ4IiBmcm9tPSItODIwIiB0bz0iODIwIiBkdXI9IjFzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgIC8+CiAgPC9zdmc+"
+        data-src="{{ "gempages_527026070508012437-e18237c5-4fce-4e1f-aeae-425509dffc90.jpg" | file_url }}"
+        width="100%"
+        alt=""
+        style="--aspect:auto;--aspect-tablet:auto;--aspect-mobile:auto;--objf:cover;--h:auto;--h-tablet:auto;--h-mobile:auto;--b:none;--bc:#000000;--bw:1px 1px 1px 1px;--radiusType:none;--shadow:none"
+      />
+    
+  </picture>
+      </div>
+  </div>
+    </div>
+    </div>
+   
+    
+       
+      
+    <div
       enableLazyloadImage="true" parentTag="Col" id="gfc84JcxMV" data-id="gfc84JcxMV"
         style="--bs:solid;--bw:0px;--bc:#121212;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--mb:var(--g-s-s);--cg:24px;--pc:start;--gtc:minmax(0, 6fr) minmax(0, 6fr);--gtc-mobile:minmax(0, 12fr);--w:100%;--w-tablet:100%;--w-mobile:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
         class="gfc84JcxMV gp-mx-auto gp-mb-0 gp-grid gp-max-w-full gp-gap-y-0 gp-transition-colors gp-duration-200 gp-ease-in-out [&_*]:gp-max-w-full"
@@ -2013,338 +2060,6 @@
     </div>
     </div>
    
-    
-       
-      
-    <div
-      enableLazyloadImage="true" parentTag="Col" id="g7DwPNQkme" data-id="g7DwPNQkme"
-        style="--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--mb:0px;--cg:8px;--pc:start;--gtc:minmax(0, 12fr);--gtc-mobile:minmax(0, 12fr);--w:var(--g-ct-w, 1200px);--w-tablet:var(--g-ct-w, 100%);--w-mobile:var(--g-ct-w, 100%);--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
-        class="g7DwPNQkme gp-mx-auto gp-mb-0 gp-grid gp-max-w-full gp-gap-y-0 gp-transition-colors gp-duration-200 gp-ease-in-out [&_*]:gp-max-w-full"
-    >
-    <div
-      enableLazyloadImage="true" label="Block" tag="Col" type="component"
-      style="--jc:start"
-      class="g5jF3yVE9m gp-relative gp-flex gp-flex-col"
-    >
-      
-   {%- liquid
-      assign inventory_quantity = variant.inventory_quantity | default: 0
-    -%}
-    <gp-product-button
-      class="gp-product-button"
-      gp-data-wrapper="true"
-      gp-data='{"setting":{"actionEffect":"open-cart-drawer","errorMessage":"Cannot add product to cart","successMessage":"Add product to cart successfully","enableSuccessMessage":true,"enableErrorMessage":true,"label":"ADD TO BAG","outOfStockLabel":"Out of stock","errorType":"built-in","customURL":{"link":"/cart","target":"_self"}},"styles":{"errorTypo":{"attrs":{"color":"error"},"type":"paragraph-2"},"successTypo":{"attrs":{"color":"success"},"type":"paragraph-2"}},"disabled":"{{variant.available}}","variantID":"{{variant.id}}","totalVariant":"{{product.variants.size}}"}' 
-       gp-href="{{ request.origin }}{{ routes.root_url | split: '/' | join: '/' }}/cart"
-       data-variant-selection-required-message="{{}}"
-    >
-        
-  <gp-button >
-  <div
-    style="--bs:solid;--bw:0px;--bc:#121212;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--bblr:999999px;--bbrr:999999px;--btlr:999999px;--btrr:999999px;--mt:0px;--mb:var(--g-s-s);--ta:left"
-    class="{% unless variant.available %} !gp-hidden {% endunless %}"
-  >
-    <style>
-    .gX6eF-ziWZ.gp-button-base::before {
-      content: "";
-      height: 100%;
-      width: 100%;
-      position: absolute;
-      pointer-events: none;
-      border-style: solid;
-  border-width: 0px 0px 0px 0px;
-  border-color: #121212;
-  
-      
-      border-bottom-left-radius: 32px;
-      border-bottom-right-radius: 32px;
-      border-top-left-radius: 32px;
-      border-top-right-radius: 32px;
-      
-    }
-
-    .gX6eF-ziWZ:hover::before {
-      border-style: solid;
-  border-width: 0px 0px 0px 0px;
-  border-color: #4D4D4D;
-  
-      
-    }
-
-    .gX6eF-ziWZ:hover .gp-button-icon {
-      color: undefined;
-    }
-
-     .gX6eF-ziWZ .gp-button-icon {
-      color: var(--g-c-text-3, text-3);
-    }
-
-    .gX6eF-ziWZ:hover .gp-button-price {
-      color: undefined;
-    }
-
-    .gX6eF-ziWZ .gp-button-price {
-      color: var(--g-c-text-3, text-3);
-    }
-
-    .gX6eF-ziWZ .gp-product-dot-price {
-       color: var(--g-c-text-3, text-3);
-    }
-
-    .gX6eF-ziWZ:hover .gp-product-dot-price {
-      color: undefined;
-    }
-  </style>
-    <button
-      type="submit" data-id="gX6eF-ziWZ" aria-label="ADD TO BAG"
-      name="add" gp-data-hidden="{% unless variant.available %}true{% endunless %}"
-      data-state="idle"
-      class="gX6eF-ziWZ gp-button-base gp-rounded-none gp-max-w-full gp-relative gp-group gp-inline-flex gp-items-center gp-justify-center gp-no-underline gp-transition-colors gp-duration-300 disabled:gp-btn-disabled disabled:gp-opacity-30 disabled:gp-pointer-events-none gp-text-g-text-3 gp-button-atc tcustomizer-submit-button"
-      style="--hvr-bg:#3B3B3B;--bg:#151515;--bblr:32px;--bbrr:32px;--btlr:32px;--btrr:32px;--shadow:none;--pl:24px;--pr:24px;--pt:9px;--pb:9px;--pl-tablet:24px;--pr-tablet:24px;--pt-tablet:9px;--pb-tablet:9px;--pl-mobile:24px;--pr-mobile:24px;--pt-mobile:9px;--pb-mobile:9px;--w:100%;--w-tablet:100%;--w-mobile:100%;--h:Auto;--h-tablet:Auto;--h-mobile:Auto;--c:var(--g-c-text-3, text-3);--size:18px;--size-tablet:18px;--size-mobile:16px;--fs:normal;--ff:var(--g-font-body, body);--weight:500;--ls:0px;--lh:150%;--lh-tablet:150%;--lh-mobile:150%;--tt:uppercase"
-    >
-        <svg
-          class="gp-invisible gp-absolute gp-h-5 gp-w-5 group-data-[state=loading]:gp-animate-spin group-data-[state=loading]:gp-visible"
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-        >
-          <circle
-            class="gp-opacity-25"
-            cx="12"
-            cy="12"
-            r="10"
-            stroke="currentColor"
-            stroke-width="4"
-          ></circle>
-          <path
-            class="gp-opacity-75"
-            fill="currentColor"
-            d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
-          ></path>
-        </svg>
-    <div
-    class="gp-inline-flex">
-    
-      <span
-        data-gp-text
-        class="gp-button-text-only gp-break-words group-data-[state=loading]:gp-invisible [&_p]:gp-whitespace-pre-line gp-z-1 gp-h-full gp-flex gp-items-center gp-overflow-hidden 
-        "
-        style="--size:18px;--size-tablet:18px;--size-mobile:16px"
-      >
-        {{ section.settings.ggX6eF-ziWZ_label }}
-      </span>
-      </div>
-    
-    </button>
-  </div>
-  </gp-button>
-
-        
-  <gp-button >
-  <div
-    style="--bs:solid;--bw:0px;--bc:#121212;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--bblr:999999px;--bbrr:999999px;--btlr:999999px;--btrr:999999px;--mt:0px;--mb:var(--g-s-s);--ta:left"
-    class="{% if variant.available %} !gp-hidden {% endif %}"
-  >
-    <style>
-    .gX6eF-ziWZ-sold-out.gp-button-base::before {
-      content: "";
-      height: 100%;
-      width: 100%;
-      position: absolute;
-      pointer-events: none;
-      border-style: solid;
-  border-width: 0px 0px 0px 0px;
-  border-color: #121212;
-  
-      
-      border-bottom-left-radius: 32px;
-      border-bottom-right-radius: 32px;
-      border-top-left-radius: 32px;
-      border-top-right-radius: 32px;
-      
-    }
-
-    .gX6eF-ziWZ-sold-out:hover::before {
-      border-style: solid;
-  border-width: 0px 0px 0px 0px;
-  border-color: #4D4D4D;
-  
-      
-    }
-
-    .gX6eF-ziWZ-sold-out:hover .gp-button-icon {
-      color: undefined;
-    }
-
-     .gX6eF-ziWZ-sold-out .gp-button-icon {
-      color: var(--g-c-text-3, text-3);
-    }
-
-    .gX6eF-ziWZ-sold-out:hover .gp-button-price {
-      color: undefined;
-    }
-
-    .gX6eF-ziWZ-sold-out .gp-button-price {
-      color: var(--g-c-text-3, text-3);
-    }
-
-    .gX6eF-ziWZ-sold-out .gp-product-dot-price {
-       color: var(--g-c-text-3, text-3);
-    }
-
-    .gX6eF-ziWZ-sold-out:hover .gp-product-dot-price {
-      color: undefined;
-    }
-  </style>
-    <button
-      type="button" data-id="gX6eF-ziWZ" aria-label="Out of stock"
-      gp-data-hidden="{% if variant.available %}true{% endif %}"
-      data-state="idle"
-      class="gX6eF-ziWZ-sold-out gp-button-base gp-rounded-none gp-max-w-full gp-relative gp-group gp-inline-flex gp-items-center gp-justify-center gp-no-underline gp-transition-colors gp-duration-300 disabled:gp-btn-disabled disabled:gp-opacity-30 disabled:gp-pointer-events-none gp-text-g-text-3 gp-button-sold-out btn-disabled gp-opacity-30 gp-cursor-default"
-      style="--hvr-bg:#3B3B3B;--bg:#151515;--bblr:32px;--bbrr:32px;--btlr:32px;--btrr:32px;--shadow:none;--pl:24px;--pr:24px;--pt:9px;--pb:9px;--pl-tablet:24px;--pr-tablet:24px;--pt-tablet:9px;--pb-tablet:9px;--pl-mobile:24px;--pr-mobile:24px;--pt-mobile:9px;--pb-mobile:9px;--w:100%;--w-tablet:100%;--w-mobile:100%;--h:Auto;--h-tablet:Auto;--h-mobile:Auto;--c:var(--g-c-text-3, text-3);--size:18px;--size-tablet:18px;--size-mobile:16px;--fs:normal;--ff:var(--g-font-body, body);--weight:500;--ls:0px;--lh:150%;--lh-tablet:150%;--lh-mobile:150%;--tt:uppercase"
-    >
-      
-    <div
-    class="gp-inline-flex">
-    
-      <span
-        data-gp-text
-        class="gp-button-text-only gp-break-words group-data-[state=loading]:gp-invisible [&_p]:gp-whitespace-pre-line gp-z-1 gp-h-full gp-flex gp-items-center gp-overflow-hidden 
-        "
-        style="--size:18px;--size-tablet:18px;--size-mobile:16px"
-      >
-        {{ section.settings.ggX6eF-ziWZ_outOfStockLabel }}
-      </span>
-      </div>
-    
-    </button>
-  </div>
-  </gp-button>
-
-    </gp-product-button>
-    <script {% if section.settings.section_preload == "false" %}class="gps-link" delay {% else %}src{% endif %}="https://d2ls1pfffhvy22.cloudfront.net/assets-v2/gp-product-button.js?v={{ shop.metafields.GEMPAGES.ASSETS_VERSION }}" defer="defer"></script>
-  
-       
-      
-    <div
-      enableLazyloadImage="true" parentTag="Col" id="gAB7AcmhOh" data-id="gAB7AcmhOh"
-        style="--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--mb:0px;--cg:8px;--pc:center;--pc-mobile:center;--gtc:minmax(0, auto);--gtc-mobile:minmax(0, auto);--w:var(--g-ct-w, 1200px);--w-tablet:var(--g-ct-w, 100%);--w-mobile:var(--g-ct-w, 100%);--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
-        class="gAB7AcmhOh gp-mx-auto gp-mb-0 gp-grid gp-max-w-full gp-gap-y-0 gp-transition-colors gp-duration-200 gp-ease-in-out [&_*]:gp-max-w-full"
-    >
-    <div
-      enableLazyloadImage="true" label="Block" tag="Col" type="component"
-      style="--jc:end"
-      class="g4-on7Ccu9 gp-relative gp-flex gp-flex-col"
-    >
-      
-      <gp-estimate-date>
-        
-  {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
-  <gp-text data-id="gVsHXHwyJ8">
-    <div
-      enableLazyloadImage="true" parentTag="Col"
-        class="gVsHXHwyJ8 {% if product %} !gp-hidden trigger-hidden-class {% endif %} "
-        style="--ta:left;--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--ml:0px;--mb:var(--g-s-s);--ml-mobile:0px;--mb-mobile:var(--g-s-s)"
-      >
-      <div class="gp-flex" style="--jc:left">
-        <div
-          setting-estimate-date="%7B%22background%22%3A%7B%22desktop%22%3A%7B%22attachment%22%3A%22scroll%22%2C%22color%22%3A%22transparent%22%2C%22image%22%3A%7B%22height%22%3A0%2C%22src%22%3A%22%22%2C%22width%22%3A0%7D%2C%22position%22%3A%7B%22x%22%3A50%2C%22y%22%3A50%7D%2C%22repeat%22%3A%22no-repeat%22%2C%22size%22%3A%22cover%22%2C%22type%22%3A%22color%22%7D%7D%2C%22customFormat%22%3A%22%25a%22%2C%22customText%22%3A%22Order%20within%202%20hours%20to%20get%20it%20by%22%2C%22estimateTime%22%3A%223%22%2C%22globalSize%22%3A%7B%22desktop%22%3A%7B%22width%22%3A%22100%25%22%7D%7D%2C%22ifOutOfStock%22%3A%22hide%22%2C%22maxEstimate%22%3A5%2C%22minEstimate%22%3A2%2C%22translate%22%3A%22customText%22%2C%22typeEstimate%22%3A%22specific%22%2C%22typeFormat%22%3A%22Custom%22%7D"
-          data-gp-text
-          class="[&_p]:gp-inline [&_p]:after:gp-whitespace-pre-wrap [&_p]:after:gp-content-['\A']  estimate-date-container"
-          style="--w:100%;--w-tablet:100%;--w-mobile:100%;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden"
-        >
-    <span
-      [object Object]
-      [object Object]
-      
-      style="--ff:var(--g-font-Poppins, 'Poppins'), var(--g-font-body, body);--size:14px;--size-tablet:14px;--size-mobile:12px;--lh:180%;--lh-tablet:180%;--lh-mobile:180%;--weight:bold;--c:var(--g-c-text-1, text-1);--tt:none;word-break:break-word;overflow:hidden"
-    >
-      {{ section.settings.ggVsHXHwyJ8_customText }}
-    </span>
-   
-    <span
-      [object Object]
-      [object Object]
-      class="estimate-date-main gp-g-paragraph-1"
-      style="--weight:bold;--c:#151515;word-break:break-word;overflow:hidden"
-    >
-      
-    </span>
-  </div>
-      </div>
-    </div>
-    </gp-text>
-    
-        <script {% if section.settings.section_preload == "false" %}class="gps-link" delay {% else %}src{% endif %}="https://d2ls1pfffhvy22.cloudfront.net/assets-v2/gp-estimate-date.js?v={{ shop.metafields.GEMPAGES.ASSETS_VERSION }}" defer="defer"></script>
-      </gp-estimate-date>
-      
-      <style id="custom-css-gVsHXHwyJ8">
-        .gVsHXHwyJ8 {
-    
-
-}
-      </style>
-    
-    </div>
-    </div>
-   
-    
-      <style id="custom-css-gAB7AcmhOh">
-        .gAB7AcmhOh {
-    
-}
-
-      </style>
-    
-    </div>
-    </div>
-   
-    
-       
-      
-    <div
-      enableLazyloadImage="true" parentTag="Col" id="giWM_cO5ps" data-id="giWM_cO5ps"
-        style="--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--mb:var(--g-s-s);--cg:8px;--pc:start;--gtc:minmax(0, 12fr);--gtc-mobile:minmax(0, 12fr);--w:var(--g-ct-w, 1200px);--w-tablet:var(--g-ct-w, 100%);--w-mobile:var(--g-ct-w, 100%);--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
-        class="giWM_cO5ps gp-mx-auto gp-mb-0 gp-grid gp-max-w-full gp-gap-y-0 gp-transition-colors gp-duration-200 gp-ease-in-out [&_*]:gp-max-w-full"
-    >
-    <div
-      enableLazyloadImage="true" label="Block" tag="Col" type="component"
-      style="--jc:start"
-      class="g2S2nL6m4N gp-relative gp-flex gp-flex-col"
-    >
-      <div
-    
-     data-id="gWKVfoijuS"
-    role="presentation"
-    class="gp-group/image gWKVfoijuS"
-    style="--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--ta:center"
-    >
-      <div
-        class="pointer-events-auto h-full gp-flex"
-        
-        class="gp-h-full gp-w-full"
-        style="--shadow:none;border-radius:inherit;--jc:center"
-      >
-        
-  <picture style="border-radius: inherit" class="gp-contents">
-  
-      <source media="(max-width: 767px)" data-srcSet="{{ "gempages_527026070508012437-e18237c5-4fce-4e1f-aeae-425509dffc90_768x.jpg" | file_url }}" srcset="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODIwIiBoZWlnaHQ9Ijg1IiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPgogICAgPGRlZnM+CiAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iZy04MjAtODUiPgogICAgICAgIDxzdG9wIHN0b3AtY29sb3I9InJnYmEoNTEsIDUxLCA1MSwgMCkiIG9mZnNldD0iMjAlIiAvPgogICAgICAgIDxzdG9wIHN0b3AtY29sb3I9InJnYmEoNTEsIDUxLCA1MSwgMCkiIG9mZnNldD0iNTAlIiAvPgogICAgICAgIDxzdG9wIHN0b3AtY29sb3I9InJnYmEoNTEsIDUxLCA1MSwgMCkiIG9mZnNldD0iNzAlIiAvPgogICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgPC9kZWZzPgogICAgPHJlY3Qgd2lkdGg9IjgyMCIgaGVpZ2h0PSI4NSIgZmlsbD0icmdiYSg1MSwgNTEsIDUxLCAwKSIgLz4KICAgIDxyZWN0IGlkPSJyIiB3aWR0aD0iODIwIiBoZWlnaHQ9Ijg1IiBmaWxsPSJ1cmwoI2ctODIwLTg1KSIgLz4KICAgIDxhbmltYXRlIHhsaW5rOmhyZWY9IiNyIiBhdHRyaWJ1dGVOYW1lPSJ4IiBmcm9tPSItODIwIiB0bz0iODIwIiBkdXI9IjFzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgIC8+CiAgPC9zdmc+" />
-      <source media="(max-width: 1024px)" data-srcSet="{{ "gempages_527026070508012437-e18237c5-4fce-4e1f-aeae-425509dffc90_1024x.jpg" | file_url }}" srcset="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODIwIiBoZWlnaHQ9Ijg1IiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPgogICAgPGRlZnM+CiAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iZy04MjAtODUiPgogICAgICAgIDxzdG9wIHN0b3AtY29sb3I9InJnYmEoNTEsIDUxLCA1MSwgMCkiIG9mZnNldD0iMjAlIiAvPgogICAgICAgIDxzdG9wIHN0b3AtY29sb3I9InJnYmEoNTEsIDUxLCA1MSwgMCkiIG9mZnNldD0iNTAlIiAvPgogICAgICAgIDxzdG9wIHN0b3AtY29sb3I9InJnYmEoNTEsIDUxLCA1MSwgMCkiIG9mZnNldD0iNzAlIiAvPgogICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgPC9kZWZzPgogICAgPHJlY3Qgd2lkdGg9IjgyMCIgaGVpZ2h0PSI4NSIgZmlsbD0icmdiYSg1MSwgNTEsIDUxLCAwKSIgLz4KICAgIDxyZWN0IGlkPSJyIiB3aWR0aD0iODIwIiBoZWlnaHQ9Ijg1IiBmaWxsPSJ1cmwoI2ctODIwLTg1KSIgLz4KICAgIDxhbmltYXRlIHhsaW5rOmhyZWY9IiNyIiBhdHRyaWJ1dGVOYW1lPSJ4IiBmcm9tPSItODIwIiB0bz0iODIwIiBkdXI9IjFzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgIC8+CiAgPC9zdmc+" />
-      <img
-        
-        class="gp-h-full gp-max-w-full gp-flex gp_lazyload"
-        src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODIwIiBoZWlnaHQ9Ijg1IiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPgogICAgPGRlZnM+CiAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iZy04MjAtODUiPgogICAgICAgIDxzdG9wIHN0b3AtY29sb3I9InJnYmEoNTEsIDUxLCA1MSwgMCkiIG9mZnNldD0iMjAlIiAvPgogICAgICAgIDxzdG9wIHN0b3AtY29sb3I9InJnYmEoNTEsIDUxLCA1MSwgMCkiIG9mZnNldD0iNTAlIiAvPgogICAgICAgIDxzdG9wIHN0b3AtY29sb3I9InJnYmEoNTEsIDUxLCA1MSwgMCkiIG9mZnNldD0iNzAlIiAvPgogICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgPC9kZWZzPgogICAgPHJlY3Qgd2lkdGg9IjgyMCIgaGVpZ2h0PSI4NSIgZmlsbD0icmdiYSg1MSwgNTEsIDUxLCAwKSIgLz4KICAgIDxyZWN0IGlkPSJyIiB3aWR0aD0iODIwIiBoZWlnaHQ9Ijg1IiBmaWxsPSJ1cmwoI2ctODIwLTg1KSIgLz4KICAgIDxhbmltYXRlIHhsaW5rOmhyZWY9IiNyIiBhdHRyaWJ1dGVOYW1lPSJ4IiBmcm9tPSItODIwIiB0bz0iODIwIiBkdXI9IjFzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgIC8+CiAgPC9zdmc+"
-        data-src="{{ "gempages_527026070508012437-e18237c5-4fce-4e1f-aeae-425509dffc90.jpg" | file_url }}"
-        width="100%"
-        alt=""
-        style="--aspect:auto;--aspect-tablet:auto;--aspect-mobile:auto;--objf:cover;--h:auto;--h-tablet:auto;--h-mobile:auto;--b:none;--bc:#000000;--bw:1px 1px 1px 1px;--radiusType:none;--shadow:none"
-      />
-    
-  </picture>
-      </div>
-  </div>
-    </div>
-    </div>
-   
     <div gp-el-wrapper style="--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--mb:var(--g-s-2xl)" class="guK8ttNoK_ ">
       
     <gp-accordion
@@ -2353,7 +2068,7 @@
       class="gp-flex gp-w-full gp-flex-col "
       style="--gg:16px;--bgr:function (n) {
                 return new Array(1 + n).join(this);
-            };border-radius:inherit;overflow:hidden"
+            };border-radius:inherit"
       gp-data='{"setting":{"iconSvg":"<svg width=\"17\" height=\"16\" viewBox=\"0 0 17 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n                  <path d=\"M5.64645 2.64645C5.84171 2.45118 6.15829 2.45118 6.35355 2.64645L11.3536 7.64645C11.5488 7.84171 11.5488 8.15829 11.3536 8.35355L6.35355 13.3536C6.15829 13.5488 5.84171 13.5488 5.64645 13.3536C5.45118 13.1583 5.45118 12.8417 5.64645 12.6464L10.2929 8L5.64645 3.35355C5.45118 3.15829 5.45118 2.84171 5.64645 2.64645Z\" fill=\"currentColor\"/>\n                  </svg>","isIconPlus":false,"activeKey":"1","expanded":true,"expandItem":true,"iconPosition":"right","iconGlobalSize":{"desktop":{"gap":"16px"}},"iconCollapse":"\n            <svg height=\"100%\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" classname=\"w-6 h-6\" viewBox=\"0 0 512 512\" fill=\"currentColor\">\n              <path fill=\"currentColor\" strokelinecap=\"round\" strokelinejoin=\"round\" d=\"M256 64a16 16 0 0 1 16 16v160h160a16 16 0 0 1 0 32h-160v160a16 16 0 0 1 -32 0v-160h-160a16 16 0 0 1 0 -32h160v-160A16 16 0 0 1 256 64Z\"></path></svg>\n            ","iconExpand":"\n            <svg height=\"100%\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" classname=\"w-6 h-6\" viewBox=\"0 0 512 512\" fill=\"currentColor\">\n              <path fill=\"currentColor\" strokelinecap=\"round\" strokelinejoin=\"round\" d=\"M64 256a16 16 0 0 1 16 -16h352a16 16 0 0 1 0 32h-352A16 16 0 0 1 64 256Z\"></path></svg>\n            ","iconCollapseSize":16,"layoutHeader":"text-only","expandedMode":"multiple","configIconSize":16,"parentUid":"guK8ttNoK_","childListNumber":["0"],"chidlrenUid":["g6EyZ-lEwl","gGKR6rtaDG","gv3KBpmVZC"]},"styles":{"bgColor":{"active":"transparent","hover":"transparent","normal":"transparent"},"color":{"active":"#121212","hover":"#121212","normal":"#121212"},"headerBorder":{"active":{"border":"solid","borderWidth":"Mixed","color":"#121212","isCustom":true,"position":"bottom","width":"0px 0px 1px 0px"},"hover":{"border":"solid","borderWidth":"Mixed","color":"#121212","isCustom":true,"position":"bottom","width":"0px 0px 1px 0px"},"normal":{"border":"solid","borderWidth":"Mixed","color":"#121212","isCustom":true,"position":"bottom","width":"0px 0px 1px 0px"}},"textColor":{"active":"#121212","hover":"#121212","normal":"#121212"},"iconColor":{"active":"#121212","hover":"#121212","normal":"#121212"},"contentSizePadding":{"desktop":{"gap":"16px","padding":{"bottom":"8px","left":"24px","right":"24px","top":"8px","type":"medium"}}},"headerContentPadding":{"desktop":{"padding":{"bottom":"8px","left":"24px","right":"24px","top":"8px","type":"medium"}}},"widthHeightSize":{"desktop":{"height":"auto","width":"600px"}}},"uid":"guK8ttNoK_"}'
     >
     <div class="gp-hidden gp-rotate-90 -gp-rotate-90 gp-rotate-180"></div>
@@ -2831,7 +2546,7 @@
     "name": "Section 1",
     "tag": "section",
     "class": "gps-541186268596274352 gps gpsil",
-    "settings": [{"type":"paragraph","content":"Section design by GemPages. [Click here to start design](https://admin.shopify.com/store/499862-95/apps/gempages-cro/app/shopify/edit?pageType=GP_PRODUCT&editorId=541186239605244789&sectionId=541186268596274352)"},{"type":"select","label":"Section Preload","id":"section_preload","options":[{"label":"On","value":"true"},{"label":"Off","value":"false"},{"label":"Off Lazy Script","value":"off_lazy_script"}],"default":"false"},{"type":"text","label":"Checksum","id":"checksum"},{"type":"html","id":"ggmPgFNBggb_text","label":"ggmPgFNBggb_text","default":"<p><a href=\"#gXT7-zZYzN\"><u>(343 Ratings)</u></a></p>"},{"type":"html","id":"ggTDK1Hf73z_customContent_prefix","label":"ggTDK1Hf73z_customContent_prefix","default":"Save"},{"type":"html","id":"gg0tmIpZ2rp_text","label":"gg0tmIpZ2rp_text","default":"<p>Easy Returns</p>"},{"type":"html","id":"ggiMH3jJSal_text","label":"ggiMH3jJSal_text","default":"<p>60-Day Guarantee</p>"},{"type":"html","id":"ggX6eF-ziWZ_label","label":"ggX6eF-ziWZ_label","default":"ADD TO BAG"},{"type":"html","id":"ggX6eF-ziWZ_outOfStockLabel","label":"ggX6eF-ziWZ_outOfStockLabel","default":"Out of stock"},{"type":"html","id":"ggX6eF-ziWZ_unavailableLabel","label":"ggX6eF-ziWZ_unavailableLabel","default":"Unavailable"},{"type":"html","id":"ggVsHXHwyJ8_customText","label":"ggVsHXHwyJ8_customText","default":"Order within 2 hours to get it by"},{"type":"html","id":"gguK8ttNoK__childItem_0","label":"gguK8ttNoK__childItem_0","default":"<p><span style=\"color:rgb(51,51,51);font-size:16px;\">Product Details</span></p>"},{"type":"html","id":"gguK8ttNoK__childItem_1","label":"gguK8ttNoK__childItem_1","default":"<p>Measurements</p>"},{"type":"html","id":"gguK8ttNoK__childItem_2","label":"gguK8ttNoK__childItem_2","default":"<p>Fabric Guide</p>"},{"type":"html","id":"ggqvJHIvu4H_text","label":"ggqvJHIvu4H_text","default":"<ul><li>Ideal for commuting, work, or travel, this belt bag holds essentials like <span style=\"background-color:rgb(255,255,255);color:rgb(51,48,41);font-size:16px;\">your phone, wallet, keys, and other essentials with ease and</span> clears stadium and festival checks effortlessly.</li><li>Adjustable straps let you wear it as a belt bag, crossbody, or shoulder bag with ease.</li><li>Crafted from premium, water-resistant, and easy-to-clean materials</li></ul>"},{"type":"html","id":"ggNKAwZZgdL_text","label":"ggNKAwZZgdL_text","default":"<ul><li>Dimensions: 7.5\" w x 5\" h x 2.0\" d</li><li>Adjustable strap at longest length 42.0\"&nbsp;</li><li>Volume 1L</li></ul>"},{"type":"html","id":"ggyRfQ3DZjp_text","label":"ggyRfQ3DZjp_text","default":"<ul><li>100% nylon</li><li>Water-repellent</li><li>Wipe Clean</li></ul>"}],
+    "settings": [{"type":"paragraph","content":"Section design by GemPages. [Click here to start design](https://admin.shopify.com/store/499862-95/apps/gempages-cro/app/shopify/edit?pageType=GP_PRODUCT&editorId=541186239605244789&sectionId=541186268596274352)"},{"type":"select","label":"Section Preload","id":"section_preload","options":[{"label":"On","value":"true"},{"label":"Off","value":"false"},{"label":"Off Lazy Script","value":"off_lazy_script"}],"default":"false"},{"type":"text","label":"Checksum","id":"checksum"},{"type":"html","id":"ggmPgFNBggb_text","label":"ggmPgFNBggb_text","default":"<p><a href=\"#gXT7-zZYzN\"><u>(343 Ratings)</u></a></p>"},{"type":"html","id":"ggTDK1Hf73z_customContent_prefix","label":"ggTDK1Hf73z_customContent_prefix","default":"Save"},{"type":"html","id":"ggVsHXHwyJ8_customText","label":"ggVsHXHwyJ8_customText","default":"Order within 2 hours to get it by"},{"type":"html","id":"ggX6eF-ziWZ_label","label":"ggX6eF-ziWZ_label","default":"ADD TO BAG"},{"type":"html","id":"ggX6eF-ziWZ_outOfStockLabel","label":"ggX6eF-ziWZ_outOfStockLabel","default":"Out of stock"},{"type":"html","id":"ggX6eF-ziWZ_unavailableLabel","label":"ggX6eF-ziWZ_unavailableLabel","default":"Unavailable"},{"type":"html","id":"gg0tmIpZ2rp_text","label":"gg0tmIpZ2rp_text","default":"<p>Easy Returns</p>"},{"type":"html","id":"ggiMH3jJSal_text","label":"ggiMH3jJSal_text","default":"<p>60-Day Guarantee</p>"},{"type":"html","id":"gguK8ttNoK__childItem_0","label":"gguK8ttNoK__childItem_0","default":"<p><span style=\"color:rgb(51,51,51);font-size:16px;\">Product Details</span></p>"},{"type":"html","id":"gguK8ttNoK__childItem_1","label":"gguK8ttNoK__childItem_1","default":"<p>Measurements</p>"},{"type":"html","id":"gguK8ttNoK__childItem_2","label":"gguK8ttNoK__childItem_2","default":"<p>Fabric Guide</p>"},{"type":"html","id":"ggqvJHIvu4H_text","label":"ggqvJHIvu4H_text","default":"<ul><li>Ideal for commuting, work, or travel, this belt bag holds essentials like <span style=\"background-color:rgb(255,255,255);color:rgb(51,48,41);font-size:16px;\">your phone, wallet, keys, and other essentials with ease and</span> clears stadium and festival checks effortlessly.</li><li>Adjustable straps let you wear it as a belt bag, crossbody, or shoulder bag with ease.</li><li>Crafted from premium, water-resistant, and easy-to-clean materials</li></ul>"},{"type":"html","id":"ggNKAwZZgdL_text","label":"ggNKAwZZgdL_text","default":"<ul><li>Dimensions: 7.5\" w x 5\" h x 2.0\" d</li><li>Adjustable strap at longest length 42.0\"&nbsp;</li><li>Volume 1L</li></ul>"},{"type":"html","id":"ggyRfQ3DZjp_text","label":"ggyRfQ3DZjp_text","default":"<ul><li>100% nylon</li><li>Water-repellent</li><li>Wipe Clean</li></ul>"}],
     "blocks": [{"type": "@app"}],
     "locales": {}
   }
